@@ -2,11 +2,7 @@
 state={
 	id=280
 	name="STATE_280"
-	resources = {
-		grain = 0
-		wood = 023
-		coal = 0
-	}
+	
 	state_category = pastoral
 
 	history={

@@ -5,18 +5,13 @@ state={
 	
 	state_category = pastoral
 	
-	resources = {
-		grain = 0
-		wood = 023
-		coal = 0
-	
-		aluminium=84 # was: 112
+	resources={
+		aluminium=64 # was: 112
 	}
 
 	history={
 		add_core_of = GYA
-		owner = VEN #
-add_core_of = VEN # ENG
+		owner = ENG
 		victory_points = {
 			4982 1
 		}

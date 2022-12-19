@@ -6,17 +6,12 @@ state=
 	resources={
 		chromium=1 # was: 1
 	}
-	resources = {
-		grain = 0
-		wood = 015
-		coal = 0
-	}
+	
 	state_category = town
 	
 	history=
 	{
-		owner = PAN #
-add_core_of = PAN # ELS
+		owner = ELS
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1

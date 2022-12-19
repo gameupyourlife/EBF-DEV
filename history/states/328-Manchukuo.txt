@@ -9,17 +9,12 @@ state={
 	resources={
 		aluminium=7 # was: 10
 	}
-	resources = {
-		grain = 0
-		wood = 013
-		coal = 08
-	}
+
 	history={
-		owner = JAP
+		owner = MAN
 		add_core_of = CHI
 		add_core_of = MAN
 		add_core_of = PRC
-		add_core_of = JAP
 		buildings = {
 			infrastructure = 2
 			#industrial_complex = 1

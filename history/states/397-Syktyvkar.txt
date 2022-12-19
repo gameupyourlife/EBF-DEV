@@ -4,20 +4,18 @@ state = {
 	name = "STATE_397"
 	manpower = 137203
 	state_category = pastoral
-	resources = {
-		copper = 10
-	}
-	history={
+
+	history = {
 		victory_points = {
 			108 1 
 		}
-		owner = KYR #
-add_core_of = KYR # SOV
+		owner = SOV
 		buildings = {
 			infrastructure = 1
 
 		}
 		add_core_of = SOV
+		add_core_of = KOM
 	}
 
 	provinces = {

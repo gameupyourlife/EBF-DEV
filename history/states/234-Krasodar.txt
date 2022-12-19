@@ -9,14 +9,9 @@ state={
 		tungsten=17 # was: 26
 		oil=12 # was: 18
 	}
-	resources = {
-		grain = 035
-		wood = 0
-		coal = 0
-	}
+
 	history={
-		owner = GEO #
-add_core_of = GEO # SOV
+		owner = SOV
 		victory_points = {
 			3720 1 
 		}

@@ -5,11 +5,7 @@ state={
 	manpower = 2009820
 	
 	state_category = city
-	resources = {
-		grain = 0
-		wood = 0
-		coal = 029
-	}
+
 	history={
 		owner = USA
 		victory_points = {

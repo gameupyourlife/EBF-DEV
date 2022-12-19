@@ -6,7 +6,7 @@ state={
 	state_category = small_island
 	
 	history={
-		owner = MOR
+		owner = POR
 		victory_points = {
 			1751 3 
 		}
@@ -17,7 +17,6 @@ state={
 			}
 		}
 		add_core_of = POR
-		add_core_of = MOR
 	}
 	
 	provinces={

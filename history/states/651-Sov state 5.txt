@@ -5,14 +5,9 @@ state = {
 	manpower = 2552075
 
 	state_category = city
-	resources = {
-		grain = 07
-		wood = 027
-		coal = 0
-	}
-	history={
-		owner = KYR #
-add_core_of = KYR # SOV
+
+	history = {
+		owner = SOV
 		buildings = {
 			infrastructure = 3 #was: 5
 			industrial_complex = 1
@@ -25,6 +20,7 @@ add_core_of = KYR # SOV
 			4354 1 
 		}
 		add_core_of = SOV
+		add_core_of = BSK
 	}
 
 	provinces = {

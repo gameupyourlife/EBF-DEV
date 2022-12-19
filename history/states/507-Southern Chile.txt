@@ -5,18 +5,9 @@ state={
 	manpower = 68693
 	
 	state_category = pastoral
-	resources = {
-		grain = 0
-		wood = 03
-		coal = 016
-	}
-	resources = {
-		copper = 100
-	}
 
 	history={
-		owner = ARG  #
-add_core_of = ARG # CHL
+		owner = CHL
 		buildings = {
 			infrastructure = 1
 		}

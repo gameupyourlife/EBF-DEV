@@ -3,13 +3,16 @@ state={
 	id=105
 	name="STATE_105"
 	resources={
-		grain = 3
-		wood = 3
+		chromium=20.000
+		aluminium=70.000
 	}
 
 	history={
 		victory_points = {
 			9809 3 
+		}
+		victory_points = {
+			9821 1
 		}
 		owner = YUG
 		add_core_of = MNT
@@ -18,12 +21,12 @@ state={
 			industrial_complex = 1
 			9809 = {
 				naval_base = 1
-
 			}
-
+			9821 = {
+				naval_base = 1
+			}
 		}
 		add_core_of = YUG
-		add_core_of = CRO
 
 	}
 

@@ -1,3 +1,4 @@
+
 state={
 	id=330
 	name="STATE_330"
@@ -5,11 +6,7 @@ state={
 		steel=2.000
 		chromium=3.000
 	}
-	resources = {
-		grain = 05
-		wood = 025
-		coal = 0
-	}
+
 	history={
 		owner = MON
 		victory_points = {

@@ -3,15 +3,11 @@ state={
 	id=462
 	name="STATE_462"
 	manpower = 1865552
-	resources = {
-		grain = 011
-		wood = 0
-		coal = 0
-	}
+	
 	state_category = wasteland
 
 	history={
-		owner = MOR
+		owner = FRA
 		add_core_of = MOR
 		victory_points = {
 			4108 1 

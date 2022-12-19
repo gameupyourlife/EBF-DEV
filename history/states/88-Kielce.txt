@@ -2,10 +2,8 @@ state={
 	id=88
 	name="STATE_88"
 	resources={
-		grain = 18
-		wood = 0
-	
 		steel=5.000
+		oil=3.000
 	}
 
 	history={
@@ -15,6 +13,9 @@ state={
 		}
 		victory_points = {
 			442 3 
+		}
+		victory_points = {
+			9494 1
 		}
 		buildings = {
 			infrastructure = 3

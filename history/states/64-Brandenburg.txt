@@ -4,10 +4,7 @@ state={
 	name="STATE_64"
 	manpower = 7265029
 	buildings_max_level_factor = 1
-	resources={
-		grain = 48
-		wood = 9
-	}
+
 	state_category = megalopolis
 
 
@@ -27,8 +24,6 @@ state={
 			air_base = 6
 
 		}
-
-		
 		add_core_of = GER
 
 		1939.1.1 = {

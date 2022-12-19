@@ -7,6 +7,10 @@ state={
 	
 	state_category = town
 	
+	resources={
+		aluminium=7 # was: 10
+	}
+
 	history={
 		owner = YUG
 		victory_points = {
@@ -18,7 +22,6 @@ state={
 		add_core_of = YUG
 		add_core_of = BOS
 		add_core_of = HRZ
-		add_core_of = CRO
 	}
 
 	provinces={

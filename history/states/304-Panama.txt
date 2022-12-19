@@ -5,13 +5,8 @@ state={
 	manpower = 467459
 	resources={
 		oil=1 # was: 1
-		rubber=85
 	}
-	resources = {
-		grain = 0
-		wood = 025
-		coal = 0
-	}
+	
 	state_category = town
 	
 	history={

@@ -8,15 +8,10 @@ state=
 	resources={
 		rubber=6 # was: 7
 	}	
-	resources = {
-		grain = 0
-		wood = 023
-		coal = 0
-	}
+	
 
 	history= {
-		owner = MOR
-		add_core_of = MOR
+		owner = LIB
 		buildings = {
 			infrastructure = 1
 			arms_factory = 1

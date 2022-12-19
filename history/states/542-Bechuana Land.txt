@@ -11,8 +11,7 @@ state={
 	}
 
 	history={
-		owner = MZB #
-add_core_of = MZB # ENG
+		owner = ENG
 		buildings = {
 			infrastructure = 1
 		}

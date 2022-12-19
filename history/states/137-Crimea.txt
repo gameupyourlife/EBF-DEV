@@ -3,15 +3,11 @@ state={
 	id=137
 	name="STATE_137"
 	manpower = 1061607
-	resources={
-		grain = 38
-		wood = 0
-	}
+	
 	state_category = city
 
 	history={
-		owner = UKR #
-add_core_of = UKR # SOV
+		owner = SOV
 		victory_points = {
 			3686 20
 		}
@@ -35,6 +31,7 @@ add_core_of = UKR # SOV
 			}
 		}
 		add_core_of = SOV
+		add_core_of = CRI
 		1939.1.1 = {
 			buildings = {
 				dockyard = 2

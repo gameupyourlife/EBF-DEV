@@ -3,21 +3,16 @@ state={
 	id=324
 	name="STATE_324"
 	manpower = 450000
-	resources = {
-		grain = 015
-		wood = 015
-		coal = 10
-	}
+	
 	
 	state_category = town
 	
 	resources={
-		tungsten=122 # was: 2
+		tungsten=2 # was: 2
 	}
 
 	history={
-		owner = SIK #
-add_core_of = SIK # BHU
+		owner = BHU
 		buildings = {
 			infrastructure = 1
 			arms_factory = 1

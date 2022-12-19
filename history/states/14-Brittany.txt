@@ -3,15 +3,11 @@ state={
 	id=14
 	name="STATE_14"
 	manpower = 2396600
-	resources={
-		grain = 16
-		wood = 0
-	}
+	
 	state_category = city
 
 	history={
 		owner = FRA
-		add_core_of = OCC
 		victory_points = {
 			3552 20
 		}
@@ -23,7 +19,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 3
-			dockyard = 15
+			dockyard = 5
 			air_base = 5
 			3552 = {
 				naval_base = 10

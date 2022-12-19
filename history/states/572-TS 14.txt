@@ -3,16 +3,11 @@ state={
 	id=572
 	name="STATE_572" # Chelyabinsk
 	manpower = 2074932
-	resources = {
-		grain = 05
-		wood = 05
-		coal = 0
-	}
+	
 	state_category = town
 
 	history={
-		owner = KYR #
-add_core_of = KYR # SOV
+		owner = SOV
 		victory_points = {
 			9292 5
 		}

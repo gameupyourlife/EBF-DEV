@@ -3,14 +3,9 @@ state={
 	name="STATE_717"
 	
 	state_category = pastoral
-	resources = {
-		grain = 0
-		wood = 13
-		coal = 0
-	}
+
 	history={
-		owner = JAP #
-add_core_of = JAP # MAN
+		owner = MAN
 		add_core_of = CHI
 		add_core_of = MAN
 		add_core_of = PRC

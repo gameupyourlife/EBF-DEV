@@ -1,11 +1,7 @@
 state={
 	id=601
 	name="STATE_601"
-	resources = {
-		grain = 13
-		wood = 0
-		coal = 0
-	
+	resources={
 		oil=2.000
 	}
 

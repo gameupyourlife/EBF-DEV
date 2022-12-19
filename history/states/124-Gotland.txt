@@ -3,17 +3,13 @@ state=
 	id=124
 	name="STATE_124"
 	manpower = 56988
-	resources={
-		grain = 2
-		wood = 0
-	}
+	
 	state_category = small_island
 	
 	history=
 	{
-		owner = DEN
+		owner = SWE
 		add_core_of = SWE
-		add_core_of = DEN
 		buildings = {
 			infrastructure = 3 #was: 6
 			408 = {

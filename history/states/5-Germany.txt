@@ -4,11 +4,7 @@ state={
 	name="STATE_5"
 	manpower = 1238108
 	state_category = town
-	resources={
-		grain = 18
-		wood = 8
-	}
-	
+
 	history={
 		victory_points = {
 			6375 3

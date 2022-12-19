@@ -5,14 +5,9 @@ state={
 	manpower = 2167411
 	
 	state_category = town
-	resources = {
-		grain = 0
-		wood = 0
-		coal = 018
-	}
+
 	history={
-		owner = UKR #
-add_core_of = UKR # SOV
+		owner = SOV
 		victory_points = {
 			9461 1
 		}

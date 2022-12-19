@@ -4,14 +4,9 @@ state={
 	manpower = 1184000
 	
 	state_category = pastoral
-	resources = {
-		grain = 0
-		wood = 023
-		coal = 0
-	}
+
 	history={
-		owner = VIN #
-add_core_of = VIN # FRA
+		owner = FRA
 		add_core_of = LAO
 		victory_points = {
 			1464 1

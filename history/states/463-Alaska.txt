@@ -1,11 +1,7 @@
 state={
 	id=463
 	name="STATE_463"
-	resources = {
-		grain = 0
-		wood = 013
-		coal = 016
-	}
+
 	history={
 		owner = USA
 		buildings = {

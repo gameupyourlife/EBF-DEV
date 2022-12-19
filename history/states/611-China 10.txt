@@ -3,16 +3,11 @@ state={
 	id=611
 	name="STATE_611" # South Chahar
 	manpower = 1470000
-	resources = {
-		grain = 03
-		wood = 0
-		coal = 0
-	}
+	
 	state_category = pastoral
 
 	history={
-		owner = MON #
-add_core_of = MON # MEN
+		owner = MEN
 		add_core_of = MEN
 		add_core_of = CHI
 		add_core_of = PRC

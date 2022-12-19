@@ -5,12 +5,9 @@ state={
 	manpower = 934632
 	
 	state_category = rural
-	resources={
-		grain = 13
-		wood = 3
-	}
+
 	history={
-		owner = POL
+		owner = SOV
 		buildings = {
 			infrastructure = 2
 			air_base = 3
@@ -20,7 +17,6 @@ state={
 		}
 		add_core_of = SOV
 		add_core_of = BLR
-		add_core_of = POL
 	}
 
 	provinces={

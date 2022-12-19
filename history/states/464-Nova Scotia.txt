@@ -5,14 +5,9 @@ state={
 	manpower = 490912
 	
 	state_category = rural
-	resources = {
-		grain = 0
-		wood = 023
-		coal = 0
-	}
+
 	history={
-		owner = USA #
-add_core_of = USA # CAN
+		owner = CAN
 		victory_points = {
 			7361 3
 		}

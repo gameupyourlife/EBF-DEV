@@ -5,16 +5,9 @@ state={
 	manpower = 1370800
 	
 	state_category = city
-	resources={
-		grain = 31
-		wood = 7
-	
 
-		copper = 0
-	}
 	history={
-		owner = HOL
-		add_core_of = OCC
+		owner = FRA
 		victory_points = {
 			9490 5 
 		}
@@ -30,7 +23,6 @@ state={
 			air_base = 10
 		}
 		add_core_of = FRA
-		add_core_of = HOL
 	}
 
 	provinces={

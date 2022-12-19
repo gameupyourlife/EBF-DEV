@@ -10,11 +10,7 @@ state={
 		oil=180 # was: 350
 		aluminium=8 # was: 14
 	}
-	resources = {
-		grain = 09
-		wood = 09
-		coal = 0
-	}
+
 	history={
 		owner = USA
 		buildings = {

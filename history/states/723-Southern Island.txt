@@ -7,15 +7,10 @@ state={
 	}
 
 	state_category = rural
-	resources = {
-		grain = 0
-		wood = 13
-		coal = 0
-	}
+
 
 	history={
-		owner = HAW #
-add_core_of = HAW # NZL
+		owner = NZL
 		buildings = {
 			infrastructure = 3 #was: 5
 			air_base = 1

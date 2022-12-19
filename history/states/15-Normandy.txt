@@ -4,18 +4,13 @@ state={
 	name="STATE_15"
 	manpower = 2332100
 	resources={
-		grain = 14
-		wood = 0
-	
 		steel=21 # was: 36
-
 	}
 	
 	state_category = city
 
 	history={
-		owner = HOL
-		add_core_of = OCC
+		owner = FRA
 		victory_points = {
 			9434 10
 		}
@@ -45,7 +40,6 @@ state={
 			}
 		}
 		add_core_of = FRA
-		add_core_of = HOL
 	}
 
 	provinces={

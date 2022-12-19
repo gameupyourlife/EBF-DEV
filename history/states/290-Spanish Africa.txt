@@ -10,16 +10,19 @@ state={
 	resources={
 		steel=23 # was: 20 . Changed to 23 (from 15) due to Portugal Setup
 	}
-	resources = {
-		grain = 03
-		wood = 0
-		coal = 0
-	}
+
 	history={
-		owner = MOR
+		owner = SPR
 		add_core_of = MOR
+		add_core_of = RIF
 		victory_points = {
 			9945 3
+		}
+		victory_points = {
+			12100 2
+		}
+		victory_points = {
+			12087 1
 		}
 		buildings = {
 			infrastructure = 2
@@ -33,9 +36,9 @@ state={
 		}
 	}
 
-	provinces={
+	provinces = {
 		4199 7215 9945 10113 12087 12100 
 	}
 
-	local_supplies=0.0 
+	local_supplies = 0.0 
 }

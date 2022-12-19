@@ -8,6 +8,7 @@ state={
 	
 	resources={
 		steel=7 # was: 8
+		chromium=2 # was: 2
 	}
 	history={
 		owner = FIN
@@ -15,7 +16,6 @@ state={
 			infrastructure = 1
 		}
 		add_core_of = FIN
-		add_core_of = SWE
 	}
 
 	provinces={

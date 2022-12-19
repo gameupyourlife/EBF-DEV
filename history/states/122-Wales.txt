@@ -7,11 +7,12 @@ state= {
 	
 	resources={
 		steel=11 # was: 16
+		aluminium=3 # was: 4
 	}
 
 	history=
 	{
-		owner = WLS
+		owner = ENG
 		victory_points = {
 			407 3 #Swansea
 		}
@@ -22,12 +23,11 @@ state= {
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
-			air_base = 4
 			377 = {
 				naval_base = 3
 			}
 		}
-		add_claim_by = ENG
+		add_core_of = ENG
 		add_core_of = WLS
 	}
 

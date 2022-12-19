@@ -7,8 +7,7 @@ state={
 		rubber=3 # was: 4
 	}
 	history={
-		owner = MZB #
-add_core_of = MZB # ENG
+		owner = ENG
 		buildings = {
 			infrastructure = 2
 

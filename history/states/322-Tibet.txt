@@ -4,11 +4,9 @@ state={
 	resources={
 		tungsten=2.000
 	}
-	
 
 	history={
-		owner = SIK #
-add_core_of = SIK # TIB
+		owner = TIB
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1

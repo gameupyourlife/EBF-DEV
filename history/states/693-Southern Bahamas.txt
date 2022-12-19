@@ -7,8 +7,7 @@ state={
 
 	history={
 		add_core_of = BAH
-		owner = CUB #
-add_core_of = CUB # ENG
+		owner = ENG
 		buildings = {
 			infrastructure = 2
 			10440 = {

@@ -10,8 +10,7 @@ state=
 		victory_points = {
 			11999 1
 		}
-		owner = SAU #
-add_core_of = SAU # ENG
+		owner = ENG
 		buildings = {
 			infrastructure = 2
 		}

@@ -7,15 +7,10 @@ state={
 	state_category = town
 	resources={
 		steel=25 # was: 40
-	}resources = {
-		grain = 05
-		wood = 025
-		coal = 0
 	}
 
 	history={
-		owner = UKR #
-add_core_of = UKR # SOV
+		owner = SOV
 		buildings = {
 			infrastructure = 3 #was: 6
 			arms_factory = 1
@@ -24,6 +19,7 @@ add_core_of = UKR # SOV
 			6338 10
 		}
 		add_core_of = SOV
+		add_core_of = TAT
 		1939.1.1 = {
 			buildings = {
 				arms_factory = 2

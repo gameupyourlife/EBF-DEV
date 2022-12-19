@@ -10,11 +10,7 @@ state={
 		rubber=140 # was: 242
 		oil=10 # was: 16
 	}
-	resources = {
-		grain = 0
-		wood = 027
-		coal = 0
-	}
+
 	history={
 		owner = INS
 		add_core_of = INS

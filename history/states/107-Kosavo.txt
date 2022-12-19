@@ -2,10 +2,7 @@
 state={
 	id=107
 	name="STATE_107"
-	resources={
-		grain = 9
-		wood = 0
-	}
+
 	history={
 		owner = YUG
 		buildings = {
@@ -20,7 +17,6 @@ state={
 		}
 		add_core_of = YUG
 		add_core_of = SER
-		add_core_of = CRO
 
 	}
 

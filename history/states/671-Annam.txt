@@ -14,8 +14,7 @@ state={
 
 	history={
 		add_core_of = VIN
-		owner = VIN #
-add_core_of = VIN # FRA
+		owner = FRA
 		victory_points = {
 			4075 1 
 		}

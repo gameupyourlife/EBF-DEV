@@ -3,7 +3,6 @@ state={
 	id=201
 	name="STATE_201"
 	manpower = 1417834
-
 	
 	state_category = town
 
@@ -11,14 +10,13 @@ state={
 		victory_points = {
 			6593 3
 		}
-		owner = POL
+		owner = SOV
 		buildings = {
 			infrastructure = 3 #was: 5
 			air_base = 3
 		}
 		add_core_of = SOV
 		add_core_of = UKR
-		add_core_of = POL
 	}
 
 	provinces={

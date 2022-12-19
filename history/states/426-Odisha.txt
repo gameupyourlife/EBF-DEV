@@ -3,11 +3,7 @@ state={
 	id=426
 	name="STATE_426" # Orissa
 	manpower = 14520100
-	resources = {
-		grain = 0
-		wood = 0
-		coal = 024
-	}
+	
 	state_category = rural
 	
 	resources={

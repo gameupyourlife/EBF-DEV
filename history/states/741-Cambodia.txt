@@ -1,15 +1,9 @@
 state={
 	id=741
 	name="STATE_741"
-	resources={
-		grain = 0
-		wood = 25
-		coal = 0
-	}
 	history = {
 		add_core_of = CAM
-		owner = VIN #
-		add_core_of = VIN # FRA
+		owner = FRA
 		victory_points = {
 			7376 1
 		}

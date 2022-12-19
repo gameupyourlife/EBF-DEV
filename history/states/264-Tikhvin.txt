@@ -6,18 +6,8 @@ state={
 	
 	state_category = rural
 
-	resources={
-		uran = 3
-	}
-	resources = {
-		grain = 0
-		wood = 013
-		coal = 0
-	}
-
 	history={
-		owner = BLR #
-add_core_of = BLR # SOV
+		owner = SOV
 		victory_points = {
 			3140 1 
 		}

@@ -6,12 +6,11 @@ state={
 	state_category = city
 	
 	resources={
-		grain = 7
-		wood = 27
+		tungsten=1 # was: 2
 	}
 
 	history={
-		owner = SLO
+		owner = CZE
 		victory_points = {
 			9692 10
 		}
@@ -25,8 +24,6 @@ state={
 			air_base = 3
 		}
 		add_core_of = CZE
-		add_core_of = SLO
-
 
 		1939.3.14 = {
 			owner = SLO

@@ -5,15 +5,10 @@ state=
 	manpower = 185000
 	
 	state_category = enclave
-	resources = {
-		grain = 0
-		wood = 022
-		coal = 0
-	}
+	
 	history=
 	{
-		owner = ANG #
-add_core_of = ANG # SPR
+		owner = SPR
 		add_core_of = EQG
 		victory_points = {
 			1903 1 

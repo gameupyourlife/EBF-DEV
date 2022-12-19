@@ -3,11 +3,7 @@ state={
 	id=257
 	name="STATE_257" # Tambov
 	manpower = 1779583
-	resources = {
-		grain = 03
-		wood = 023
-		coal = 0
-	}
+	
 	state_category = rural
 	
 	resources={
@@ -15,8 +11,7 @@ state={
 	}
 
 	history={
-		owner = UKR #
-add_core_of = UKR # SOV
+		owner = SOV
 		buildings = {
 			infrastructure = 2
 		}

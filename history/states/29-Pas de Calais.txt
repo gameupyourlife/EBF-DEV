@@ -6,16 +6,12 @@ state={
 	
 	state_category = large_city
 	resources={
-		grain = 38
-		wood = 0
-	
 		steel=42 # was: 112
+		aluminium=8 # was: 22
 	}
 
 	history={
-		owner = HOL
-		add_core_of = HOL
-		add_core_of = OCC
+		owner = FRA
 		victory_points = {
 			575 5
 		}

@@ -1,10 +1,7 @@
 state={
 	id=93
 	name="STATE_93"
-	resources={
-		grain = 5
-		wood = 0
-	}
+
 	history={
 		victory_points = {
 			6557 1

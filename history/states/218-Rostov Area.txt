@@ -5,14 +5,9 @@ state={
 	manpower = 1501076
 	
 	state_category = city
-	resources = {
-		grain = 36
-		wood = 0
-		coal = 13
-	}
+
 	history={
-		owner = GEO #
-add_core_of = GEO # SOV
+		owner = SOV
 		victory_points = {
 			9417 15 
 		}

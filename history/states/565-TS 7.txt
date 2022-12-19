@@ -4,18 +4,13 @@ state={
 	name="STATE_565" # Bodaybo
 	manpower = 195325
 	state_category = rural
-	resources = {
-		grain = 03
-		wood = 0
-		coal = 022
-	
+	resources={
 		steel=10 # was: 32
 		chromium=5 # was: 12
 	}
 
 	history={
-		owner = TAN #
-add_core_of = TAN  # SOV
+		owner = SOV
 		buildings = {
 			infrastructure = 1
 		}

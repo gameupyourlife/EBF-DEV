@@ -2,12 +2,12 @@ state={
 	id=106
 	name="STATE_106"
 	resources={
-		grain = 3
-		wood = 3
+		chromium=70.000
+		aluminium=16.000
 	}
 
 	history={
-		owner = BUL
+		owner = YUG
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
@@ -20,8 +20,6 @@ state={
 		add_core_of = YUG
 		add_core_of = MAC
 		add_claim_by = BUL
-		add_core_of = CRO
-		add_core_of = BUL
 	}
 
 	provinces={

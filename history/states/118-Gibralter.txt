@@ -6,7 +6,7 @@ state=
 	
 	state_category = enclave
 	history={
-		owner = CAT
+		owner = ENG
 		victory_points = { 4135 10 }
 		buildings = {
 			infrastructure = 3
@@ -17,10 +17,6 @@ state=
 			}
 		}
 		add_claim_by = SPR
-		add_core_of = CAT
-		add_core_of = POR
-
-		add_core_of = ENG
 	}
 	provinces={
 		4135

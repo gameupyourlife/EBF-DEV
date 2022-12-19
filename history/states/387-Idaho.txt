@@ -11,11 +11,7 @@ state={
 		chromium=1 # was: 2
 		tungsten=18 # was: 34
 	}
-	resources = {
-		grain = 015
-		wood = 013
-		coal = 015
-	}
+
 	history={
 		owner = USA
 		buildings = {

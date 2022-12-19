@@ -5,27 +5,23 @@ state={
 	manpower = 728363
 	
 	state_category = rural
-
+	
 	resources={
-
-		grain = 3
-		wood = 0
-		
-		uran = 1
+		chromium=15 # was: 22
 	}
 
 	history={
 		victory_points = {
 			721 1
 		}
-		owner = UKR #
-add_core_of = UKR # SOV
+		owner = SOV
 		buildings = {
 			infrastructure = 3 #was: 5
 			air_base = 3
 		}
 		add_core_of = SOV
 		add_core_of = UKR
+		add_core_of = CRI
 	}
 
 	provinces={

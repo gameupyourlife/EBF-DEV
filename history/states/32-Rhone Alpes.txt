@@ -7,15 +7,12 @@ state={
 	state_category = town
 	
 	resources={
-		grain = 14
-		wood = 15
-	
 		steel=30 # was: 56
+		aluminium=30 # was: 58
 	}
 
 	history={
-		owner = ITA
-		add_core_of = ITA
+		owner = FRA
 		buildings = {
 			infrastructure = 2
 		}

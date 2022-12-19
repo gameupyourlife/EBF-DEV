@@ -4,11 +4,6 @@ state=
 	name="STATE_596"
 	manpower = 21230700
 	state_category = city
-	resources = {
-		grain = 0
-		wood = 017
-		coal = 0
-	}
 	history=
 	{
 		owner = CHI

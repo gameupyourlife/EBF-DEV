@@ -3,15 +3,9 @@ state={
 	id=491
 	name="STATE_491"
 	manpower = 176626
-	resources = {
-		grain = 0
-		wood = 023
-		coal = 0
-	}
+
 	state_category = pastoral
-	resources = {
-		copper = 70
-	}
+
 	history={
 		owner = PRU
 		buildings = {

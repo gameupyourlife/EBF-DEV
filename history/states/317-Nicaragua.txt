@@ -4,15 +4,11 @@ state={
 	resources={
 		chromium=1 # was: 1
 	}
-	resources = {
-		grain = 0
-		wood = 015
-		coal = 011
-	}
+
 	state_category = town
 
 	history={
-		owner = PAN
+		owner = NIC
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
@@ -25,7 +21,6 @@ state={
 
 		}
 		add_core_of = NIC
-		add_core_of = PAN
 		victory_points = {
 			12738 3
 		}

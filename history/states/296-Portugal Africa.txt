@@ -6,14 +6,11 @@ state={
 	
 	state_category = enclave
 	resources={
-		rubber=30 # was: 1
-		tungsten=23
-		steel=62
+		rubber=1 # was: 1
 	}
 	history={
-		owner = MOR
+		owner = POR
 		add_core_of = GNB
-		add_core_of = MOR
 		victory_points = {
 			12891 1
 		}

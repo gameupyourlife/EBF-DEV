@@ -3,11 +3,7 @@ state={
 	id=534
 	name="STATE_534" # Hokuriku
 	manpower = 1933000
-	resources = {
-		grain = 0
-		wood = 017
-		coal = 0
-	}
+	
 	state_category = city
 
 	history={

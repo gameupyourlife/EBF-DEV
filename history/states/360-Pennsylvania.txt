@@ -5,14 +5,9 @@ state={
 	manpower = 9631346
 	
 	state_category = megalopolis
-	resources = {
-		grain = 0
-		wood = 029
-		coal = 023
-	}
+	
 	resources={
 		steel=44 # was: 80
-		uran = 1
 	}
 
 

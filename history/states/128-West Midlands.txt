@@ -6,9 +6,6 @@ state={
 	
 	state_category = metropolis
 	resources={
-		grain = 20
-		wood = 0
-	
 		steel=27 # was: 48
 	}
 

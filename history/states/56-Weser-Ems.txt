@@ -4,12 +4,8 @@ state={
 	manpower = 2058467
 	
 	state_category = city
-	resources={
-		grain = 17
-		wood = 0
-	}
+
 	history={
-		set_demilitarized_zone = yes
 		owner = GER
 		victory_points = {
 			241 5 

@@ -7,16 +7,12 @@ state={
 	state_category = city
 	
 	resources={
-		grain = 14
-		wood = 0
-	
 		steel=21 # was: 36
 	}
 
 	history={
 		add_core_of = SCO
-		add_claim_by = ENG
-		owner = SCO
+		owner = ENG
 		victory_points = {
 			3273 15
 		}
@@ -34,7 +30,7 @@ state={
 			}
 
 		}
-		
+		add_core_of = ENG
 		1939.1.1 = {
 			buildings = {
 				dockyard = 5

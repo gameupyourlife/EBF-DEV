@@ -3,9 +3,6 @@ state={
 	id=108
 	name="STATE_108"
 	resources={
-		grain = 5
-		wood = 25
-	
 		steel=3.000
 	}
 
@@ -20,7 +17,6 @@ state={
 		}
 		add_core_of = YUG
 		add_core_of = SER
-		add_core_of = CRO
 
 	}
 

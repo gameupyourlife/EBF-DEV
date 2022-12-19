@@ -3,13 +3,8 @@ state={
 	name="STATE_358"
 	resources={
 		steel=13 # was: 24.000
-		uran = 1
 	}
-	resources = {
-		grain = 0
-		wood = 029
-		coal = 014
-	}
+	
 	state_category = megalopolis
 
 	history={

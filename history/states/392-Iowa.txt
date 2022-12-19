@@ -3,21 +3,14 @@ state={
 	id=392
 	name="STATE_392"
 	manpower = 2470938
-	resources = {
-		grain = 034
-		wood = 0
-		coal = 0
-	}
+	
 	state_category = city
-	resources = {
-		copper = 30
-	}
+
 	history={
 		owner = USA
 		buildings = {
-			infrastructure = 4 #was: 8
+			infrastructure = 3 #was: 6
 			industrial_complex = 4
-			arms_factory = 9
 		}
 		add_core_of = USA
 		victory_points = {

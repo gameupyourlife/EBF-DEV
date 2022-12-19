@@ -1,12 +1,9 @@
 state={
 	id=169
 	name="STATE_169"
-	resources={
-		grain = 3
-		wood = 0
-	}
+
 	history={
-		owner = POR
+		owner = SPR
 		victory_points = {
 			1048 3
 		}
@@ -14,8 +11,8 @@ state={
 			7183 10
 		}
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 6
+			infrastructure = 3 #was: 6
+			industrial_complex = 1
 			arms_factory = 1
 			air_base = 3
 			1048 = {
@@ -25,9 +22,6 @@ state={
 
 		}
 		add_core_of = SPR
-		add_core_of = POR
-		add_core_of = POR
-
 
 	}
 

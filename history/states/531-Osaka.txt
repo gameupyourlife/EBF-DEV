@@ -4,11 +4,7 @@ state={
 	name="STATE_531" # Kansai
 	manpower = 11015000
 	state_category = metropolis
-	resources = {
-		grain = 0
-		wood = 019
-		coal = 0
-	
+	resources={
 		aluminium=3 # was: 6
 	}
 

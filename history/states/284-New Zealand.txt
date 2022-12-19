@@ -5,14 +5,9 @@ state={
 	manpower = 899836
 	
 	state_category = city
-	resources = {
-		grain = 0
-		wood = 017
-		coal = 0
-	}
+	
 	history={
-		owner = HAW #
-add_core_of = HAW # NZL
+		owner = NZL
 		buildings = {
 			infrastructure = 3 #was: 6
 			arms_factory = 1

@@ -6,16 +6,11 @@ state={
 	resources={
 		oil=1 # was: 2
 	}
-	resources = {
-		grain = 015
-		wood = 025
-		coal = 10
-	}
+	
 	state_category = town
 
 	history={
-		owner = USA #
-add_core_of = USA # CAN
+		owner = CAN
 		buildings = {
 			infrastructure = 3 #was: 5
 			arms_factory = 1

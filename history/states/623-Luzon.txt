@@ -5,16 +5,12 @@ state= {
 	
 	state_category = city
 	
-	resources = {
-		grain = 0
-		wood = 07
-		coal = 0
-	
+	resources={
 		rubber=1 # was: 2
 	}
 
 	history= {
-		owner = MAL
+		owner = PHI
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
@@ -33,7 +29,6 @@ state= {
 			12213 1 
 		}
 		add_core_of = PHI
-		add_core_of = MAL
 	}
 	provinces={
 		1388 1415 4101 4214 4233 4350 4368 4423 7325 7439 10167 10241 10252 10280 10298 12213 12253 

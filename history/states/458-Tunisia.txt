@@ -7,15 +7,10 @@ state={
 	resources={
 		steel=6 # was: 8
 	}
-	resources = {
-		grain = 015
-		wood = 0
-		coal = 0
-	}
+
 	history={
-		owner = MOR
+		owner = FRA
 		add_core_of = TUN
-		add_core_of = MOR
 		victory_points = {
 			11969 10 
 		}

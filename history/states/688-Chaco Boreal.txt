@@ -5,18 +5,13 @@ state={
 	
 	state_category = pastoral
 	
-	resources = {
-		grain = 03
-		wood = 03
-		coal = 0
-	
-		tungsten=70 # was: 4
-		steel=120 # was: 2
+	resources={
+		tungsten=3 # was: 4
+		steel=2 # was: 2
 	}
 
 	history={
-		owner = ARG  #
-add_core_of = ARG # PAR
+		owner = PAR
 		buildings = {
 			infrastructure = 1
 		}

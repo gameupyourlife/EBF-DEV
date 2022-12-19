@@ -8,14 +8,12 @@ state={
 	state_category = town
 	
 	resources={
-		grain = 9
-		wood = 15
-	
 		steel=70 # was: 136
+		aluminium=50 # was: 96
 	}
 
 	history={
-		owner = OCC
+		owner = FRA
 		victory_points = {
 			9898 1 
 		}

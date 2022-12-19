@@ -5,11 +5,7 @@ state={
 	
 	state_category = town
 	
-	resources = {
-		grain = 0
-		wood = 025
-		coal = 0
-	
+	resources={
 		rubber=150 # was: 268
 		oil=12 # was: 24
 		aluminium=28 # was: 50

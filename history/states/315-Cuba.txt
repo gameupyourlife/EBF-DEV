@@ -6,11 +6,7 @@ state= {
 		steel=3 # was: 4
 		chromium=90 # was: 160
 	}
-	resources = {
-		grain = 0
-		wood = 05
-		coal = 0
-	}
+	
 	state_category = town
 
 	history= {

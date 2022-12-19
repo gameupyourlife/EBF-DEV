@@ -1,14 +1,9 @@
 state={
 	id=604
 	name="STATE_604"
-	resources = {
-		grain = 0
-		wood = 0
-		coal = 019
-	}
+
 	history={
-		owner = PRC #
-add_core_of = PRC # XSM
+		owner = XSM
 		add_core_of = XSM
 		add_core_of = CHI
 		add_core_of = PRC

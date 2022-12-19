@@ -1,14 +1,9 @@
 state={
 	id=583
 	name="STATE_583"
-	resources = {
-		grain = 03
-		wood = 03
-		coal = 0
-	}
+
 	history={
-		owner = KAZ #
-add_core_of = KAZ # SOV
+		owner = SOV
 		add_core_of = KAZ
 		buildings = {
 			infrastructure = 2

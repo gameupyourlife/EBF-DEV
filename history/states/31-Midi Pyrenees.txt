@@ -2,19 +2,16 @@
 state={
 	id=31
 	name="STATE_31"
-	resources={
-		grain = 7
-		wood = 17
-	}
+
 	history={
-		owner = OCC
+		owner = FRA
 		victory_points = {
 			6766 5 
 		}
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
-			industrial_complex = 7
+			industrial_complex = 1
 			air_base = 2
 
 		}

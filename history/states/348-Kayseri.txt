@@ -4,12 +4,9 @@ state={
 	name="STATE_348" # Kayseri
 	manpower = 858452
 	resources = { chromium = 32 }
+	
 	state_category = rural
-	resources = {
-		grain = 013
-		wood = 0
-		coal = 0
-	}
+
 	history={
 		owner = TUR
 		victory_points = {

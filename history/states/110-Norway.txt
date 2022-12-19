@@ -7,8 +7,7 @@ state={
 	state_category = city
 	
 	resources={
-		grain = 6
-		wood = 17
+		aluminium=5 # was: 8
 	}
 
 	history={
@@ -16,11 +15,11 @@ state={
 			6115 15 
 		}
 		
-		owner = SWE
+		owner = NOR
 		buildings = {
-			infrastructure = 8
-			arms_factory = 3
-			industrial_complex = 6
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 3
 			dockyard = 1
 			air_base = 4
 			6115 = {
@@ -29,7 +28,6 @@ state={
 			}
 		}
 		add_core_of = NOR
-		add_core_of = SWE
 	}
 
 	provinces={

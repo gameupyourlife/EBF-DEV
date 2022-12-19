@@ -8,14 +8,11 @@ state={
 	state_category = town
 	
 	resources={
-		grain = 5
-		wood = 25
+		aluminium=7 # was: 10
 	}
-	state_category = town
-	
 
 	history={
-		owner = CRO
+		owner = YUG
 		victory_points = {
 			11899 5 
 		}
@@ -29,7 +26,6 @@ state={
 		}
 		add_core_of = YUG
 		add_core_of = BOS
-		add_core_of = CRO
 	}
 
 	provinces={

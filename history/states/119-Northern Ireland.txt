@@ -2,13 +2,9 @@
 state={
 	id=119
 	name="STATE_119"
-	resources={
-		grain = 7
-		wood = 0
-	}
+
 	history={
-		owner = IRE
-		add_claim_by = ENG
+		owner = ENG
 		victory_points = {
 			3379 5 
 		}
@@ -25,7 +21,7 @@ state={
 				naval_base = 4
 			}
 		}
-		
+		add_core_of = ENG
 		add_core_of = IRE
 		add_core_of = NIR
 	}
@@ -37,5 +33,9 @@ state={
 	buildings_max_level_factor=1
 	state_category="city"
 	
+	resources={
+		aluminium=2
+	}
+
 	local_supplies=0.0 
 }

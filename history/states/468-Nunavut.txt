@@ -9,15 +9,9 @@ state={
 	resources={
 		aluminium=3 # was: 4
 	}
-	resources = {
-		grain = 0
-		wood = 017
-		coal = 0
-	}
 
 	history={
-		owner = USA #
-add_core_of = USA # CAN
+		owner = CAN
 		buildings = {
 			infrastructure = 3 #was: 6
 			arms_factory = 2

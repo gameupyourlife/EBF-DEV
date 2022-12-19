@@ -3,14 +3,10 @@ state={
 	name="STATE_166"
 	resources={
 		steel=15.000
-		
-			grain = 6
-			wood = 5
-		
 	}
 
 	history={
-		owner = OCC
+		owner = SPR
 		victory_points = {
 			3816 3 
 		}
@@ -21,14 +17,12 @@ state={
 			7213 1 
 		}
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 4
+			infrastructure = 3 #was: 6
+			industrial_complex = 1
 			air_base = 3
 
 		}
 		add_core_of = SPR
-		add_core_of = POR
-		add_core_of = OCC
 
 	}
 

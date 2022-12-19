@@ -3,21 +3,18 @@ state={
 	id=195
 	name="STATE_195"
 	manpower = 3750158
-	resources={
-		grain = 9
-		wood = 0
-	}
+	
 	state_category = metropolis
 
 	history={
-		owner = FIN
+		owner = SOV
 		victory_points = {
 			3151 30.0
 		}
 		buildings = {
 			infrastructure = 4 #was: 7
 			arms_factory = 6
-			industrial_complex = 6
+			industrial_complex = 1
 			dockyard = 3
 			air_base = 10
 			3151 ={
@@ -26,8 +23,6 @@ state={
 			}
 		}
 		add_core_of = SOV
-		add_core_of = FIN
-		add_core_of = SWE
 		1939.1.1 = {
 			buildings = {
 				arms_factory = 7

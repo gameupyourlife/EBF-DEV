@@ -1,7 +1,9 @@
 state={
 	id=112
 	name="STATE_112"
-
+	resources={
+		tungsten=50.000
+	}
 
 	history={
 		owner = POR
@@ -12,27 +14,16 @@ state={
 			3798 1 
 		}
 		buildings = {
-			infrastructure = 8
-			arms_factory = 4
+			infrastructure = 3
+			arms_factory = 2
 			industrial_complex = 2
 			air_base = 5
-			dockyard = 7
+			dockyard = 2
 			11805 = {
 				naval_base = 8
-				bunker = 5
-				coastal_bunker = 5
-			}
-
-			799 = {
-				bunker = 5
-			}
-
-			3798 = {
-				bunker = 5
 			}
 		}
 		add_core_of = POR
-
 
 	}
 

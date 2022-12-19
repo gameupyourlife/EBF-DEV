@@ -6,15 +6,11 @@ state={
 	
 	state_category = city
 	resources={
-		grain = 0
-		wood = 7
-	
 		steel=100 # was: 236
 	}
 
 	history={
-		owner = WUR
-		add_core_of = OCC
+		owner = FRA
 		#victory_points = { 6529 1 }
 		#victory_points = { 549 1 }
 		victory_points = { 678 5 }
@@ -24,31 +20,31 @@ state={
 			infrastructure = 4
 			industrial_complex = 3
 			549 = {
-				bunker = 5
+				bunker = 10
 
 			}
 			678 = {
-				bunker = 5
+				bunker = 10
 
 			}
 			3629 = {
-				bunker = 5
+				bunker = 10
 
 			}
 			6529 = {
-				bunker = 5
+				bunker = 10
 
 			}
 			9503 = {
-				bunker = 5
+				bunker = 10
 
 			}
 			9559 = {
-				bunker = 5
+				bunker = 10
 
 			}
 			11502 = {
-				bunker = 5
+				bunker = 10
 
 			}
 			anti_air_building = 5
@@ -56,8 +52,6 @@ state={
 
 		}
 		add_core_of = FRA
-		add_core_of = WUR
-		add_core_of = GER
 		1939.1.1 = {
 			buildings = {
 				industrial_complex = 4

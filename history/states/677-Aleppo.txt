@@ -2,14 +2,9 @@
 state={
 	id=677
 	name="STATE_677"
-	resources = {
-		grain = 028
-		wood = 0
-		coal = 0
-	}
+
 	history={
-		owner = SAU #
-add_core_of = SAU # FRA
+		owner = FRA
 		victory_points = {
 			12473 3 
 		}

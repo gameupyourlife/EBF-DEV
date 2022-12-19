@@ -5,11 +5,7 @@ state={
 		steel=13.000
 		# tungsten=11.000
 	}
-	resources = {
-		grain = 017
-		wood = 017
-		coal = 0
-	}
+
 	history={
 		owner = RAJ
 		buildings = {

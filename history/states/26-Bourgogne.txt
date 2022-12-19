@@ -3,14 +3,11 @@ state={
 	id=26
 	name="STATE_26" # Auveregne
 	manpower = 877800
-	resources={
-		grain = 4
-		wood = 0
-	}
+	
 	state_category = town
 
 	history={
-		owner = OCC
+		owner = FRA
 		victory_points = {
 			3594 3 
 		}

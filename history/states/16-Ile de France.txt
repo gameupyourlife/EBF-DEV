@@ -6,14 +6,9 @@ state={
 	
 	state_category = metropolis
 	
-	resources={
-		grain = 49
-		wood = 9
-	}
 
 	history={
-		owner = HOL
-		add_core_of = OCC
+		owner = FRA
 		victory_points = {
 			11506 50 
 		}
@@ -25,7 +20,6 @@ state={
 			air_base = 5
 		}
 		add_core_of = FRA
-		add_core_of = HOL
 		1939.1.1 = {
 			buildings = {
 				arms_factory = 4

@@ -5,14 +5,9 @@ state={
 	manpower =  1163163
 	
 	state_category = city
-	resources = {
-		grain = 07
-		wood = 017
-		coal = 0
-	}
+
 	history={
-		owner = BLR #
-add_core_of = BLR # SOV
+		owner = SOV
 		victory_points = {
 			11370 20
 		}
@@ -26,7 +21,6 @@ add_core_of = BLR # SOV
 		}
 		add_core_of = SOV
 		add_core_of = BLR
-		add_core_of = POL
 		1939.1.1 = {
 			buildings = {
 				industrial_complex = 3

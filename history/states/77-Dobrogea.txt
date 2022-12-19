@@ -5,22 +5,18 @@ state={
 	manpower = 378000
 	
 	state_category = rural
-	resources={
-		grain = 13
-		wood = 0
-	}
+
 	history={
 		victory_points = {
 			11597 1
 		}
-		owner = BUL
+		owner = ROM
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
 		}
 		add_core_of = ROM
 		add_claim_by = BUL
-		add_core_of = BUL
 	}
 
 	provinces={

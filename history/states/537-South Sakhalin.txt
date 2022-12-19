@@ -2,11 +2,7 @@ state= {
 	id=537
 	name="STATE_537"
 	manpower = 295196
-	resources = {
-		grain = 0
-		wood = 013
-		coal = 0
-	
+	resources={
 		oil=3 # was: 4
 	}
 	

@@ -11,8 +11,7 @@ state={
 		steel=1 # was: 2
 	}
 	history={
-		owner = ARG  #
-add_core_of = ARG # URG
+		owner = URG
 		buildings = {
 			infrastructure = 3 #was: 5
 			arms_factory = 1

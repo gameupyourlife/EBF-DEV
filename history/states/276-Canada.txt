@@ -4,19 +4,10 @@ state={
 	name="STATE_276" # Southern Ontario
 	manpower = 3117017
 	
-	resources={
-		uran = 5
-	}
-	resources = {
-		grain = 018
-		wood = 018
-		coal = 0
-	}
 	state_category = large_city
 	
 	history={
-		owner = USA #
-add_core_of = USA # CAN
+		owner = CAN
 		buildings = {
 			infrastructure = 4 #was: 7
 			arms_factory = 2

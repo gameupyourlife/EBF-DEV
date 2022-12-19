@@ -3,16 +3,14 @@ state = {
 	id = 579
 	name = "STATE_579" # Salekhard
 	manpower = 45484
-	resources = {
-		grain = 0
-		wood = 0
-		coal = 015
-	}
-	state_category = wasteland
+	
+	state_category = pastoral
 
-	history={
-		owner = KYR #
-add_core_of = KYR # SOV
+	history = {
+		victory_points = {
+			1684 1
+		}
+		owner = SOV
 		buildings = {
 			infrastructure = 1
 		}

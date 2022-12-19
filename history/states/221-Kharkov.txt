@@ -9,14 +9,9 @@ state={
 	resources={
 		steel=33 # was: 56
 	}
-	resources = {
-		grain = 07
-		wood = 0
-		coal = 0
-	}
+
 	history={
-		owner = UKR #
-add_core_of = UKR # SOV
+		owner = SOV
 		victory_points = {
 			418 10
 		}

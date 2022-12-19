@@ -1,17 +1,13 @@
 state={
 	id=621
 	name="STATE_621"
-	resources = {
-		grain = 013
-		wood = 0
-		coal = 0
-	}
+
 	history={
-		owner = PRC #
-add_core_of = PRC # SHX
+		owner = SHX
 		add_core_of = SHX
 		add_core_of = CHI
 		add_core_of = PRC
+		add_core_of = MEN
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
@@ -23,8 +19,7 @@ add_core_of = PRC # SHX
 				level = 1
 
 			}
-			owner = PRC #
-add_core_of = PRC # PRC
+			owner = PRC
 			controller = MEN
 
 		}

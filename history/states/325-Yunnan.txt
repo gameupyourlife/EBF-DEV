@@ -4,14 +4,9 @@ state={
 	resources={
 		tungsten=2.000
 	}
-	resources = {
-		grain = 0
-		wood = 05
-		coal = 0
-	}
+
 	history={
-		owner = CHI #
-add_core_of = CHI # YUN
+		owner = YUN
 		add_core_of = YUN
 		add_core_of = CHI
 		add_core_of = PRC

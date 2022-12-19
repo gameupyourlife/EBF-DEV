@@ -11,11 +11,7 @@ state={
 		oil=320 # was: 580
 		aluminium=50 # was: 96
 	}
-	resources = {
-		grain = 0
-		wood = 0
-		coal = 022
-	}
+
 
 	history={
 		owner = USA

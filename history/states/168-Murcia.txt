@@ -1,12 +1,9 @@
 state={
 	id=168
 	name="STATE_168"
-	resources={
-		grain = 4
-		wood = 0
-	}
+
 	history={
-		owner = CAT
+		owner = SPR
 		victory_points = {
 			10024 3
 		}
@@ -21,9 +18,6 @@ state={
 
 		}
 		add_core_of = SPR
-		add_core_of = CAT
-		add_core_of = POR
-
 
 	}
 

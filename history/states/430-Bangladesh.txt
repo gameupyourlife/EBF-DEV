@@ -1,11 +1,7 @@
 state={
 	id=430
 	name="STATE_430"
-	resources = {
-		grain = 05
-		wood = 025
-		coal = 0
-	}
+
 	history={
 		add_core_of = BAN
 		owner = RAJ

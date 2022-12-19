@@ -2,17 +2,12 @@
 state={
 	id=469
 	name="STATE_469"
-	manpower = 865605
+	manpower = 800000
 	
 	state_category = rural
-	resources = {
-		grain = 0
-		wood = 013
-		coal = 016
-	}
+
 	history={
-		owner = USA #
-add_core_of = USA # CAN
+		owner = CAN
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

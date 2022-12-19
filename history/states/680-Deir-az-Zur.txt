@@ -4,14 +4,9 @@ state={
 	manpower = 324110
 	
 	state_category = wasteland
-	resources = {
-		grain = 01
-		wood = 0
-		coal = 0
-	}
+
 	history={
-		owner = SAU #
-add_core_of = SAU # FRA
+		owner = FRA
 		victory_points = {
 			3942 1
 		}

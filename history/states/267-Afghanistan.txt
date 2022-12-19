@@ -9,14 +9,8 @@ state={
 	resources={
 		tungsten=3 # was: 3
 	}
-	resources = {
-		grain = 05
-		wood = 0
-		coal = 0
-	}
 	history={
-		owner = PER #
-add_core_of = PER # AFG
+		owner = AFG
 		buildings = {
 			infrastructure = 1
 			arms_factory = 1

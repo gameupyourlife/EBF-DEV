@@ -3,15 +3,11 @@ state={
 	id=40
 	name="STATE_40" # Barnaul
 	manpower = 2107451
-	resources={
-		grain = 0
-		wood = 6
-	}
+	
 	state_category = large_town
 
 	history={
-		owner = KAZ #
-add_core_of = KAZ # SOV
+		owner = SOV
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1

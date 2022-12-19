@@ -3,16 +3,11 @@ state={
 	id=575
 	name="STATE_575" # Kirensk
 	manpower = 146494
-	resources = {
-		grain = 0
-		wood = 0
-		coal = 024
-	}
+	
 	state_category = wasteland
 
 	history={
-		owner = TAN #
-add_core_of = TAN  # SOV
+		owner = SOV
 		buildings = {
 			infrastructure = 1
 		}

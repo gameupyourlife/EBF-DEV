@@ -4,11 +4,7 @@ state={
 	resources={
 		oil=5.000
 	}
-	resources = {
-		grain = 015
-		wood = 025
-		coal = 0
-	}
+
 	history={
 		owner = RAJ
 		buildings = {

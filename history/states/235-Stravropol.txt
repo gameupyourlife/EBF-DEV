@@ -8,14 +8,9 @@ state={
 	resources={
 		chromium=14 # was: 20
 	}
-	resources = {
-		grain = 013
-		wood = 0
-		coal = 0
-	}
+
 	history={
-		owner = GEO #
-add_core_of = GEO # SOV
+		owner = SOV
 		buildings = {
 			infrastructure = 2
 			air_base = 2

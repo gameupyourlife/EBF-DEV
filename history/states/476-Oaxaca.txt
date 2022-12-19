@@ -5,12 +5,9 @@ state={
 	manpower = 1663331
 	
 	state_category = rural
-	resources = {
-		grain = 0
-		wood = 013
-		coal = 011
-	}
+
 	resources={
+		oil=8
 	}
 	
 	history={

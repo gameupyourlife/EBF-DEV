@@ -3,17 +3,12 @@ state=
 	id=615
 	name="STATE_615"
 	manpower = 11601000
-	resources = {
-		grain = 028
-		wood = 0
-		coal = 026
-	}
+	
 	state_category = town
 	
 	history=
 	{
-		owner = PRC #
-add_core_of = PRC # SHX
+		owner = SHX
 		add_core_of = SHX
 		add_core_of = CHI
 		add_core_of = PRC

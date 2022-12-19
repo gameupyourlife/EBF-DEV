@@ -4,13 +4,12 @@ state = {
 	name = "STATE_398"
 	manpower = 2135879
 	state_category = rural
-	resources={
-		aluminium=6 # was: 10
+	resources = {
+		aluminium = 6 # was: 10
 	}
 
-	history={
-		owner = KYR #
-add_core_of = KYR # SOV
+	history = {
+		owner = SOV
 		buildings = {
 			infrastructure = 3 #was: 6
 			arms_factory = 1

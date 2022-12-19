@@ -4,9 +4,7 @@ state=
 	name="STATE_743"
 	manpower = 385000
 	state_category = large_town
-	resources = {
-		copper = 20
-	}
+	
 	
 	history=
 	{

@@ -7,7 +7,7 @@ state={
 		victory_points = {
 			11857 1 
 		}
-		owner = BUL
+		owner = YUG
 		buildings = {
 			infrastructure = 2
 
@@ -15,8 +15,7 @@ state={
 		add_core_of = YUG
 		add_core_of = SER
 		add_claim_by = BUL
-		add_core_of = CRO
-		add_core_of = BUL
+
 	}
 
 	provinces={

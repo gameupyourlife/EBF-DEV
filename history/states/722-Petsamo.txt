@@ -4,11 +4,7 @@ state={
 	manpower = 2371
 
 	state_category = enclave
-	resources = {
-		grain = 0
-		wood = 12
-		coal = 0
-	}
+
 	history={
 		owner = FIN
 		buildings = {
@@ -18,7 +14,6 @@ state={
 			}
 		}
 		add_core_of = FIN
-		add_core_of = SWE
 	}
 	
 	provinces={

@@ -7,15 +7,11 @@ state={
 	state_category = town
 	
 	resources={
-		grain = 20
-		wood = 0
-	
 		steel=30 # was: 48
 	}
 
 	history={
 		owner = FRA
-		add_core_of = OCC
 		victory_points = {
 			6657 5
 		}

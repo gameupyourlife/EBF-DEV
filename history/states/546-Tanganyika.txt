@@ -3,17 +3,11 @@ state={
 	name="STATE_546"
 	
 	state_category = rural
-	resources = {
-		grain = 0
-		wood = 03
-		coal = 0
-	
-		rubber=20 # was: 2
-		chromium=40
+	resources={
+		rubber=2 # was: 2
 	}
 	history={
-		owner = MZB #
-add_core_of = MZB # ENG
+		owner = ENG
 		victory_points = {
 			2196 1
 		}

@@ -3,13 +3,7 @@ state={
 	id=613
 	name="STATE_613" # Shanghai
 	manpower = 17305100
-	resources = {
-		grain = 042
-		wood = 018
-		coal = 021
 	
-		uran = 2
-	}
 	state_category = large_city
 	
 	history={

@@ -5,13 +5,10 @@ state={
 	manpower = 543817
 	
 	state_category = pastoral
-	resources={
-		uran = 3
-	}
+
 	history={
-		owner = MOR
+		owner = FRA
 		add_core_of = NGR
-		add_core_of = MOR
 		victory_points = {
 			2056 1
 		}

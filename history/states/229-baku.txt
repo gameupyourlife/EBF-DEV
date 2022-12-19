@@ -3,16 +3,10 @@ state={
 	name="STATE_229"
 	resources={
 		oil=70 # was: 126.000
-		copper = 16
 	}
-	resources = {
-		grain = 06
-		wood = 06
-		coal = 0
-	}
+
 	history={
-		owner = GEO #
-add_core_of = GEO # SOV
+		owner = SOV
 		victory_points = {
 			7661 10 
 		}

@@ -4,13 +4,10 @@ state={
 	
 	state_category = pastoral
 	impassable = yes
-	resources={
-		uran = 3
-	}
+
 	history={
-		owner = MOR
+		owner = FRA
 		add_core_of = NGR
-		add_core_of = MOR
 		buildings = {
 			infrastructure = 1
 

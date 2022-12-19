@@ -7,15 +7,12 @@ state={
 	state_category = rural
 	
 	resources={
-		steel=15 # was: 12
-		
-			grain = 0
-			wood = 3
-		
+		steel=9 # was: 12
+		tungsten = 15 # was: 20
 	}
 
 	history={
-		owner = SWE
+		owner = NOR
 		buildings = {
 			infrastructure = 2
 			air_base = 1
@@ -39,7 +36,6 @@ state={
 			11050 1
 		}
 		add_core_of = NOR
-		add_core_of = SWE
 	}
 
 	provinces={

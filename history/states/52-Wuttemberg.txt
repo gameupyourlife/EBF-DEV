@@ -3,15 +3,14 @@ state={
 	id=52
 	name="STATE_52"
 	manpower = 2679413
-
 	resources={
-		grain = 15
-		wood = 7
+		aluminium=18 # was: 30
 	}
+	
 	state_category = city
 
 	history={
-		owner = BAY
+		owner = GER
 		victory_points = {
 			692 20
 		}
@@ -25,8 +24,6 @@ state={
 			air_base = 6
 		}
 		add_core_of = GER
-		add_core_of = BAY
-		add_core_of = HUN
 
 		1939.1.1 = {
 			buildings = {

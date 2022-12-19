@@ -7,18 +7,12 @@ state = {
 	state_category = pastoral
 	
 	resources = {
-		grain = 0
-		wood = 0
-		coal = 022
-	
-		chromium=40 # was: 44
-		aluminium=127 # was: 30
-	
+		chromium = 40 # was: 44
+		aluminium = 27 # was: 30
 	}
 
-	history={
-		owner = KYR #
-add_core_of = KYR # SOV
+	history = {
+		owner = SOV
 		buildings = {
 			infrastructure = 1
 

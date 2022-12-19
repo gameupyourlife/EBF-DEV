@@ -3,12 +3,7 @@ state={
 	name="STATE_9"
 	manpower = 4492600
 	resources={
-		grain = 45
-		wood = 8
-	
 		steel=5 # was: 8
-
-
 	}
 	
 	state_category = large_city

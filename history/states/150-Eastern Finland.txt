@@ -8,19 +8,14 @@ state={
 	
 	resources={
 		steel=3 # was: 4
-		
-			grain = 5
-			wood = 15
-		
 	}
 	history={
 		owner = FIN
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 7
+			industrial_complex = 1
 		}
 		add_core_of = FIN
-		add_core_of = SWE
 	}
 
 	provinces={

@@ -2,13 +2,8 @@ state={
 	id=589
 	name="STATE_589"
 
-	resources={
-		uran = 3
-	}
-
 	history={
-		owner = KAZ #
-add_core_of = KAZ # SOV
+		owner = SOV
 		add_core_of = KAZ
 		buildings = {
 			infrastructure = 2

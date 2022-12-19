@@ -2,24 +2,20 @@ state={
 	id=170
 	name="STATE_170"
 	resources={
-		grain = 5
-		wood = 0
+		tungsten=4.000
 	}
 
 	history={
-		owner = POR
+		owner = SPR
 		victory_points = {
 			6902 1 
 		}
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 5
+			infrastructure = 3 #was: 5
+			industrial_complex = 1
 
 		}
 		add_core_of = SPR
-		add_core_of = POR
-		add_core_of = POR
-
 
 	}
 

@@ -3,13 +3,12 @@ state={
 	id=68
 	name="STATE_68"
 	manpower = 1250840
-
+	resources={
+		aluminium=15 # was: 24
+	}
 
 	state_category = city
-	resources={
-		grain = 8
-		wood = 7
-	}
+
 	history={
 		victory_points = {
 			3473 1

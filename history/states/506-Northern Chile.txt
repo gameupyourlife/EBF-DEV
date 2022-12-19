@@ -5,17 +5,9 @@ state={
 	manpower = 283605
 	
 	state_category = rural
-	resources ={
-		copper = 100
-	}
-	resources = {
-		grain = 03
-		wood = 0
-		coal = 0
-	}
+
 	history={
-		owner = ARG  #
-add_core_of = ARG # CHL
+		owner = CHL
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 2

@@ -6,11 +6,7 @@ state={
 	}
 	
 	state_category = rural
-	resources = {
-		grain = 0
-		wood = 0
-		coal = 0
-	}
+
 	history={
 		owner = PRU
 		buildings = {

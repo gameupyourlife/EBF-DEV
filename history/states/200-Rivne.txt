@@ -4,13 +4,9 @@ state={
 	name="STATE_200" # Zaporozhe
 	manpower = 1294082
 	state_category = town
-	resources={
-		grain = 5
-		wood = 0
-	}
+
 	history={
-		owner = UKR #
-add_core_of = UKR # SOV
+		owner = SOV
 		victory_points = {
 			11405 1
 		}

@@ -3,14 +3,9 @@ state={
 	name="STATE_332"
 	
 	state_category = wasteland
-	resources = {
-		grain = 0
-		wood = 021
-		coal = 0
-	}
+
 	history={
-		owner = USA #
-add_core_of = USA # ENG
+		owner = ENG
 		buildings = {
 			infrastructure = 1
 

@@ -10,8 +10,7 @@ state={
 	}
 
 	history={
-		owner = MZB #
-		add_core_of = MZB # ENG
+		owner = ENG
 		add_core_of = ZAM
 		victory_points = {
 			5199 1

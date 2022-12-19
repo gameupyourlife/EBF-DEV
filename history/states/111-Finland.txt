@@ -2,11 +2,8 @@
 state={
 	id=111
 	name="STATE_111" # Uusimaa
-	manpower = 5670190
-	resources={
-		grain = 8
-		wood = 17
-	}
+	manpower = 1670190
+	
 	state_category = city
 	
 	history={
@@ -23,7 +20,7 @@ state={
 		buildings = {
 			infrastructure = 3
 			arms_factory = 3
-			industrial_complex = 7
+			industrial_complex = 2
 			dockyard = 1
 			air_base = 5
 			11105 = {
@@ -36,7 +33,6 @@ state={
 			}
 		}
 		add_core_of = FIN
-		add_core_of = SWE
 	}
 
 	provinces={

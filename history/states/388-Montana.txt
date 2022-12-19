@@ -7,11 +7,7 @@ state={
 	resources={
 		tungsten=11 # was: 16
 	}
-	resources = {
-		grain = 0
-		wood = 0
-		coal = 014
-	}
+
 	history={
 		owner = USA
 		buildings = {

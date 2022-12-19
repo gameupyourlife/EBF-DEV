@@ -3,15 +3,9 @@ state={
 	id=482
 	name="STATE_482"
 	manpower = 520751
-	resources = {
-		grain = 026
-		wood = 0
-		coal = 0
-	}
+	
 	state_category = rural
-	resources = {
-		copper = 20
-	}
+
 	history={
 		owner = MEX
 		buildings = {

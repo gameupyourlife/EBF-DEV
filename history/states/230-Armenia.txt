@@ -1,14 +1,9 @@
 state={
 	id=230
 	name="STATE_230"
-	resources = {
-		grain = 0
-		wood = 015
-		coal = 0
-	}
+
 	history={
-		owner = GEO #
-add_core_of = GEO # SOV
+		owner = SOV
 		victory_points = {
 			12320 3
 		}

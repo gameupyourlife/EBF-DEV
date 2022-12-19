@@ -3,17 +3,12 @@ state=
 	id=311
 	name="STATE_311"
 	manpower = 51000
-	resources = {
-		grain = 0
-		wood = 11
-		coal = 0
-	}
+	
 	state_category = pastoral
 	history=
 	{
 		add_core_of = BLZ
-		owner = PAN #
-add_core_of = PAN # ENG
+		owner = ENG
 		victory_points = {
 			2077 1 
 		}

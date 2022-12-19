@@ -2,24 +2,22 @@
 state={
 	id=519
 	name="STATE_519"
-	resources = {
-		grain = 013
-		wood = 0
-		coal = 0
-		uran = 3
-	}
-	
 
 	history={
 		owner = AST
 		buildings = {
 			infrastructure = 1
+			12910 = {
+				naval_base = 2
+
+			}
 
 		}
 		victory_points = {
 			12910 15 
 		}
 		add_core_of = AST
+
 	}
 
 	provinces={

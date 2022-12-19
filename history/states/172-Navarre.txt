@@ -1,12 +1,9 @@
 state={
 	id=172
 	name="STATE_172"
-	resources={
-		grain = 17
-		wood = 17
-	}
+
 	history={
-		owner = OCC
+		owner = SPR
 		add_core_of = NAV
 		victory_points = {
 			3933 1
@@ -15,9 +12,6 @@ state={
 			infrastructure = 3 #was: 6
 		}
 		add_core_of = SPR
-		add_core_of = OCC
-		add_core_of = POR
-		add_core_of = OCC
 
 	}
 

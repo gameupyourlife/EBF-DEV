@@ -4,13 +4,8 @@ state={
 	resources={
 		steel=28 # was: 48.000
 		aluminium=9 # was: 16.000
-		copper = 17
 	}
-	resources = {
-		grain = 019
-		wood = 0
-		coal = 0
-	}
+	
 	state_category = metropolis
 
 	history={

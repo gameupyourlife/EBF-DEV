@@ -4,18 +4,10 @@ state=
 	name="STATE_457" # Arabian Desert
 	manpower = 2194
 	
-	resources={
-		steel=100 # was: 4
-		aluminium=50
-		oil=75
-		rubber=85
-	}
-
 	state_category = wasteland
 	
 	history = {
-		owner = SAU #
-add_core_of = SAU # ENG
+		owner = ENG
 		buildings = {
 			infrastructure = 1
 		}

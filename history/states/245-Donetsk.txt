@@ -5,14 +5,9 @@ state={
 	manpower = 761769
 	
 	state_category = rural
-	resources = {
-		grain = 0
-		wood = 0
-		coal = 016
-	}
+
 	history={
-		owner = GEO #
-add_core_of = GEO # SOV
+		owner = SOV
 		buildings = {
 			infrastructure = 3 #was: 5
 		}

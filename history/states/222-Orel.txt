@@ -3,11 +3,7 @@ state={
 	id=222
 	name="STATE_222"
 	manpower = 1218607
-	resources = {
-		grain = 03
-		wood = 023
-		coal = 0
-	}
+	
 	state_category = rural
 	
 	resources={
@@ -16,8 +12,7 @@ state={
 	}
 
 	history={
-		owner = UKR #
-add_core_of = UKR # SOV
+		owner = SOV
 		victory_points = {
 			9355 10
 		}

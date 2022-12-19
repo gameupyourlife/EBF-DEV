@@ -5,14 +5,9 @@ state={
 	manpower = 2567983
 	
 	state_category = town
-	resources = {
-		grain = 0
-		wood = 05
-		coal = 0
-	}
+
 	history={
-		owner = UKR #
-add_core_of = UKR # SOV
+		owner = SOV
 		buildings = {
 			infrastructure = 3 #was: 5
 			arms_factory = 1

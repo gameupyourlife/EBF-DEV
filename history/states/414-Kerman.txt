@@ -3,11 +3,7 @@ state={
 	id=414
 	name="STATE_414"
 	manpower = 486013
-	resources = {
-		grain = 03
-		wood = 0
-		coal = 0
-	}
+	
 	state_category = wasteland
 
 	history={

@@ -4,16 +4,15 @@ state={
 	name="STATE_60"
 	manpower = 3005214
 	resources={
-		grain = 42
-		wood = 8
-	
 		steel=13 # was: 20
+		chromium = 3 # was: 4
+		tungsten = 3 # was: 4
 	}
 	
 	state_category = large_city
 
 	history={
-		owner = SAX
+		owner = GER
 		victory_points = { 3561 5 }
 		victory_points = { 425 3 }
 		buildings = {
@@ -21,7 +20,6 @@ state={
 			industrial_complex = 1
 		}
 		add_core_of = GER
-		add_core_of = SAX
 		1939.1.1 = {
 			buildings = {
 				synthetic_refinery = 3
