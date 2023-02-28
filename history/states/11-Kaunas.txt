@@ -4,7 +4,7 @@ state={
 	name="STATE_11"
 	manpower = 1353130
 	
-	state_category = town
+	
 	
 	resources={
 		grain = 15
@@ -23,7 +23,7 @@ state={
 			infrastructure = 3
 			arms_factory = 1
 			industrial_complex = 3
-			air_base = 4
+
 		}
 		add_core_of = LIT
 		add_core_of = DEN

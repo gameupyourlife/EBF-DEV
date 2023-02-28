@@ -29,6 +29,19 @@ ideas = {
 			picture = generic_research_bonus
 		}
 
+		ENG_civilian_defence_idea = {
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				consumer_goods_factor = -0.03
+			}
+			picture = generic_research_bonus
+		}
+
 		ENG_new_and_efficient_building_methods_idea = {
 			allowed = {
 				always = yes

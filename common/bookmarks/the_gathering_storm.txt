@@ -1,0 +1,140 @@
+bookmarks = {
+	bookmark = {
+		name = "EMPEROR_BACK_IN_FASHION_NAME"
+		desc = "EMPEROR_BACK_IN_FASHION_DESC"
+		date = 1936.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "GER"
+		default = yes
+		
+		"OCC"={
+			history = "OCC_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+
+			}
+			focuses = {
+				OCC_liberte_egalite_fraternite
+				OCC_united_empire
+				OCC_the_occitanian_way
+			}
+		}
+		"POL"={
+			history = "POL_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				
+			}
+			focuses = {
+				POL_the_beginning_of_a_new_life
+				POL_the_real_new_way
+				POL_final_greatness
+			}
+		}
+		"ENG"={
+			history = "ENG_GATHERING_STORM_DESC"
+			ideology = democratic
+			available = { has_dlc = "Man the Guns" }
+			ideas = {
+				stiff_upper_lip
+				ENG_the_war_to_end_all_wars
+				george_v
+			}
+			focuses = {
+				ENG_imperial_federation
+				ENG_the_kings_party
+				ENG_organize_the_blackshirts
+			}
+		}
+		"ENG"={
+			history = "ENG_GATHERING_STORM_DESC"
+			ideology = democratic
+			available = { NOT = { has_dlc = "Man the Guns" } }
+			ideas = {
+				stiff_upper_lip
+				ENG_the_war_to_end_all_wars
+				george_v
+			}
+			focuses = {
+				tizard_mission_focus
+				ENG_war_with_germany
+				ENG_war_with_italy
+			}
+		}
+		"GER"={
+			history = "GER_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+				sour_loser
+				general_staff
+				GER_mefo_bills_1
+			}
+			focuses = {
+				GER_oppose_hitler_ebf
+				GER_the_prussian_way
+				GER_we_are_the_sun
+			}
+		}
+
+		"HUN"={
+			history = "HUN_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				swe_consc_law
+				HUN_suppresed_minorities_idea
+				HUN_economic_deficit_idea
+			}
+			focuses = {
+				HUN_choose_the_habsburger
+				HUN_austria_hungary
+				HUN_we_will_win
+			}
+		}
+		
+		"POR"={
+			history = "PORTUGAL_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				POR_unstable_republic
+				POR_unreliable_army
+			}
+			focuses = {
+				POR_estado_novo
+				POR_workers_of_iberia_unite
+				POR_luso_tropicalism
+			}
+		}
+		"BUL"={
+			history = "BUL_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				BUL_second_national_catastrophe
+				BUL_army_restrictions
+				BUL_imro_01
+			}
+			focuses = {
+				BUL_the_fatherland_front
+				BUL_restore_the_bulgarian_patriarchate
+				BUL_prussia_of_the_balkans
+			}
+		}
+
+		"SWE"={
+			history = "SWE_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+
+
+		
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

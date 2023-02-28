@@ -15,6 +15,8 @@ add_core_of = KYR # SOV
 			infrastructure = 2
 		}
 		add_core_of = SOV
+		add_core_of = UDM
+		
 		victory_points = {
 			6278 1 
 		}

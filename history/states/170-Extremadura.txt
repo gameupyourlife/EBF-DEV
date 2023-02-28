@@ -1,6 +1,9 @@
 state={
 	id=170
 	name="STATE_170"
+	state_category=large_city
+
+
 	resources={
 		grain = 5
 		wood = 0
@@ -28,7 +31,5 @@ state={
 	}
 	manpower=1417652
 	buildings_max_level_factor=1.000
-	state_category=town
-
 	local_supplies=0.0 
 }

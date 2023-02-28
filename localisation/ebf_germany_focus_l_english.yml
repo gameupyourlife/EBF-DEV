@@ -179,8 +179,8 @@ GER_world_war_one_tactics_desc:0 "Let's start at the Start"
 GER_evolve_world_war_one_tactics:0 "Evolved World War One Tactics" 
 GER_evolve_world_war_one_tactics_desc:0 "Make steps toward a Future"
 
-GER_world_war_tow_tactics:0 "World War Tow Tactics"
-GER_world_war_tow_tactics_desc:0 "And now we are here"
+GER_world_war_two_tactics:0 "World War Two Tactics"
+GER_world_war_two_tactics_desc:0 "And now we are here"
 
 GER_industrial_revulotion:0 "Industrial Revolution"
 GER_industrial_revulotion_desc:0 "A second Industrial Revolution"
@@ -238,3 +238,12 @@ GER_we_are_the_sun_desc:0 "We are the Sun!"
 
 GER_kaiser_gott_und_vaterland:0 "Für Kaiser, Gott und Vaterland"
 GER_kaiser_gott_und_vaterland_desc:0 "We always wanted to do it, now we can do it"
+
+GER_mobilise_the_reserves:0 "Mobilise the Reserves"
+GER_mobilise_the_reserves_desc:0 ""
+
+GER_militarise_the_economy:0 "Militarise the Economy"
+GER_militarise_the_economy_desc:0 ""
+
+GER_secure_the_food_supply:0 "Secure the Food Supply"
+GER_secure_the_food_supply_desc:0 ""

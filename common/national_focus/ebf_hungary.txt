@@ -127,28 +127,17 @@ focus_tree = {
 
 
 		completion_reward = {
-
-			create_navy_leader = {
-				name = "Miklós Horthy"
-				gfx = GFX_Portrait_hungary_miklos_horthy_admiral
+			add_naval_commander_role = {
+				character = HUN_miklos_horthy
 				traits = { gunnery_expert navy_media_personality superior_tactician }
 				skill = 3
-				id = 556 #Navy Miklos
+				legacy_id = 556 #Navy Miklos
 				attack_skill = 2
 				defense_skill = 2
 				maneuvering_skill = 2
-				coordination_skill = 4
+				coordination_skill = 4				
 			}
-			create_country_leader = {
-				name = "Otto von Habsburg"
-				desc = "POLITICS_OTTO_VON_HABSBURG_DESC"
-				picture = GFX_Portrait_hungary_otto_von_hapsburg
-				expire = "1965.1.1"
-				ideology = despotism
-				traits = {
-
-				}
-			}
+			promote_character = HUN_otto_von_habsburg
 			swap_ideas = {
 				add_idea = HUN_habsburg_restored
 				remove_idea = HUN_hungarian_monarchy_2
@@ -1496,8 +1485,7 @@ focus_tree = {
 				name = super_heavy_tank
 				bonus = 2
 				uses = 1
-				technology = super_heavy_tank
-				technology = super_heavy_tank_a
+				technology = super_heavy_tank_chassis
 			}
 		}
 	}

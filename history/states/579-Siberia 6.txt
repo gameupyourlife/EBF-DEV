@@ -12,7 +12,10 @@ state = {
 
 	history={
 		owner = KYR #
-add_core_of = KYR # SOV
+		add_core_of = KYR # SOV
+		victory_points = {
+			1684 1
+		}
 		buildings = {
 			infrastructure = 1
 		}

@@ -1,0 +1,207 @@
+technologies = {
+	ultra_heavy_tank = { #Landratte
+
+		enable_equipments = {
+			ultra_heavy_tank_chassis_1
+		}
+		enable_subunits = {
+			ultra_heavy_armor
+		}
+		enable_equipment_modules = {
+			tank_ultra_heavy_four_man_tank_turret
+			tank_ultra_heavy_cannon
+		}
+
+		research_cost = 2.5
+		start_year = 1945
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 10 y = 12 }
+		}
+		
+		sub_technologies = {
+			# ultra_heavy_tank_td
+			# ultra_heavy_tank_art
+			# ultra_heavy_tank_spaa
+		}
+		
+		ai_will_do = {
+			factor = 0 # Hitler cries on the inside
+		}
+		
+		categories = {
+			armor
+			cat_heavy_armor
+		}
+	}
+
+
+	### Air
+
+	# early_airship = {
+
+	# 	enable_equipments = {
+	# 		airship_equipment_0
+	# 	}
+	
+	# 	path = {
+	# 		leads_to_tech = airship1
+	# 		research_cost_coeff = 1
+	# 	}
+
+	# 	#path = {
+	# 	#	leads_to_tech = scout_plane1
+	# 	#	research_cost_coeff = 1
+	# 	#}
+		
+	# 	research_cost = 2
+	# 	start_year = 1934
+	# 	folder = {
+	# 		name = air_techs_folder
+	# 		position = { x = 0 y = 3 }
+	# 	}
+		
+	# 	categories = {
+	# 		medium_air
+	# 		tactical_bomber
+	# 		air_equipment
+	# 	}
+		
+	# 	ai_will_do = {
+	# 		factor = 1
+	# 	}
+	# }
+
+	# airship1 = {
+
+	# 	enable_equipments = {
+	# 		airship_equipment_1
+	# 	}
+	
+	# 	path = {
+	# 		leads_to_tech = airship2
+	# 		research_cost_coeff = 1
+	# 	}
+	
+	# 	research_cost = 2
+	# 	start_year = 1937
+	# 	folder = {
+	# 		name = air_techs_folder
+	# 		position = { x = 0 y = 5 }
+	# 	}
+		
+	# 	categories = {
+	# 		heavy_air
+	# 		air_equipment
+	# 		airship
+	# 	}
+		
+	# 	ai_will_do = {
+	# 		factor = 1
+			
+	# 		modifier = {
+	# 			factor = 5
+	# 			tag = ENG
+	# 		}
+			
+	# 		modifier = {
+	# 			factor = 5
+	# 			tag = USA
+	# 		}
+	# 	}
+	# }
+	
+	# airship2 = {
+	
+	# 	enable_equipments = {
+	# 		airship_equipment_2
+	# 	}
+		
+	# 	research_cost = 2
+	# 	start_year = 1942
+	# 	folder = {
+	# 		name = air_techs_folder
+	# 		position = { x = 0 y = 7 }
+	# 	}
+		
+	# 	categories = {
+	# 		heavy_air
+	# 		air_equipment
+	# 		cat_strategic_bomber
+	# 	}
+		
+	# 	ai_will_do = {
+	# 		factor = 1
+			
+	# 		modifier = {
+	# 			factor = 5
+	# 			tag = ENG
+	# 		}
+			
+	# 		modifier = {
+	# 			factor = 5
+	# 			tag = USA
+	# 		}
+	# 	}
+	# }
+
+	early_airship_airframe = {
+
+		enable_equipments = {
+			airship_airframe_0
+		}
+	
+		# path = {
+		# 	leads_to_tech = basic_large_airframe
+		# 	research_cost_coeff = 1
+		# }
+
+		research_cost = 2
+		start_year = 1900
+		
+		folder = {
+			name = bba_air_techs_folder
+			position = { x = 0 y = 2 }
+		}
+		
+		categories = {
+			heavy_air
+			air_equipment
+			airship
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	### Infantry
+
+	rations = {
+
+		enable_equipments = {
+			rations_equipment_x
+		}	
+
+		# path = {
+		# 	leads_to_tech = rations_a
+		# 	research_cost_coeff = 1
+		# }	
+
+		research_cost = 1.5
+		start_year = 1918
+		folder = {
+			name = infantry_folder
+			position = { x = -12 y = -1 }
+		}
+		
+		categories = {
+			rations
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

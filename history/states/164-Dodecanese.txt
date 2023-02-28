@@ -25,9 +25,9 @@ state=
 		add_core_of = GRE
 		add_core_of = COR
 	}
-	provinces=
-	{
-7003 10007 	}
+	provinces = {
+		7003 10007 	
+	}
 
 	local_supplies=0.0 
 }

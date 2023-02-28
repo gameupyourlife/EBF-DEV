@@ -6,7 +6,8 @@ state = {
 	}
 
 	history = {
-		owner = SOV
+		owner = GEO
+		add_core_of = GEO
 		buildings = {
 			infrastructure = 2
 

@@ -374,5 +374,86 @@ ideas = {
 			}
 		}
 
+		ebf_ger_civil_war_steal_nazi_plans_idea = {
+			allowed = {
+				has_civil_war = yes
+				original_tag = GER
+				has_government = neutrality
+			}
+			allowed_civil_war = {
+				original_tag = GER
+				has_government = neutrality
+			}
+			
+			removal_cost = -1
+
+			modifier = {
+				max_planning_factor = 0.2
+				planning_speed = 0.1
+			}
+		}
+
+		ebf_ger_civil_charge_in_idea = {
+			allowed = {
+				has_civil_war = yes
+				original_tag = GER
+				has_government = neutrality
+			}
+			allowed_civil_war = {
+				original_tag = GER
+				has_government = neutrality
+			}
+			
+			removal_cost = -1
+
+			modifier = {
+				army_core_attack_factor = 0.15
+				army_core_defence_factor = 0.15
+				army_strength_factor = -0.1
+				recon_factor = -0.1
+			}
+		}
+
+		ebf_ger_civil_war_deliver_final_blow_idea = {
+			allowed = {
+				has_civil_war = yes
+				original_tag = GER
+				has_government = neutrality
+			}
+			allowed_civil_war = {
+				original_tag = GER
+				has_government = neutrality
+			}
+			
+			removal_cost = -1
+
+			modifier = {
+				max_planning_factor = -0.1
+				planning_speed = 0.5
+				supply_consumption_factor = 0.1
+				army_org_factor = -0.075
+
+				army_core_attack_factor = 0.25
+				army_core_defence_factor = 0.25
+			}
+
+			cancel = {
+				has_civil_war = no
+			}
+			on_remove = {
+				if = {
+					limit = {
+						has_civil_war = yes
+					}
+					add_political_power = -50
+					add_stability = -0.2
+					add_war_support = -0.2
+				}
+				else = {
+					add_stability = 0.1
+					add_war_support = -0.05 #Tired of war
+				}
+			}
+		}
 	}
 }

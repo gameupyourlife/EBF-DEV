@@ -9,23 +9,19 @@ ideas = {
 			}
 			equipment_bonus = {
 
-				light_armor = {
+
+
+				light_tank_chassis = {
 					build_cost_ic = -0.05
 					soft_attack = 0.1
 					maximum_speed = 0.10
 				}
-
-				# light_tank_chassis = {_1 = {
+				# light_tank_chassis_2 = {
 				# 	build_cost_ic = -0.05
 				# 	soft_attack = 0.1
 				# 	maximum_speed = 0.10
 				# }
-				# light_tank_chassis = {_2 = {
-				# 	build_cost_ic = -0.05
-				# 	soft_attack = 0.1
-				# 	maximum_speed = 0.10
-				# }
-				# light_tank_chassis = {_3 = {
+				# light_tank_chassis_3 = {
 				# 	build_cost_ic = -0.05
 				# 	soft_attack = 0.1
 				# 	maximum_speed = 0.10
@@ -86,8 +82,9 @@ ideas = {
 				always = yes
 			}
 			modifier = {
-				neutrality_drift = 0.001
-				stability_factor = -0.20
+				neutrality_drift = 0.005
+				stability_factor = -0.40
+				war_support = -0.4
 				conscription_factor = -0.5
 				consumer_goods_factor = 0.05
 			}
@@ -101,8 +98,9 @@ ideas = {
 				always = yes
 			}
 			modifier = {
-				neutrality_drift = 0.001
-				stability_factor = -0.15
+				neutrality_drift = 0.003
+				stability_factor = -0.2
+				war_support = -0.4
 				conscription_factor = -0.35
 				consumer_goods_factor = 0.035
 			}
@@ -116,8 +114,9 @@ ideas = {
 				always = yes
 			}
 			modifier = {
-				neutrality_drift = 0.001
-				stability_factor = -0.10
+				neutrality_drift = 0.002
+				stability_factor = -0.20
+				war_support = -0.2
 				conscription_factor = -0.2
 				consumer_goods_factor = 0.02
 			}
@@ -132,7 +131,7 @@ ideas = {
 			}
 			modifier = {
 				neutrality_drift = 0.001
-				stability_factor = 0.0
+				war_support = -0.2
 				conscription_factor = -0.1
 				consumer_goods_factor = 0.01
 			}
@@ -146,7 +145,7 @@ ideas = {
 				always = yes
 			}
 			modifier = {
-				communism_drift = 0.001
+				communism_drift = 0.002
 				stability_factor = 0.05
 			}
 			picture = generic_research_bonus
@@ -402,22 +401,37 @@ ideas = {
 				always = yes
 			}
 			equipment_bonus = {
-				fighter = {
+				fighter_equipment = {
+					build_cost_ic = -0.05
+				}
+				cv_fighter_equipment = {
+					build_cost_ic = -0.05
+				}
+				cv_CAS_equipment = {
+					build_cost_ic = -0.05
+				}
+				CAS_equipment = {
+					build_cost_ic = -0.05
+				}
+				nav_bomber_equipment = {
+					build_cost_ic = -0.05
+				}
+				cv_nav_bomber_equipment = {
 					build_cost_ic = -0.05
 				}
 				tac_bomber_equipment = {
 					build_cost_ic = -0.05
 				}
+				heavy_fighter_equipment = {
+					build_cost_ic = -0.05
+				}
 				strat_bomber_equipment = {
 					build_cost_ic = -0.05
 				}
-				cas = {
+				transport_plane_equipment = {
 					build_cost_ic = -0.05
 				}
-				heavy_fighter = {
-					build_cost_ic = -0.05
-				}
-				naval_bomber = {
+				scout_plane_equipment = {
 					build_cost_ic = -0.05
 				}
 			}

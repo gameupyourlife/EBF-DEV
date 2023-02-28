@@ -1,60 +1,99 @@
 ﻿capital = 43
 
 oob = "HUN_1936"
-set_naval_oob = "HUN_1936_naval"
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "HUN_1936_air_bba"
+		set_technology = {
+	early_fighter = 1
+    tech_support = 1
+    gw_artillery = 1
+    rations = 1
+			iw_small_airframe = 1
+			engines_1 = 1
+			early_bombs = 1
+		}
+	else = {
+		set_air_oob = "HUN_1936_air_legacy"
+		set_technology = {
+	early_fighter = 1
+    tech_support = 1
+    gw_artillery = 1
+    rations = 1
+			early_fighter = 1
+			CAS1 = 1
+		}
+	}
+}
 
 set_research_slots = 3
 set_stability = 0.7
 set_war_support = 0.6
-add_manpower = 100000
 
 set_technology = {
+	early_fighter = 1
+    tech_support = 1
+    gw_artillery = 1
     rations = 1
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	tech_support = 1		
 	tech_recon = 1
 	gw_artillery = 1
-	gwtank = 1
-	early_fighter = 1
-	CAS1 = 1
-	fuel_silos = 1
-	early_ship_hull_light = 1
-	early_ship_hull_cruiser = 1
-	early_ship_hull_heavy = 1
-	early_ship_hull_submarine = 1
-	early_ship_hull_carrier = 1
 
-	rations = 1
-	gw_artillery = 1 
-	infantry_weapons = 1
-	infantry_weapons1 = 1
-	tech_support = 1		
-	tech_engineers = 1
-	motorised_infantry = 1
-	early_fighter = 1
 	fuel_silos = 1
-	early_ship_hull_light = 1
-	early_ship_hull_cruiser = 1
-	early_ship_hull_heavy = 1
-	early_ship_hull_submarine = 1
-	early_ship_hull_carrier = 1
-	gwtank = 1
-	basic_light_tank = 1
-	armored_car1 = 1
-	synth_oil_experiments = 1
-	CAS1 = 1
-	tactical_bomber1 = 1
-	tech_recon = 1
+	basic_train = 1
 }
 
-add_ideas = {
-	export_focus
-	civilian_economy
-	volunteer_only
-	swe_consc_law
-	HUN_suppresed_minorities_idea
-	HUN_economic_deficit_idea
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_technology = {
+	early_fighter = 1
+    tech_support = 1
+    gw_artillery = 1
+    rations = 1
+		gwtank = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+	early_fighter = 1
+    tech_support = 1
+    gw_artillery = 1
+    rations = 1
+		gwtank_chassis = 1
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "Death or Dishonor"
+	}
+	add_ideas = {
+		disarmed_nation
+		HUN_treaty_of_triannon
+	}
+}
+if = {
+	limit = {
+		has_dlc = "By Blood Alone"
+	}
+	create_equipment_variant = {
+		name = "WM-16"
+		type = small_plane_cas_airframe_0
+		modules = {
+			fixed_main_weapon_slot = bomb_locks
+			engine_type_slot = engine_1_1x
+			special_type_slot_1 = empty
+		}
+	}
 }
 
 if = {
@@ -79,19 +118,38 @@ if = {
 	remove_ideas = HUN_treaty_of_triannon
 
 	add_political_power = 1198
+	add_command_power = 100
 
 	if = {
 		limit = {
 			has_dlc = "Death or Dishonor"
 		}
-
+		complete_national_focus = HUN_economic_intervention
+		complete_national_focus = HUN_secret_rearmament
+		complete_national_focus = HUN_war_games
+		complete_national_focus = HUN_theoretical_air_efforts
+		complete_national_focus = HUN_trade_deal_with_germany
+		complete_national_focus = HUN_joint_aluminum_mining_company
+		complete_national_focus = HUN_reaffirm_territorial_claims
+		complete_national_focus = HUN_announce_the_gyor_program
+		complete_national_focus = HUN_civilian_industry
+		complete_national_focus = HUN_reintegrate_the_railroads
+		complete_national_focus = HUN_invite_foreign_investors
+		complete_national_focus = HUN_bled_agreement
+		complete_national_focus = HUN_army_maneuvers
+		complete_national_focus = HUN_establish_the_air_force
+		complete_national_focus = HUN_demand_southern_slovakia
+		complete_national_focus = HUN_mobile_focus
+		complete_national_focus = HUN_license_foreign_designs
 		
 		#Handle this manually
+		unlock_national_focus = HUN_renounce_the_treaty_of_trianon
 		add_ideas = {
 			limited_conscription
 			HUN_treaty_of_triannon_3
 		}
 
+		unlock_national_focus = HUN_strengthen_fascists #To avoid leader ID clash
 		add_ideas = HUN_strengthen_fascists
 
 		else = {
@@ -109,15 +167,11 @@ if = {
 		}
 	}
 	
-	
-	oob = "HUN_1939"
 	set_technology = {
+	early_fighter = 1
+    tech_support = 1
+    gw_artillery = 1
     rations = 1
-		fighter1 = 1
-		early_bomber = 1
-		tactical_bomber1 = 1
-		gwtank = 1
-		basic_light_tank = 1
 		interwar_artillery = 1
 		interwar_antitank = 1
 		interwar_antiair = 1
@@ -152,6 +206,72 @@ if = {
 		dispersed_industry2 = 1
 		fuel_refining = 1
 	}
+	if = {
+		limit = { has_dlc = "By Blood Alone" }
+			set_air_oob = "HUN_1939_air_bba"
+		else = {
+			set_air_oob = "HUN_1939_air_legacy"
+			set_technology = {
+	early_fighter = 1
+    tech_support = 1
+    gw_artillery = 1
+    rations = 1
+				fighter1 = 1
+				early_bomber = 1
+				tactical_bomber1 = 1
+			}
+		}
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_dlc = "No Step Back"
+			}
+		}
+		set_technology = {
+	early_fighter = 1
+    tech_support = 1
+    gw_artillery = 1
+    rations = 1
+			basic_light_tank = 1
+	
+		}
+		set_oob = "HUN_1939"
+	}
+	if = {
+		limit = {
+			
+			has_dlc = "No Step Back"
+			
+		}
+		set_technology = {
+	early_fighter = 1
+    tech_support = 1
+    gw_artillery = 1
+    rations = 1
+			basic_light_tank_chassis = 1
+	
+		}
+
+		create_equipment_variant = {
+			name = "Toldi 38M"
+			type = light_tank_chassis_1
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_small_cannon
+				turret_type_slot = tank_light_two_man_tank_turret
+				suspension_type_slot = tank_torsion_bar_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_diesel_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 3
+				tank_nsb_armor_upgrade = 2
+			}
+			icon = "GFX_generic_light_BAA_camo"
+		}
+		set_oob = "HUN_1939_nsb"
+	}
 }
 
 set_politics = {
@@ -167,82 +287,41 @@ set_popularities = {
 }
 
 #Start Horty as neutral if DOD
-if = {
-	limit = {
-		has_dlc = "Death or Dishonor"
-	}
-	create_country_leader = {
-		name = "Miklós Horthy"
-		desc = "POLITICS_MIKLOS_HORTHY_DESC"
-		picture = "Portrait_Hungary_Miklos_Horthy.dds"
-		expire = "1965.1.1"
-		ideology = oligarchism
-		traits = {
-			fascist_sympathies
-			anti_communist
-		}
-		id = 500 #Horthy Neutral
-	}
-	else = {
-		create_country_leader = {
-			name = "Miklós Horthy"
-			desc = "POLITICS_MIKLOS_HORTHY_DESC"
-			picture = "Portrait_Hungary_Miklos_Horthy.dds"
-			expire = "1965.1.1"
-			ideology = despotism
-		}
-		create_country_leader = {
-			name = "Miklós Horthy"
-			desc = "POLITICS_MIKLOS_HORTHY_DESC"
-			picture = "Portrait_Hungary_Miklos_Horthy.dds"
-			expire = "1965.1.1"
-			ideology = fascism_ideology
-		}
-	}
-}
-
-create_country_leader = {
-	name = "Mátyás Rákosi"
-	desc = "POLITICS_MATYAS_RAKOSKI_DESC"
-	picture = "Portrait_Hungary_Matyas_Rakoski.dds"
-	expire = "1965.1.1"
-	ideology = stalinism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Árpád Szakasits"
-	desc = "POLITICS_ARPAD_SZAKASITS_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	expire = "1965.1.1"
-	ideology = socialism
-	traits = {
-		#
-	}
-}
+recruit_character = HUN_miklos_horthy
+recruit_character = HUN_matyas_rakosi
+recruit_character = HUN_arpad_szakasits
+recruit_character = HUN_geza_lakatos
+recruit_character = HUN_ivan_hindy
+recruit_character = HUN_karoly_beregfy
+recruit_character = HUN_lajos_veress
+recruit_character = HUN_ferenc_feketehalmyczeydner
+recruit_character = HUN_istvan_szechenyi
+recruit_character = HUN_francois_deak
+recruit_character = HUN_gyorgy_jendrassik
+recruit_character = HUN_jeno_ratz
+recruit_character = HUN_henrik_werth
+recruit_character = HUN_hugo_sonyi
+recruit_character = HUN_ferenc_szombathelyi
+recruit_character = HUN_gusztav_jany
+recruit_character = HUN_dezso_laszlo
+recruit_character = HUN_reszo_kastner
+recruit_character = HUN_shvoy_kalman
+recruit_character = HUN_sandor_magyarossy
+recruit_character = HUN_bela_rakosi
+recruit_character = HUN_kalman_kanya
+recruit_character = HUN_jozsef_szell
+recruit_character = HUN_vilmos_roder
+recruit_character = HUN_zoltan_tildy
+recruit_character = HUN_laszlo_rajk
+recruit_character = HUN_kalman_daranyi
+recruit_character = HUN_lajos_remenyi_schneller
+recruit_character = HUN_gusztav_gratz
+recruit_character = HUN_gyula_gombos_de_jakfa
+recruit_character = HUN_otto_von_habsburg
+recruit_character = HUN_franz_friedrich
+recruit_character = HUN_max_lorenz
 
 1939.1.1 = {
-	if = {
-		limit = {
-			has_dlc = "Death or Dishonor"
-		}
-		#Remove neutral Horty add fascist
-		retire_country_leader = yes
-		create_country_leader = {
-			name = "Miklós Horthy"
-			desc = "POLITICS_MIKLOS_HORTHY_DESC"
-			picture = "Portrait_Hungary_Miklos_Horthy.dds"
-			expire = "1965.1.1"
-			ideology = fascism_ideology
-			traits = {
-				anti_communist
-			}
-			id = 503 #Horty fascist
-		}
-	}
-
 	set_politics = {
 		ruling_party = fascism
 		last_election = "1939.5.29"
@@ -254,92 +333,4 @@ create_country_leader = {
 		fascism = 70
 		communism = 3
 	}
-}
-
-
-create_field_marshal = {
-	name = "Barta Lovász"
-	traits = { defensive_doctrine urban_assault_specialist old_guard }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "János Zentai"
-	traits = { trait_cautious armor_officer }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Pista Albert"
-	traits = { trickster armor_officer brilliant_strategist trait_engineer }
-	skill = 4
-	#id = 5
-	attack_skill = 2
-	defense_skill = 4
-	planning_skill = 3
-	logistics_skill = 4
-}
-
-create_corps_commander = {
-	name = "Misi Sarka"
-	traits = { harsh_leader trait_cautious }
-	skill = 4
-	#id = 9
-	attack_skill = 4
-	defense_skill = 3
-	planning_skill = 4
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Alex Szarka"
-	traits = { infantry_officer }
-	skill = 3
-	#id = 21
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 1
-	logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "Izsák Hegedűs"
-	traits = { armor_officer career_officer trait_cautious }
-	skill = 4
-	#id = 25
-	attack_skill = 4
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 3
-}
-
-create_navy_leader = {
-	name = "Gál Sarkozy"
-
-	traits = { naval_lineage battleship_adherent }
-	skill = 4
-	#id = 27
-	attack_skill = 3
-	defense_skill = 4
-	maneuvering_skill = 3
-	coordination_skill = 3
-}
-
-create_navy_leader = {
-	name = "Peti Vadas"
-	traits = { gentlemanly navy_career_officer superior_tactician }
-	skill = 3
-	#id = 31
-	attack_skill = 4
-	defense_skill = 1
-	maneuvering_skill = 1
-	coordination_skill = 4
 }

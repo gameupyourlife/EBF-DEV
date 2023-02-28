@@ -11,8 +11,6 @@ state={
 		grain = 5
 		wood = 25
 	}
-	state_category = town
-	
 
 	history={
 		owner = CRO

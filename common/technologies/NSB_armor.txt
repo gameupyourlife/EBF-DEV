@@ -990,6 +990,11 @@ technologies = {
 			super_heavy_tank_aa_chassis_1
 		}
 
+		path = {
+			leads_to_tech = ultra_heavy_tank
+			research_cost_coeff = 1
+		}
+
 		enable_subunits = {
 			super_heavy_armor
 		}

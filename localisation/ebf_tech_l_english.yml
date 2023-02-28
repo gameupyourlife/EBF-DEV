@@ -1,8 +1,8 @@
 ﻿l_english:
 
 #Tech
-rations_equipment_x:0 "Rations"
-rations_equipment_x_y:0 "Canned Rations"
+rations_equipment_1:0 "Rations"
+rations_equipment_2:0 "Canned Rations"
 rations_equipment:0 "Rations"
 rations:0 "Rations"
 rations_a:0 "Canned Rations"
@@ -33,10 +33,17 @@ modern_tank_artillery_equipment_x:0 "Modern Tank 2 Artillery"
 modern_tank_aa_equipment_x:0 "Modern Tank 2 Anti Air"
 
 ultra_heavy_armor:0 "Ultra Heavy Tank"
+tank_designer_ultra_heavy_tank_chassis:0 "Ultra Heavy Tank"
+ultra_heavy_tank_chassis:0 "Ultra Heavy Tank"
+ultra_heavy_tank_chassis_1:0 "Ultra Heavy Tank"
 ultra_heavy_sp_artillery_brigade:0 "Ultra Heavy SP Artillery"
 ultra_heavy_sp_anti_air_brigade:0 "Ultra Heavy SP Anti-Air"
 ultra_heavy_tank_destroyer_brigade:0 "Ultra Heavy Tank Destroyer"
 
+tank_ultra_heavy_four_man_tank_turret:0 "Ultra Heavy Four Men Tank Turret"
+tank_ultra_heavy_cannon:0 "Ultra Heavy Cannon"
+EQ_MOD_CAT_tank_ultra_heavy_main_armament_TITLE:0 "Ultra Heavy Armaments"
+EQ_MOD_CAT_tank_ultra_heavy_turret_type_TITLE:0 "Ultra Heavy Turret Type"
 
 
 

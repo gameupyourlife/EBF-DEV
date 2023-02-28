@@ -18,6 +18,7 @@ add_core_of = KYR # SOV
 
 		}
 		add_core_of = SOV
+		add_core_of = KOM
 	}
 
 	provinces = {

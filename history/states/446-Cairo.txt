@@ -1,8 +1,8 @@
-state=
-{
+
+state={
 	id=446
 	name="STATE_446"
-	manpower = 6586596
+	manpower = 131732
 	resources = {
 		grain = 05
 		wood = 0
@@ -24,28 +24,22 @@ add_core_of = SAU # ENG
 		}
 		
 		victory_points = {
-			7011 20
+			12049 5 
 		}
+		
 		victory_points = {
-			12049 5
+			4073 3 
 		}
-		victory_points = {
-			3996 5
-		}
-		victory_points = {
-			4073 3
-		}
-		victory_points = {
-			1068 3
-		}
-
+		
 		add_core_of = EGY
 
 	}
 
 	provinces={
-		1068 3996 4055 4073 4143 7011 7188 10005 10031 12004 12049 992 7117
+		1155 4073 9947 12049 
 	}
 
-	local_supplies=0.0 
+	buildings_max_level_factor=1.000
+	
+	local_supplies=0.000
 }

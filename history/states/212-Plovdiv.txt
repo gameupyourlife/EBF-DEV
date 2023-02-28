@@ -4,7 +4,7 @@ state={
 	name="STATE_212"
 	manpower = 1814936
 	
-	state_category = large_town
+	state_category = megalopolis
 
 	resources={
 		steel=60 # was: 4
@@ -22,7 +22,7 @@ state={
 			9862 1
 		}
 		buildings = {
-			infrastructure = 8
+			infrastructure = 2
 			arms_factory = 5
 			industrial_complex =2
 			air_base = 2
@@ -34,5 +34,6 @@ state={
 		878 893 3937 6814 6857 6923 6952 6982 9818 9862 11813 
 	}
 
+	buildings_max_level_factor=2.000
 	local_supplies=5.0 
 }

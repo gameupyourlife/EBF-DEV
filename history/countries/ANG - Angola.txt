@@ -1,22 +1,55 @@
 ﻿capital = 540
 
 oob = "ANG_1936"
-set_naval_oob = "BUL_1936_naval"
 
 # Starting tech
 set_technology = {
+	early_fighter = 1
+    tech_support = 1
+    gw_artillery = 1
     rations = 1
-gw_artillery = 1
 	infantry_weapons = 1
 	tech_mountaineers = 1
-	early_fighter = 1
-	tech_support = 1
-
-	early_ship_hull_light = 1
-	early_ship_hull_submarine = 1
 }
 
-set_convoys = 5
+set_convoys = 200 #5
+
+if = {
+	limit = { NOT = { has_dlc = "By Blood Alone" } }
+	create_equipment_variant = {
+		name = "He 112"
+		type = fighter_equipment_1
+		upgrades = {
+			plane_gun_upgrade = 1
+			plane_range_upgrade = 1  
+			plane_engine_upgrade = 0
+			plane_reliability_upgrade = 2
+		}
+	}
+}
+
+
+recruit_character = ANG_acgs
+recruit_character = ANG_ncm
+recruit_character = ANG_mt
+recruit_character = ANG_nt
+recruit_character = ANG_ai2
+recruit_character = ANG_fascist_guy
+recruit_character = ANG_stc
+recruit_character = ANG_communist_guy
+recruit_character = ANG_aa2
+recruit_character = ANG_ar
+recruit_character = ANG_acd2
+recruit_character = ANG_acr
+recruit_character = ANG_coi
+recruit_character = ANG_acas
+recruit_character = ANG_awt
+recruit_character = ANG_pot
+recruit_character = ANG_nccr
+recruit_character = ANG_aco2
+recruit_character = ANG_democratic_guy
+recruit_character = ANG_ncs
+
 
 1939.1.1 = {
 	#generic focuses
@@ -31,6 +64,9 @@ set_convoys = 5
 	complete_national_focus = production_effort
 	
 	set_technology = {
+	early_fighter = 1
+    tech_support = 1
+    gw_artillery = 1
     rations = 1
 
 		#doctrines
@@ -66,15 +102,12 @@ set_popularities = {
 create_country_leader = {
 	
 	name = "Jonas Lote"
-	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
+	picture = GFX_portrait_Jonas_Lote
 	expire = "1965.1.1"
 	ideology = centrism
 	traits = {
 		#
 	}
-}
-
-
 }
 
 

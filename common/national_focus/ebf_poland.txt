@@ -1007,7 +1007,7 @@
 		}
 
 		completion_reward = {
-
+			add_country_leader_trait = appeaser
 		}
 	}
 

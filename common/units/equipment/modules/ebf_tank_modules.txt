@@ -1,0 +1,48 @@
+equipment_modules = {
+	tank_ultra_heavy_four_man_tank_turret = {
+		abbreviation = "u4m"
+		category = tank_ultra_heavy_turret_type
+		sfx = sfx_ui_sd_module_turret
+
+		allowed_module_categories = {
+			main_armament_slot = {
+				tank_ultra_heavy_main_armament
+			}
+		}
+		add_stats = {
+			build_cost_ic = 20
+			reliability = -0.35
+			maximum_speed = -0.5
+			breakthrough = 70
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 2
+		multiply_stats = {
+			
+		}
+	}
+
+
+	###Weapons
+
+	tank_ultra_heavy_cannon = {
+		abbreviation = "uh1"
+		category = tank_ultra_heavy_main_armament
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			soft_attack = 70
+			hard_attack = 90
+			ap_attack = 350
+			build_cost_ic = 40
+			maximum_speed = -0.6
+			reliability = -0.50
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		build_cost_resources = {
+			tungsten = 7
+			chromium = 4
+		}
+	}
+}

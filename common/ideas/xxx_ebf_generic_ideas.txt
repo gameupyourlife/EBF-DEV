@@ -756,18 +756,7 @@ ideas = {
 
 			cost = 50
 
-			equipment_bonus = {
-				fighter_equipment = {
-					instant = yes
-					fuel_consumption = -0.1
-				}
-				heavy_fighter_equipment = {
-					instant = yes
-					fuel_consumption = -0.1
-				}
-			}
-
-			traits = { air_pilot_training_2 }
+			traits = { air_pilot_training_2 air_efficent_flying }
 			
 		}
 		

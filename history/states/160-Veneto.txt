@@ -1,7 +1,7 @@
-state={
-	id=160
-	name="STATE_160"
-	resources={
+state = {
+	id = 160
+	name = "STATE_160"
+	resources = {
 		steel=20 # was: 32.000
 		
 			grain = 18
@@ -16,6 +16,13 @@ state={
 		victory_points = {
 			11584 10 
 		}
+		victory_points = { #Padova
+			3604 3 
+		}
+		victory_points = { #Verona
+			603 1
+		}
+
 		buildings = {
 			infrastructure = 3 #was: 6
 			arms_factory = 2
@@ -41,7 +48,7 @@ state={
 
 	}
 
-	provinces={
+	provinces = {
 		603 628 3604 3657 6656 9582 9613 11584 
 	}
 	manpower=3963151

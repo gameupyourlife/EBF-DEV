@@ -190,7 +190,7 @@ PRODUCTION_MATERIALS_COAL:0 "Coal"
 
 #Units
 
-
+ GER_mobilise_the_reserves_tt:0 "Gain 12 more Landsturmregimente"
 
  #TODO
  GER_fund_the_prussian_acadamy_idea_desc:0 ""
@@ -213,3 +213,4 @@ PRODUCTION_MATERIALS_COAL:0 "Coal"
  GER_german_army_idea_desc:0 ""
  GER_decisons_should_be_made_idea:0 "Decisions should be made"
  GER_decisons_should_be_made_idea_desc:0 ""
+

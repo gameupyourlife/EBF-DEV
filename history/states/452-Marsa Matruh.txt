@@ -14,10 +14,14 @@ add_core_of = SAU # ENG
 		}
 
 		victory_points = {
-			9989 1
+			10061 2 # Mersa Matruh
 		}
 
-	add_core_of = EGY
+		victory_points = {
+			9989 1 #Sidi Barrani
+		}
+
+		add_core_of = EGY
 	}
 
 	provinces={

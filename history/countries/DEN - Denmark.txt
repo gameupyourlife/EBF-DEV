@@ -8,18 +8,52 @@ if = {
 		set_naval_oob = "DEN_1936_naval_legacy"
 	}
 }
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "DEN_1936_air_bba"
+	else = {
+		set_air_oob = "DEN_1936_air_legacy"
+		set_technology = {
+	early_fighter = 1
+    tech_support = 1
+    gw_artillery = 1
+    rations = 1
+			early_fighter = 1
+			cv_early_fighter = 1
 
-add_ideas = {
-	HOL_wilhelmina
-	hol_cons
-	tot_economic_mobilisation
+		}
+	}
 }
+
+recruit_character = DEN_thorvald_stauning
+recruit_character = DEN_frits_clausen
+recruit_character = DEN_aksel_larsen
+recruit_character = DEN_peter_rochegune_munch
+recruit_character = DEN_wilhelm_wain_prior
+recruit_character = DEN_carl_hammerich
+recruit_character = DEN_kaj_birksted
+recruit_character = DEN_hans_a_rolsted
+recruit_character = DEN_christian_frederik_von_schalburg
+recruit_character = DEN_hans_lunding
+recruit_character = DEN_ebbe_gortz
+recruit_character = DEN_paul_sommer
+recruit_character = DEN_hjalmar_rechnitzer
+recruit_character = DEN_poul_sommer
+recruit_character = DEN_william_wain_prior
+recruit_character = DEN_aage_vedel
+recruit_character = DEN_wilhelm_prior
+recruit_character = DEN_ejnar_warum
+recruit_character = DEN_viggo_kampman
+recruit_character = DEN_knud_kristensen
 
 
 set_research_slots = 3
 set_stability = 0.9
 set_war_support = 0.1
 set_technology = {
+	early_fighter = 1
+    tech_support = 1
+    gw_artillery = 1
     rations = 1
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -28,12 +62,13 @@ set_technology = {
 	tech_engineers = 1
 	gw_artillery = 1
 	interwar_antiair = 1
-	early_fighter = 1
-	cv_early_fighter = 1
 }
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
 	set_technology = {
+	early_fighter = 1
+    tech_support = 1
+    gw_artillery = 1
     rations = 1
 		early_submarine = 1
 		early_destroyer = 1
@@ -44,6 +79,9 @@ if = {
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	set_technology = {
+	early_fighter = 1
+    tech_support = 1
+    gw_artillery = 1
     rations = 1
 		basic_naval_mines = 1
 		submarine_mine_laying = 1
@@ -51,7 +89,6 @@ if = {
 		early_ship_hull_submarine = 1
 		early_ship_hull_cruiser = 1
 		basic_battery = 1
-		basic_secondary_battery = 1
 		basic_cruiser_armor_scheme = 1
 		basic_torpedo = 1
 		coastal_defense_ships = 1
@@ -63,6 +100,7 @@ if = {
 1939.1.1 = {
 
 	add_political_power = 1198
+	add_command_power = 100
 	
 	#generic focuses
 	complete_national_focus = army_effort
@@ -83,10 +121,28 @@ if = {
 			set_naval_oob = "DEN_1939_naval_legacy"
 		}
 	}
+	if = {
+		limit = { has_dlc = "By Blood Alone" }
+			set_air_oob = "DEN_1939_air_bba"
+		else = {
+			set_air_oob = "DEN_1939_air_legacy"
+			set_technology = {
+	early_fighter = 1
+    tech_support = 1
+    gw_artillery = 1
+    rations = 1
+				early_bomber = 1
+
+			}
+		}
+	}
+
 
 	set_technology = {
+	early_fighter = 1
+    tech_support = 1
+    gw_artillery = 1
     rations = 1
-		early_bomber = 1
 		gw_artillery = 1
 		interwar_artillery = 1
 		infantry_weapons2 = 1
@@ -125,6 +181,9 @@ if = {
 	if = {
 		limit = { not = { has_dlc = "Man the Guns" } }
 		set_technology = {
+	early_fighter = 1
+    tech_support = 1
+    gw_artillery = 1
     rations = 1
 			basic_submarine = 1
 		}
@@ -132,6 +191,9 @@ if = {
 	if = {
 		limit = { has_dlc = "Man the Guns" }
 		set_technology = {
+	early_fighter = 1
+    tech_support = 1
+    gw_artillery = 1
     rations = 1
 			basic_ship_hull_submarine = 1
 		}
@@ -140,16 +202,15 @@ if = {
 
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = democratic
 	last_election = "1935.10.22"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 18
+	democratic = 97
 	fascism = 1
 	communism = 2
-	neutrality = 79
 }
 
 
@@ -162,63 +223,7 @@ set_popularities = {
 	}
 }
 
-set_convoys = 40
-
-create_country_leader = {
-	name = "Thorvald Stauning"
-	desc = "POLITICS_THORVALD_STAUNING_DESC"
-	picture = "Portrait_Denmark_Thorvald_Stauning.dds"
-	expire = "1965.1.1"
-	ideology = socialism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Frits Clausen"
-	desc = "POLITICS_FRITS_CLAUSEN_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-	expire = "1965.1.1"
-	ideology = nazism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Aksel Larsen"
-	desc = "POLITICS_AKSEL_LARSEN_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
-	expire = "1965.1.1"
-	ideology = leninism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Peter Rochegune Munch"
-	desc = "POLITICS_PETER_ROCHEGUNE_MUNCH_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
-	expire = "1965.1.1"
-	ideology = centrism
-	traits = {
-		#
-	}
-}
-
-
-create_corps_commander = {
-	name = "Wilhelm Wain Prior"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
-	traits = { trickster }
-	skill = 3
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 2
-}
+set_convoys = 200 #40
 
 ### VARIANTS ###
 # 1936 Start #

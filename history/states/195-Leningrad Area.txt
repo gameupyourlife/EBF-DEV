@@ -17,7 +17,7 @@ state={
 		buildings = {
 			infrastructure = 4 #was: 7
 			arms_factory = 6
-			industrial_complex = 6
+			industrial_complex = 1
 			dockyard = 3
 			air_base = 10
 			3151 ={
@@ -39,5 +39,6 @@ state={
 		79 149 3151 6174 11068 
 	}
 
+	buildings_max_level_factor=2.000
 	local_supplies=11.0 
 }

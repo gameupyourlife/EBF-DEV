@@ -58,27 +58,30 @@ focus_tree = {
 		icon = GFX_focus_ger_oppose_hitler
 
 		available = {
-
-            
-
+			always = yes
 		}
-		x = 4
+
+		x = 8
 		y = 0
 		cost = 10
+
 		ai_will_do = {
-			factor = 7
+			factor = 10
 		}
+
 		search_filters = { FOCUS_FILTER_POLITICAL }
+		### Ad Options for the Polish and/or Hungarian Player to intervene in some way or another
 		completion_reward = {
 			custom_effect_tooltip = GER_oppose_hitler_civil_war
 			effect_tooltip = {
 				GER_remove_mefo_bills = yes
 			}
-			42 = { set_demilitarized_zone = no }
+			57 = { set_demilitarized_zone = no }
+			56 = { set_demilitarized_zone = no }
 			51 = { set_demilitarized_zone = no }
-			add_political_power = 120
+			add_political_power = 150
 			add_named_threat = { threat = 5 name = GER_oppose_hitler }
-			country_event = { id = wtt_germany.1 }
+			country_event = { id = ebf_GER_civil_war.1 }
 			set_politics = {
                 ruling_party = neutrality
                 elections_allowed = no
@@ -93,33 +96,286 @@ focus_tree = {
             }
             add_popularity = {
                 ideology = neutrality
-                popularity = 0.35
+                popularity = 0.4
             }
             add_popularity = {
                 ideology = fascism
                 popularity = 0.1
             }
-            set_stability = 0.9
-            set_war_support = 0.8
+            set_stability = 0.5 # A civil war is always a little messy
+            set_war_support = 0.9
+			hidden_effect = {
+				set_country_flag = GER_impening_civil_war_flag_ebf
+			}
+
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = GER_hans_oster
+		}
+	}
+
+	##############################
+	### Foki during the civil war
+	##############################
+
+	focus = {
+		id = GER_mobilise_the_reserves
+		icon = GFX_focus_eng_expose_the_belly_of_the_bear
+		x = -2
+		y = 1
+		cost = 10
+
+		relative_position_id = GER_oppose_hitler_ebf
+		search_filters = {FOCUS_FILTER_MANPOWER}
+
+		prerequisite = { focus = GER_oppose_hitler_ebf }
+
+		available = {
+            NOT = { has_government = fascism }
+			has_civil_war = yes
+		}
+
+		completion_reward = {
+			army_experience = 20
+			add_stability = -0.05
+			add_war_support = -0.05
+
+			add_named_threat = { threat = 2 name = ebf_ger_mobilise_the_reserves_threat }
+
+			division_template = {
+				division_template = {
+					name = "Landsturmregiment"
+					is_locked = yes
+				
+					division_names_group = GER_Inf_01
+				
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 0 y = 2 }
+						infantry = { x = 0 y = 3 }
+						infantry = { x = 0 y = 4 }
+					}
+				}
+			}
+			capital_scope = {
+				create_unit = {
+					division = "name = \"1. Reservetruppe\" division_template = \"Landsturmregiment\""  
+					owner = ROOT
+				}
+				create_unit = {
+					division = "name = \"2. Reservetruppe\" division_template = \"Landsturmregiment\""  
+					owner = ROOT
+				}
+				create_unit = {
+					division = "name = \"3. Reservetruppe\" division_template = \"Landsturmregiment\""  
+					owner = ROOT
+				}
+				create_unit = {
+					division = "name = \"4. Reservetruppe\" division_template = \"Landsturmregiment\""  
+					owner = ROOT
+				}
+				create_unit = {
+					division = "name = \"5. Reservetruppe\" division_template = \"Landsturmregiment\""  
+					owner = ROOT
+				}
+				create_unit = {
+					division = "name = \"6. Reservetruppe\" division_template = \"Landsturmregiment\""  
+					owner = ROOT
+				}
+				create_unit = {
+					division = "name = \"7. Reservetruppe\" division_template = \"Landsturmregiment\""  
+					owner = ROOT
+				}
+				create_unit = {
+					division = "name = \"8. Reservetruppe\" division_template = \"Landsturmregiment\""  
+					owner = ROOT
+				}
+				create_unit = {
+					division = "name = \"9. Reservetruppe\" division_template = \"Landsturmregiment\""  
+					owner = ROOT
+				}
+				create_unit = {
+					division = "name = \"10. Reservetruppe\" division_template = \"Landsturmregiment\""  
+					owner = ROOT
+				}
+				create_unit = {
+					division = "name = \"11. Reservetruppe\" division_template = \"Landsturmregiment\""  
+					owner = ROOT
+				}
+				create_unit = {
+					division = "name = \"12. Reservetruppe\" division_template = \"Landsturmregiment\""  
+					owner = ROOT
+				}
+			}
 		}
 	}
 
 	focus = {
-		id = GER_go_with_other_wip
-		icon = GFX_focus_spr_the_anti_fascist_workers_revolution
+		id = GER_secure_the_food_supply
+		icon = GFX_goal_generic_construct_civ_factory
 		x = 2
 		y = 1
+		cost = 10
+
+		relative_position_id = GER_oppose_hitler_ebf
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+
+		prerequisite = { focus = GER_oppose_hitler_ebf }
+
+		available = {
+            NOT = { has_government = fascism }
+			has_civil_war = yes
+		}
+
+		mutually_exclusive = {
+			focus = GER_militarise_the_economy
+		}
+
+		complete_tooltip = {
+			every_state = {
+				limit = { has_state_flag = GER_secure_the_food_supply_flag }
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}	
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 2
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = GER_secure_the_food_supply_flag
+				prioritize = { 58 }
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = GER_secure_the_food_supply_flag
+				prioritize = { 51 }
+			}
+		}
+	}
+
+	focus = {
+		id = GER_militarise_the_economy
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 0
+		y = 1
+		cost = 10
+
+		relative_position_id = GER_oppose_hitler_ebf
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+
+		prerequisite = { focus = GER_oppose_hitler_ebf }
+
+		available = {
+            NOT = { has_government = fascism }
+			has_civil_war = yes
+		}
+
+		mutually_exclusive = {
+			focus = GER_secure_the_food_supply
+		}
+
+		complete_tooltip = {
+			every_state = {
+				limit = { has_state_flag = GER_militarise_the_economy_flag }
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}	
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = GER_militarise_the_economy_flag
+				prioritize = { 58 }
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = GER_militarise_the_economy_flag
+				prioritize = { 51 }
+			}
+		}
+	}
+
+
+	##############################
+	### Choose Leaders after civil war
+	##############################
+
+	focus = {
+		id = GER_go_with_other_wip
+		icon = GFX_focus_spr_the_anti_fascist_workers_revolution
+		x = 4
+		y = 2
 		cost = 1
 
 		relative_position_id = GER_oppose_hitler_ebf
 
 		prerequisite = { focus = GER_oppose_hitler_ebf }
+		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		available = {
             has_government = neutrality
 			always = no
 			has_civil_war = no
-			NOT = { has_country_flag = GER_impening_civil_war_flag_ebf }
+			hidden_trigger = {
+				NOT = { has_country_flag = GER_impening_civil_war_flag_ebf }
+			}
 		}
 
 		mutually_exclusive = {
@@ -127,27 +383,31 @@ focus_tree = {
 		}
 
 		completion_reward = {
-		#Mackensen und Karl der III als Leader
+			#1. Mackensen -> Militärregierung / Faschismus
+			#2. Kommunismus 
 		}
 	}
 
 	focus = {
 		id = GER_go_with_the_hohenzollern
 		icon = GFX_goal_generic_political_pressure
-		x = -2
-		y = 1
+		x = -4
+		y = 2
 		cost = 1
 
 		relative_position_id = GER_oppose_hitler_ebf
 
 		prerequisite = { focus = GER_oppose_hitler_ebf }
+		search_filters = { FOCUS_FILTER_POLITICAL }
 			
 		
 
 		available = {
             has_government = neutrality
 			has_civil_war = no
-			NOT = { has_country_flag = GER_impening_civil_war_flag_ebf }
+			hidden_trigger = {
+				NOT = { has_country_flag = GER_impening_civil_war_flag_ebf }
+			}
 		}
 
 		mutually_exclusive = {
@@ -167,6 +427,7 @@ focus_tree = {
 		cost = 1
 
 		relative_position_id = GER_go_with_the_hohenzollern
+		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		prerequisite = { focus = GER_go_with_the_hohenzollern }
 			
@@ -203,6 +464,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		cost = 1
+		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		relative_position_id = GER_go_with_the_hohenzollern
 
@@ -239,7 +501,7 @@ focus_tree = {
 	focus = {
 		id = GER_start_recovery
 		icon = GFX_focus_secret_rearmament
-		x = 27
+		x = 37
 		y = 0
 		cost = 1
 
@@ -255,6 +517,9 @@ focus_tree = {
 
 
 		completion_reward = {
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = GER_alfred_hugenberg
+			show_ideas_tooltip = GER_carl_friedrich_goerdeler
 		}
 	}
 
@@ -1285,6 +1550,8 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			custom_effect_tooltip = available_chief_of_airforce
+			show_ideas_tooltip = hugo_sperrle
 			add_ideas = GER_the_imperial_luftwaffe_idea
 		}
 	}
@@ -1416,7 +1683,7 @@ focus_tree = {
 					level = 3
 					instant_build = yes
 				}
-			}			
+			}		
 			add_ideas = GER_the_german_war_machine_idea
 		}
 
@@ -1438,6 +1705,8 @@ focus_tree = {
 				set_state_flag = GER_prioritize_army2IC
 				prioritize = { 64 }
 			}
+			custom_effect_tooltip = available_military_high_command
+			show_ideas_tooltip = erwin_rommel
 			add_ideas = GER_the_german_war_machine_idea
 		}
 	}
@@ -2369,6 +2638,8 @@ focus_tree = {
 				uses = 2
 				category = airship
 			}
+			custom_effect_tooltip = available_military_high_command
+			show_ideas_tooltip = ritter_von_greim
 		}
 	}
 
@@ -2491,7 +2762,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = GER_world_war_tow_tactics
+		id = GER_world_war_two_tactics
 		icon = GFX_focus_generic_army_tanks2
 		x = 0
 		y = 1
@@ -2519,6 +2790,9 @@ focus_tree = {
 				uses = 1
 				category = armor
 			}
+
+			custom_effect_tooltip = available_chief_of_army
+			show_ideas_tooltip = walther_von_brauchitsch
 		}
 	}
 
@@ -2697,7 +2971,7 @@ focus_tree = {
 	focus = {
 		id = GER_the_one_and_only
 		icon = GFX_focus_generic_royal_wedding
-		x = 54
+		x = 64
 		y = 0
 		cost = 10
 

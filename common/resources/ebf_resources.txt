@@ -1,0 +1,31 @@
+resources = {
+	grain = {
+		icon_frame = 7
+		cic = 0.125
+		convoys = 0.1
+	}
+
+	copper = {
+		icon_frame = 8
+		cic = 0.125
+		convoys = 0.1
+	}
+
+	wood = {
+		icon_frame = 9
+		cic = 0.125
+		convoys = 0.1
+	}
+
+	coal = {
+		icon_frame = 10
+		cic = 0.125
+		convoys = 0.1
+	}
+
+	uran = {
+		icon_frame = 11
+		cic = 1.0
+		convoys = 1.0
+	}
+}

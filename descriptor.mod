@@ -4,4 +4,6 @@ tags={
 	"National Focuses"
 }
 name="EBF-DEV"
-supported_version="1.12.7"
+supported_version="1.12.*"
+replace_path="history/states"
+replace_path="gfx/loadingscreens"

@@ -4,13 +4,8 @@ state={
 	name="STATE_810"
 
 	history={
-		owner = LAT
-		victory_points = {
-			6222 3 #Jelgava
-		}
-		victory_points = {
-			3255 1 #Jekabpils
-		}
+		owner = DEN
+		add_core_of = DEN
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1

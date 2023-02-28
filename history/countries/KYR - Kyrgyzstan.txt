@@ -1,19 +1,53 @@
-﻿capital = 398
+﻿capital = 651
 
-oob = "KYR_1936"
+#oob = ""
 
 # Starting tech
 set_technology = {
+	early_fighter = 1
+	early_fighter = 1
+    tech_support = 1
+    gw_artillery = 1
     rations = 1
 	infantry_weapons = 1
-	tech_support = 1
-	gw_artillery = 1
-	early_fighter = 1
-	early_ship_hull_light = 1
-	early_ship_hull_submarine = 1
 }
 
-set_convoys = 5
+set_convoys = 200 #5
+
+recruit_character = KYR_ncs
+recruit_character = KYR_pot
+recruit_character = KYR_nccr
+recruit_character = KYR_fascist_guy
+recruit_character = KYR_coi
+recruit_character = KYR_ai2
+recruit_character = KYR_democratic_guy
+recruit_character = KYR_ar
+recruit_character = KYR_acgs
+recruit_character = KYR_awt
+recruit_character = KYR_acd2
+recruit_character = KYR_nt
+recruit_character = KYR_aco2
+recruit_character = KYR_acas
+recruit_character = KYR_acr
+recruit_character = KYR_mt
+recruit_character = KYR_stc
+recruit_character = KYR_aa2
+recruit_character = KYR_ncm
+recruit_character = KYR_communist_guy
+
+if = {
+	limit = { NOT = { has_dlc = "By Blood Alone" } }
+	create_equipment_variant = {
+		name = "He 112"
+		type = fighter_equipment_1
+		upgrades = {
+			plane_gun_upgrade = 1
+			plane_range_upgrade = 1  
+			plane_engine_upgrade = 0
+			plane_reliability_upgrade = 2
+		}
+	}
+}
 
 1939.1.1 = {
 	#generic focuses
@@ -28,6 +62,9 @@ set_convoys = 5
 	complete_national_focus = production_effort
 	
 	set_technology = {
+	early_fighter = 1
+    tech_support = 1
+    gw_artillery = 1
     rations = 1
 
 		#doctrines

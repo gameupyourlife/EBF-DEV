@@ -1,0 +1,156 @@
+ebf_ger_civil_war_decisions = {
+	ebf_ger_civil_war_steal_nazi_plans = {
+		icon = GFX_decision_icon_default
+		available = {
+			hidden_trigger = {
+				original_tag = GER
+				is_ai = no
+			}
+			has_civil_war = yes
+			has_government = neutrality
+		}
+		cost = 50
+		visible = {
+			GER = {
+				NOT = {
+					has_country_flag = ebf_ger_civil_war_steal_nazi_plans_flag
+				}
+			}
+			original_tag = GER
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				set_country_flag = ebf_ger_civil_war_steal_nazi_plans_flag
+			}
+			army_experience = 15
+			add_timed_idea = { idea = ebf_ger_civil_war_steal_nazi_plans_idea days = 90 } 
+		}
+	}
+
+	ebf_ger_civil_war_charge_in = {
+		icon = GFX_decision_icon_default
+		available = {
+			hidden_trigger = {
+				original_tag = GER
+				is_ai = no
+			}
+			has_civil_war = yes
+			has_government = neutrality
+		}
+		cost = 100
+		visible = {
+			GER = {
+				NOT = {
+					has_country_flag = ebf_ger_civil_charge_in_flag
+				}
+			}
+			original_tag = GER
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				set_country_flag = ebf_ger_civil_charge_in_flag
+			}
+			add_timed_idea = { idea = ebf_ger_civil_charge_in_idea  days = 90 } 
+		}
+	}
+
+	ebf_ger_civil_war_deliver_killing_blow = {
+		icon = GFX_decision_icon_default
+		available = {
+			hidden_trigger = {
+				original_tag = GER
+				is_ai = no
+			}
+			has_civil_war = yes
+			has_government = neutrality
+			any_other_country = {
+				original_tag = GER
+				has_government = fascism
+				surrender_progress > 0.5
+			}
+		}
+		cost = 150
+		visible = {
+			GER = {
+				NOT = {
+					has_country_flag = ebf_ger_civil_war_deliver_killing_blow
+				}
+			}
+			original_tag = GER
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				set_country_flag = ebf_ger_civil_war_deliver_killing_blow
+			}
+			add_war_support = 0.05
+			add_timed_idea = { idea = ebf_ger_civil_war_deliver_final_blow_idea days = 90 }
+		}
+	}
+
+	ebf_ger_civil_war_send_weapons_to_ger = {
+		icon = GFX_decision_icon_default
+		available = {
+			is_ai = no
+			NOT = { original_tag = GER }
+			GER =  {
+				has_civil_war = yes
+			}
+		}
+		cost = 50
+		visible = {
+			NOT = {
+				has_country_flag = ebf_ger_civil_war_send_weapons_to_ger_flag
+			}
+			NOT = { original_tag = GER }
+			GER =  {
+				has_civil_war = yes
+			}
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				set_country_flag = ebf_ger_civil_war_send_weapons_to_ger_flag
+			}
+			send_equipment = {
+			    equipment = infantry_equipment
+			    amount = 5000
+			    target = GER
+			}
+		}
+	}
+
+	ebf_ger_civil_war_send_weapons_to_nazi_ger = {
+		icon = GFX_decision_icon_default
+		available = {
+			is_ai = no
+			NOT = { original_tag = GER }
+			GER =  {
+				has_civil_war = yes
+			}
+		}
+		cost = 50
+		visible = {
+			NOT = {
+				has_country_flag = ebf_ger_civil_war_send_weapons_to_ger_flag
+			}
+			NOT = { original_tag = GER }
+			GER =  {
+				has_civil_war = yes
+			}
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				set_country_flag = ebf_ger_civil_war_send_weapons_to_ger_flag
+			}
+			send_equipment = {
+			    equipment = infantry_equipment
+			    amount = 5000
+			    target = var:ebf_ger_civil_war_facist_country
+			}
+		}
+	}
+}

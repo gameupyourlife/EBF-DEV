@@ -1,0 +1,27 @@
+characters={
+	HUN_max_lorenz={
+		name=HUN_max_lorenz
+		portraits={
+			civilian={
+				large=GFX_generic_political_advisor_europe_3
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = max_lorenz
+			cost = 75.000
+			allowed = {
+				original_tag = HUN
+			}
+			available = {
+				has_completed_focus = HUN_appoint_economic_minister 
+			}
+			traits = {
+				captain_of_industry2
+			}
+			ai_will_do = {
+				factor = 4.000
+			}
+		}
+	}
+}
