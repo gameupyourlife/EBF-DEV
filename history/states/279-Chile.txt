@@ -33,7 +33,6 @@ add_core_of = ARG # CHL
 				bunker = 1
 			}
 		}
-		add_core_of = CHL
 		victory_points = {
 			650 10
 		}

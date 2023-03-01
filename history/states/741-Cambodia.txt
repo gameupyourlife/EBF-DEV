@@ -7,7 +7,6 @@ state={
 		coal = 0
 	}
 	history = {
-		add_core_of = CAM
 		owner = VIN #
 		add_core_of = VIN # FRA
 		victory_points = {

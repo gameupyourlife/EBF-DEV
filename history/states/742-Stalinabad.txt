@@ -3,7 +3,6 @@ state = {
 	name = "STATE_742"
 
 	history={
-		add_core_of = TAJ
 		owner = KAZ #
 		add_core_of = KAZ # SOV
 		victory_points = {
@@ -13,9 +12,6 @@ state = {
 			infrastructure = 1
 
 		}
-		add_core_of = SOV
-		add_core_of = TAJ
-		add_core_of = BUK
 
 	}
 

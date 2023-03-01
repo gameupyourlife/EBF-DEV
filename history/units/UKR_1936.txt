@@ -30,7 +30,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 19
 		}
-		location = 525
+        location = 270
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
@@ -39,7 +39,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 19
 		}
-		location = 525
+        location = 11387
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
@@ -48,7 +48,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 19
 		}
-		location = 525
+        location = 9282
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
@@ -57,7 +57,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 19
 		}
-		location = 525
+        location = 6497
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
@@ -66,7 +66,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 19
 		}
-		location = 525
+        location = 11281
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
@@ -75,7 +75,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 19
 		}
-		location = 525
+        location = 6403
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
@@ -84,7 +84,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 19
 		}
-		location = 525
+        location = 11217
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
@@ -93,7 +93,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 19
 		}
-		location = 525
+        location = 11500
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
@@ -102,7 +102,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 19
 		}
-		location = 525
+        location = 10299
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
@@ -111,7 +111,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 19
 		}
-		location = 525
+        location = 6414
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
@@ -120,7 +120,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 19
 		}
-		location = 525
+        location = 11439
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
@@ -129,7 +129,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 19
 		}
-		location = 525
+        location = 11405
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
@@ -138,7 +138,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 19
 		}
-		location = 525
+        location = 11324
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
@@ -147,7 +147,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 20
 		}
-		location = 525
+        location = 365
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
@@ -156,7 +156,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 22
 		}
-		location = 525
+        location = 11273
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
@@ -167,7 +167,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 5
 		}
-		location = 525
+        location = 11217
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
@@ -178,7 +178,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 7
 		}
-		location = 525
+        location = 269
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
@@ -187,7 +187,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 10
 		}
-		location = 525
+        location = 9477
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
@@ -196,7 +196,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 17
 		}
-		location = 525
+        location = 6776
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}			
@@ -205,7 +205,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 17
 	}
-		location = 525
+        location = 3216
 		division_template = "Infanterie-Division" 
 		start_experience_factor = 0.3
 	}

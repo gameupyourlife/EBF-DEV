@@ -26,7 +26,6 @@ add_core_of = SIK # BHU
 		victory_points = {
 			8010 3 
 		}
-		add_core_of = BHU
 	}
 
 	provinces={

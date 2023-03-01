@@ -16,62 +16,62 @@ division_template = {
 units = {
 	division = {
 		name = "1. Reservetruppe"
-		location = 9347
+        location = 11372
 		division_template = "Landsturmregiment"
 	}
 	division = {
 		name = "2. Reservetruppe"
-		location = 9347
+        location = 6236
 		division_template = "Landsturmregiment"
 	}
 	division = {
 		name = "3. Reservetruppe"
-		location = 9347
+        location = 11386
 		division_template = "Landsturmregiment"
 	}
 	division = {
 		name = "4. Reservetruppe"
-		location = 9347
+        location = 6513
 		division_template = "Landsturmregiment"
 	}
 	division = {
 		name = "5. Reservetruppe"
-		location = 9347
+        location = 3351
 		division_template = "Landsturmregiment"
 	}
 	division = {
 		name = "6. Reservetruppe"
-		location = 9347
+        location = 336
 		division_template = "Landsturmregiment"
 	}
 	division = {
 		name = "7. Reservetruppe"
-		location = 9347
+        location = 3499
 		division_template = "Landsturmregiment"
 	}
 	division = {
 		name = "8. Reservetruppe"
-		location = 9347
+        location = 9470
 		division_template = "Landsturmregiment"
 	}
 	division = {
 		name = "9. Reservetruppe"
-		location = 9347
+        location = 11386
 		division_template = "Landsturmregiment"
 	}
 	division = {
 		name = "10. Reservetruppe"
-		location = 9347
+        location = 495
 		division_template = "Landsturmregiment"
 	}
 	division = {
 		name = "11. Reservetruppe"
-		location = 9347
+        location = 349
 		division_template = "Landsturmregiment"
 	}
 	division = {
 		name = "12. Reservetruppe"
-		location = 9347
+        location = 3395
 		division_template = "Landsturmregiment"
 	}
 }

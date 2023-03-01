@@ -32,15 +32,13 @@ state = {
 			13243 1 
 		}
 		
-		owner = SAU
-        add_core_of = SAU # Prev owner:ETH
-		add_core_of = ETH
-		add_core_of = BEG
-		add_core_of = ORO
+        owner = ETH
+        owner = ETH
+        add_core_of = ETH
 
 		1936.6.1 = {
-			owner = SAU
-        add_core_of = SAU # Prev owner:ITA
+        owner = ETH
+        owner = ETH
 			controller = ITA
 		}
 	}

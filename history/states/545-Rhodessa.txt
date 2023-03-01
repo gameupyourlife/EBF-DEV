@@ -6,8 +6,8 @@ state={
 	name="STATE_545"
 
 	history={
-		owner = MZB #
-add_core_of = MZB # ENG
+        owner = NMB
+        add_core_of = NMB
 		buildings = {
 			infrastructure = 2
 
@@ -15,7 +15,6 @@ add_core_of = MZB # ENG
 		victory_points = {
 			10929 1 
 		}
-		add_core_of = ZIM
 	}
 
 	provinces={

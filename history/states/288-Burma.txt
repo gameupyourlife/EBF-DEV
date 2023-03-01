@@ -12,7 +12,6 @@ state={
 	}
 
 	history={
-		add_core_of = BRM
 		owner = VIN #
 add_core_of = VIN # RAJ
 		victory_points = {

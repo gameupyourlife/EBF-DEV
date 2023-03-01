@@ -23,7 +23,6 @@ add_core_of = SIK # NEP
 		victory_points = {
 			4987 3 
 		}
-		add_core_of = NEP
 	}
 
 	provinces={

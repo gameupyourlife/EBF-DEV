@@ -20,8 +20,6 @@ add_core_of = ARG # PAR
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = PAR
-		add_core_of = BOL
 	}
 	
 	provinces={

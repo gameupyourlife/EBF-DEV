@@ -49,259 +49,259 @@ units = {
 
 	division = { 
 		name =  "1. Sjællandske Division"
-		location = 6287  # Copenhagen
+        location = 10323
 		division_template = "Infanteri Division"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
 
 	}division = { 
 		name =  "1. Sjællandske Division"
-		location = 6287  # Copenhagen
+        location = 12512
 		division_template = "Infanteri Division"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
 
 	}division = { 
 		name =  "1. Sjællandske Division"
-		location = 6287  # Copenhagen
+        location = 9340
 		division_template = "Infanteri Division"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
 
 	}division = { 
 		name =  "1. Sjællandske Division"
-		location = 6287  # Copenhagen
+        location = 10323
 		division_template = "Infanteri Division"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
 
 	}division = { 
 		name =  "1. Sjællandske Division"
-		location = 6287  # Copenhagen
+        location = 6258
 		division_template = "Infanteri Division"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
 
 	}division = { 
 		name =  "1. Sjællandske Division"
-		location = 6287  # Copenhagen
+        location = 3388
 		division_template = "Infanteri Division"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
 
 	}division = { 
 		name =  "1. Sjællandske Division"
-		location = 6287  # Copenhagen
+        location = 9275
 		division_template = "Infanteri Division"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
 
 	}division = { 
 		name =  "1. Sjællandske Division"
-		location = 6287  # Copenhagen
+        location = 11304
 		division_template = "Infanteri Division"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
 
 	}division = { 
 		name =  "1. Sjællandske Division"
-		location = 6287  # Copenhagen
+        location = 3310
 		division_template = "Infanteri Division"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
 
 	}division = { 
 		name =  "1. Sjællandske Division"
-		location = 6287  # Copenhagen
+        location = 11222
 		division_template = "Infanteri Division"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
 
 	}division = { 
 		name =  "1. Sjællandske Division"
-		location = 6287  # Copenhagen
+        location = 3325
 		division_template = "Infanteri Division"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
 
 	}division = { 
 		name =  "1. Sjællandske Division"
-		location = 6287  # Copenhagen
+        location = 3194
 		division_template = "Infanteri Division"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
 
 	}division = { 
 		name =  "1. Sjællandske Division"
-		location = 6287  # Copenhagen
+        location = 6258
 		division_template = "Infanteri Division"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
 
 	}division = { 
 		name =  "1. Sjællandske Division"
-		location = 6287  # Copenhagen
+        location = 104
 		division_template = "Infanteri Division"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
 
 	}division = { 
 		name =  "1. Sjællandske Division"
-		location = 6287  # Copenhagen
+        location = 10245
 		division_template = "Infanteri Division"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
 
 	}division = { 
 		name =  "1. Sjællandske Division"
-		location = 6287  # Copenhagen
+        location = 399
 		division_template = "Infanteri Division"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
 
 	}division = { 
 		name =  "1. Sjællandske Division"
-		location = 6287  # Copenhagen
+        location = 13127
 		division_template = "Infanteri Division"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
 
 	}division = { 
 		name =  "1. Sjællandske Division"
-		location = 6287  # Copenhagen
+        location = 3074
 		division_template = "Infanteri Division"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
 
 	}division = { 
 		name =  "1. Sjællandske Division"
-		location = 6287  # Copenhagen
+        location = 13003
 		division_template = "Infanteri Division"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
 
 	}division = { 
 		name =  "1. Sjællandske Division"
-		location = 6287  # Copenhagen
+        location = 341
 		division_template = "Infanteri Division"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
 
 	}division = { 
 		name =  "1. Sjællandske Division"
-		location = 6287  # Copenhagen
+        location = 11139
 		division_template = "Infanteri Division"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
 
 	}division = { 
 		name =  "1. Sjællandske Division"
-		location = 6287  # Copenhagen
+        location = 6342
 		division_template = "Infanteri Division"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
 
 	}division = { 
 		name =  "1. Sjællandske Division"
-		location = 6287  # Copenhagen
+        location = 11358
 		division_template = "Infanteri Division"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
 
 	}division = { 
 		name =  "1. Sjællandske Division"
-		location = 6287  # Copenhagen
+        location = 4861
 		division_template = "Infanteri Division"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
 
 	}division = { 
 		name =  "1. Sjællandske Division"
-		location = 6287  # Copenhagen
+        location = 13058
 		division_template = "Infanteri Division"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
 
 	}division = { 
 		name =  "1. Sjællandske Division"
-		location = 6287  # Copenhagen
+        location = 9485
 		division_template = "Infanteri Division"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
 
 	}division = { 
 		name =  "1. Sjællandske Division"
-		location = 6287  # Copenhagen
+        location = 3152
 		division_template = "Infanteri Division"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
 
 	}division = { 
 		name =  "1. Sjællandske Division"
-		location = 6287  # Copenhagen
+        location = 11186
 		division_template = "Infanteri Division"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
 
 	}division = { 
 		name =  "1. Sjællandske Division"
-		location = 6287  # Copenhagen
+        location = 6322
 		division_template = "Infanteri Division"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
 
 	}division = { 
 		name =  "1. Sjællandske Division"
-		location = 6287  # Copenhagen
+        location = 3074
 		division_template = "Infanteri Division"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
 
 	}division = { 
 		name =  "1. Sjællandske Division"
-		location = 6287  # Copenhagen
+        location = 496
 		division_template = "Infanteri Division"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
 
 	}division = { 
 		name =  "1. Sjællandske Division"
-		location = 6287  # Copenhagen
+        location = 11127
 		division_template = "Infanteri Division"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
 
 	}division = { 
 		name =  "1. Sjællandske Division"
-		location = 6287  # Copenhagen
+        location = 11097
 		division_template = "Infanteri Division"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
 
 	}division = { 
 		name =  "1. Sjællandske Division"
-		location = 6287  # Copenhagen
+        location = 6459
 		division_template = "Infanteri Division"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
 
 	}division = { 
 		name =  "1. Sjællandske Division"
-		location = 6287  # Copenhagen
+        location = 13058
 		division_template = "Infanteri Division"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
 
 	}division = { 
 		name =  "1. Sjællandske Division"
-		location = 6287  # Copenhagen
+        location = 181
 		division_template = "Infanteri Division"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
 
 	}division = { 
 		name =  "1. Sjællandske Division"
-		location = 6287  # Copenhagen
+        location = 3206
 		division_template = "Infanteri Division"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
@@ -314,7 +314,7 @@ units = {
 	##### Kongelige Danske Overkommando #####
 	division = { 
 		name =  "1. Sjællandske Division"
-		location = 6287  # Copenhagen
+        location = 12674
 		division_template = "Infanteri Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0 # 0.3
@@ -325,7 +325,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 2
 		}
-		location = 3325  # Odense
+        location = 9408
 		division_template = "Infanteri Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0 # 0.3
@@ -336,7 +336,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 1
 		}
-		location = 394  # Aalborg
+        location = 185
 		division_template = "Infanteri Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0 # 0.3
@@ -344,7 +344,7 @@ units = {
 	}
 	division = { 
 		name =   "2. Jyske Division"
-		location = 11251  # Sonderborg
+        location = 6222
 		division_template = "Binær Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0 # 0.3
@@ -352,7 +352,7 @@ units = {
 	}
 	division = {
 		name = "Gardehussar Regiment"
-		location = 6364  # Aarhus
+        location = 11443
 		division_template = "Kavaleri Brigade"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0 # 0.3
@@ -360,7 +360,7 @@ units = {
 	}
 	division = { 
 		name =  "10. Sjællandske Division"
-		location = 6287  # Copenhagen
+        location = 6235
 		division_template = "Infanteri Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0 # 0.3
@@ -368,7 +368,7 @@ units = {
 	}
 	division = { 
 		name =  "11. Sjællandske Division"
-		location = 6287  # Copenhagen
+        location = 11139
 		division_template = "Infanteri Division"
 		start_experience_factor = 0.6
 		start_equipment_factor = 1.0 # 0.6
@@ -376,7 +376,7 @@ units = {
 	}
 	division = { 
 		name =  "12. Sjællandske Division"
-		location = 6287  # Copenhagen
+        location = 316
 		division_template = "Infanteri Division"
 		start_experience_factor = 0.6
 		start_equipment_factor = 1.0 # 0.6
@@ -384,7 +384,7 @@ units = {
 	}
 	division = { 
 		name =  "13. Sjællandske Division"
-		location = 6287  # Copenhagen
+        location = 6201
 		division_template = "Infanteri Division"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
@@ -392,7 +392,7 @@ units = {
 	}
 	division = { 
 		name =  "14. Sjællandske Division"
-		location = 6287  # Copenhagen
+        location = 6322
 		division_template = "Infanteri Division"
 		start_experience_factor = 0.6
 		start_equipment_factor = 1.0 # 0.6
@@ -400,7 +400,7 @@ units = {
 	}
 	division = { 
 		name =  "15. Sjællandske Division"
-		location = 6287  # Copenhagen
+        location = 341
 		division_template = "Infanteri Division"
 		start_experience_factor = 0.6
 		start_equipment_factor = 1.0 # 0.6
@@ -408,7 +408,7 @@ units = {
 	}
 	division = { 
 		name =  "16. Sjællandske Division"
-		location = 6287  # Copenhagen
+        location = 3074
 		division_template = "Infanteri Division"
 		start_experience_factor = 0.6
 		start_equipment_factor = 1.0 # 0.6

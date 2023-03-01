@@ -5,7 +5,6 @@ state={
 	history={
 		owner = MZB #
 		add_core_of = MZB # ENG
-		add_core_of = MLW
 		victory_points = {
 			12986 1 
 		}

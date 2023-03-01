@@ -16,122 +16,122 @@
 units = {
 	division = {
 		name = "1. Landsturmregiment"
-		location = 9347
+        location = 6236
 		division_template = "Landsturmregiment"
 	}
 	division = {
 		name = "2. Landsturmregiment"
-		location = 9238
+        location = 11264
 		division_template = "Landsturmregiment"
 	}
 	division = {
 		name = "3. Landsturmregiment"
-		location = 9238  # Ulm
+        location = 9238
 		division_template = "Landsturmregiment"
 	}
 	division = {
 		name = "4. Landsturmregiment"
-		location = 9238
+        location = 9320
 		division_template = "Landsturmregiment"
 	}
 	division = {
 		name = "5. Landsturmregiment"
-		location = 9238
+        location = 11265
 		division_template = "Landsturmregiment"
 	}
 	division = {
 		name = "6. Landsturmregiment"
-		location = 9238
+        location = 279
 		division_template = "Landsturmregiment"
 	}
 	division = {
 		name = "7. Landsturmregiment"
-		location = 9375
+        location = 11265
 		division_template = "Landsturmregiment"
 	}
 	division = {
 		name = "8. Landsturmregiment"
-		location = 9375
+        location = 3460
 		division_template = "Landsturmregiment"
 	}
 	division = {
 		name = "9. Landsturmregiment"
-		location = 9375  # Frankfurt
+        location = 6257
 		division_template = "Landsturmregiment"
 	}
 	division = {
 		name = "10. Landsturmregiment"
-		location = 9375
+        location = 375
 		division_template = "Landsturmregiment"
 	}
 	division = {
 		name = "11. Landsturmregiment"
-		location = 9375
+        location = 11402
 		division_template = "Landsturmregiment"
 	}
 	division = {
 		name = "12. Landsturmregiment"
-		location = 11468
+        location = 526
 		division_template = "Landsturmregiment"
 	}
 	division = {
 		name = "13. Landsturmregiment"
-		location = 11468
+        location = 6349
 		division_template = "Landsturmregiment"
 	}
 	division = {
 		name = "14. Landsturmregiment"
-		location = 11468
+        location = 6402
 		division_template = "Landsturmregiment"
 	}
 	division = {
 		name = "15. Landsturmregiment"
-		location = 11468
+        location = 9361
 		division_template = "Landsturmregiment"
 	}
 	division = {
 		name = "16. Landsturmregiment"
-		location = 11468
+        location = 11558
 		division_template = "Landsturmregiment"
 	}
 	division = {
 		name = "17. Landsturmregiment"
-		location = 9346
+        location = 495
 		division_template = "Landsturmregiment"
 	}
 	division = {
 		name = "18. Landsturmregiment"
-		location = 9346
+        location = 6535
 		division_template = "Landsturmregiment"
 	}
 	division = {
 		name = "19. Landsturmregiment"
-		location = 362
+        location = 6570
 		division_template = "Landsturmregiment"
 	}
 	division = {
 		name = "20. Landsturmregiment"
-		location = 362
+        location = 9388
 		division_template = "Landsturmregiment"
 	}
 	division = {
 		name = "21. Landsturmregiment"
-		location = 3380
+        location = 279
 		division_template = "Landsturmregiment"
 	}
 	division = {
 		name = "22. Landsturmregiment"
-		location = 3380  # Hamburg
+        location = 9570
 		division_template = "Landsturmregiment"
 	}
 	division = {
 		name = "23. Landsturmregiment"
-		location = 3351  # Frankfurt
+        location = 6558
 		division_template = "Landsturmregiment"
 	}
 	division = {
 		name = "24. Landsturmregiment"
-		location = 3351 # Stuttgart
+        location = 444
 		division_template = "Landsturmregiment"
 	}
 }

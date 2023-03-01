@@ -24,7 +24,6 @@ add_core_of = TAN  # SOV
 			air_base = 1
 
 		}
-		add_core_of = SOV
 
 	}
 

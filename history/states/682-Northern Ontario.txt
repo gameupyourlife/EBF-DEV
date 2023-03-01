@@ -21,7 +21,6 @@ add_core_of = USA # CAN
 			industrial_complex = 1
 
 		}
-		add_core_of = CAN
 
 	}
 

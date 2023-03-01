@@ -25,7 +25,6 @@ add_core_of = SAU # FRA
 			}
 		}
 
-		add_core_of = LEB
 	}
 
 	provinces={

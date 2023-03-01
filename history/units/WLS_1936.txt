@@ -64,7 +64,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 377
+        location = 11361
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 	}
@@ -73,7 +73,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-		location = 377
+        location = 377
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 	}
@@ -83,7 +83,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 51
 		}
-		location = 351
+        location = 253
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0 # 0.3
@@ -94,7 +94,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 52
 		}
-		location = 351
+        location = 9364
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0 # 0.3
@@ -103,7 +103,7 @@ units = {
 	#Northern Command
 	division= {	
 		name = "5th Cavalry Brigade"
-		location = 377
+        location = 377
 		division_template = "Cavalry Brigade"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0 # 0.3
@@ -114,7 +114,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 5
 		}
-		location = 351
+        location = 11361
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 	}
@@ -123,7 +123,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 50
 		}
-		location = 377
+        location = 407
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0 # 0.3
@@ -134,7 +134,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 49
 		}
-		location = 351
+        location = 3274
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0 # 0.3
@@ -145,7 +145,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-		location = 377
+        location = 407
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 	}
@@ -154,7 +154,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-		location = 377
+        location = 6363
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 	}
@@ -163,7 +163,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-		location = 377
+        location = 6363
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 	}

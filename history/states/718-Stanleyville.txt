@@ -19,7 +19,6 @@ add_core_of = ANG # BEL
 			infrastructure = 1
 
 		}
-		add_core_of = COG
 	}
 
 	provinces={

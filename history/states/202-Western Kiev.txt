@@ -26,7 +26,6 @@ add_core_of = UKR # SOV
 			fuel_silo = 1
 			air_base = 8
 		}
-		add_core_of = SOV
 		add_core_of = UKR
 		1939.1.1 = {
 			buildings = {

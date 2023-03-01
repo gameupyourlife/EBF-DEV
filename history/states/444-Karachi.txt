@@ -19,7 +19,6 @@ add_core_of = PER # RAJ
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = PAK
 	}
 
 	provinces={

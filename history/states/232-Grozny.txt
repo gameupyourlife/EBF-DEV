@@ -12,7 +12,6 @@ state={
 
 	history={
 		owner = GEO #
-add_core_of = GEO # GEO #
 add_core_of = GEO # SOV
 		buildings = {
 			infrastructure = 2
@@ -20,8 +19,6 @@ add_core_of = GEO # SOV
 		victory_points = {
 			6701 3 
 		}
-		add_core_of = SOV
-		add_core_of = DAG
 	}
 
 	provinces = {

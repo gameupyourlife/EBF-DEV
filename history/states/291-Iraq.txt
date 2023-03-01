@@ -34,8 +34,6 @@ add_core_of = SAU # IRQ
 				naval_base = 1
 			}
 		}
-		add_core_of = IRQ
-		add_claim_by = KUR
 	}
 
 	provinces={

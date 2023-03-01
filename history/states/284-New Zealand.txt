@@ -31,7 +31,6 @@ add_core_of = HAW # NZL
 		victory_points = {
 			4543 5 
 		}
-		add_core_of = NZL
 	}
 
 	provinces={

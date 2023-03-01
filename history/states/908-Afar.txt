@@ -21,13 +21,12 @@ state = {
 		victory_points = {
 			13240 2 
 		}
-		owner = SAU
-        add_core_of = SAU # Prev owner:AFA
-		add_core_of = ETH
-		add_core_of = AFA
+        owner = ETH
+        owner = ETH
+        add_core_of = ETH
 		1936.6.1 = {
-			owner = SAU
-        add_core_of = SAU # Prev owner:ITA
+        owner = ETH
+        owner = ETH
 			controller = ITA
 
 		}

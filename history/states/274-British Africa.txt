@@ -4,7 +4,6 @@ state={
 
 	history={
 		owner = MOR
-		add_core_of = GHA
 		add_core_of = MOR
 		victory_points = {
 			10862 1 

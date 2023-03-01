@@ -3,7 +3,6 @@ state = {
 	name = "STATE_584"
 
 	history={
-		add_core_of = TMS
 		owner = KAZ #
 add_core_of = KAZ # SOV
 		victory_points = {
@@ -14,8 +13,6 @@ add_core_of = KAZ # SOV
 			industrial_complex = 1
 
 		}
-		add_core_of = SOV
-		add_core_of = TMS
 
 	}
 

@@ -16,7 +16,6 @@ add_core_of = KYR # SOV
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = SOV
 		victory_points = {
 			6124 1
 		}

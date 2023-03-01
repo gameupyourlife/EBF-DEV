@@ -5,8 +5,8 @@ state={
 	state_category=town
 
 	history={
-		owner = SAU
-        add_core_of = SAU # Prev owner:ENG
+		owner = EGY
+        add_core_of = EGY # Prev owner:ENG
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1

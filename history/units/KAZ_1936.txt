@@ -103,7 +103,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 19
 		}
-		location = 1278
+        location = 1429
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
@@ -112,7 +112,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 19
 		}
-		location = 1278
+        location = 7757
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
@@ -121,7 +121,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 19
 		}
-		location = 1278
+        location = 10506
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
@@ -130,7 +130,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 19
 		}
-		location = 1278
+        location = 10395
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
@@ -139,7 +139,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 19
 		}
-		location = 1278
+        location = 7722
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
@@ -148,7 +148,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 19
 		}
-		location = 1278
+        location = 10168
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
@@ -157,7 +157,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 19
 		}
-		location = 1278
+        location = 7438
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
@@ -166,7 +166,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 19
 		}
-		location = 1278
+        location = 12266
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
@@ -175,7 +175,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 19
 		}
-		location = 1278
+        location = 11524
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
@@ -184,7 +184,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 19
 		}
-		location = 1278
+        location = 12454
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
@@ -193,7 +193,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 19
 		}
-		location = 1278
+        location = 756
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
@@ -202,7 +202,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 19
 		}
-		location = 1278
+        location = 12239
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
@@ -211,7 +211,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 19
 		}
-		location = 1278
+        location = 12546
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
@@ -220,7 +220,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 20
 		}
-		location = 1278
+        location = 1517
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
@@ -229,7 +229,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 22
 		}
-		location = 1278
+        location = 10179
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
@@ -240,7 +240,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 5
 		}
-		location = 1278
+        location = 10530
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
@@ -251,7 +251,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 7
 		}
-		location = 1278
+        location = 10537
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
@@ -260,7 +260,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 10
 		}
-		location = 1278
+        location = 12333
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
@@ -269,13 +269,13 @@ units = {
 				is_name_ordered = yes
 				name_order = 17
 		}
-		location = 1278
+        location = 10561
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}			
 	division= {	
 		name = "Gebirgs-Brigade" 
-		location = 1278
+        location = 4366
 		division_template = "Gebirgs-Brigade" 
 		start_experience_factor = 0.3
 	}

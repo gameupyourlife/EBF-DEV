@@ -10,7 +10,6 @@ state={
 
 
 	history={
-		add_core_of = TRI
 		owner = CUB #
 add_core_of = CUB # ENG
 		victory_points = {

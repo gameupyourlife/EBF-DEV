@@ -8,8 +8,8 @@ state={
 	state_category = wasteland
 
 	history={
-		owner = SAU #
-add_core_of = SAU # ITA
+		owner = LBA #
+		add_core_of = LBA # ITA
 		
 		victory_points = {
 			11954 3 
@@ -21,7 +21,6 @@ add_core_of = SAU # ITA
 				naval_base = 1
 			}
 		}
-		add_core_of = LBA
 	}
 
 	provinces={

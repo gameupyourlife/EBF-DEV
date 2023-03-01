@@ -18,7 +18,6 @@ add_core_of = ARG # BOL
 			air_base = 2
 
 		}
-		add_core_of = BOL
 		victory_points = {
 			5230 5 
 		}

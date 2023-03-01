@@ -14,7 +14,6 @@ state={
 	}
 
 	history={
-		add_core_of = GYA
 		owner = VEN #
 add_core_of = VEN # ENG
 		victory_points = {

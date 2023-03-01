@@ -11,7 +11,6 @@ state={
 
 	history={
 		owner = MOR
-		add_core_of = SEN
 		add_core_of = MOR
 		victory_points = {
 			4948 5 

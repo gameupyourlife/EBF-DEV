@@ -51,7 +51,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 391 
+        location = 13011
 		division_template = "Infanterie Divisie"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
@@ -61,28 +61,17 @@ units = {
 		is_name_ordered = yes
 		name_order = 1
 		}
-		location = 391 
-		division_template = "Infanterie Divisie"
-		start_experience_factor = 1.0
-		start_equipment_factor = 1.0 # 1.0
-	}
-	division= {
-		division_name = {
-		is_name_ordered = yes
-		name_order = 1
-		}
-		location = 391 
+        location = 9434
 		division_template = "Infanterie Divisie"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
 	}
-
 	division= {
 		division_name = {
 		is_name_ordered = yes
 		name_order = 1
 		}
-		location = 391 
+        location = 9561
 		division_template = "Infanterie Divisie"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
@@ -93,7 +82,7 @@ units = {
 		is_name_ordered = yes
 		name_order = 1
 		}
-		location = 391 
+        location = 3476
 		division_template = "Infanterie Divisie"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
@@ -104,7 +93,7 @@ units = {
 		is_name_ordered = yes
 		name_order = 1
 		}
-		location = 391 
+        location = 11563
 		division_template = "Infanterie Divisie"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
@@ -115,7 +104,7 @@ units = {
 		is_name_ordered = yes
 		name_order = 1
 		}
-		location = 391 
+        location = 5291
 		division_template = "Infanterie Divisie"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
@@ -126,7 +115,7 @@ units = {
 		is_name_ordered = yes
 		name_order = 1
 		}
-		location = 391 
+        location = 6504
 		division_template = "Infanterie Divisie"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
@@ -137,7 +126,7 @@ units = {
 		is_name_ordered = yes
 		name_order = 1
 		}
-		location = 391 
+        location = 6449
 		division_template = "Infanterie Divisie"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
@@ -148,7 +137,7 @@ units = {
 		is_name_ordered = yes
 		name_order = 1
 		}
-		location = 391 
+        location = 3560
 		division_template = "Infanterie Divisie"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
@@ -159,7 +148,7 @@ units = {
 		is_name_ordered = yes
 		name_order = 1
 		}
-		location = 391 
+        location = 5291
 		division_template = "Infanterie Divisie"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
@@ -170,7 +159,7 @@ units = {
 		is_name_ordered = yes
 		name_order = 1
 		}
-		location = 391 
+        location = 9523
 		division_template = "Infanterie Divisie"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
@@ -181,7 +170,7 @@ units = {
 		is_name_ordered = yes
 		name_order = 1
 		}
-		location = 391 
+        location = 9574
 		division_template = "Infanterie Divisie"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
@@ -192,7 +181,7 @@ units = {
 		is_name_ordered = yes
 		name_order = 1
 		}
-		location = 391 
+        location = 11483
 		division_template = "Infanterie Divisie"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
@@ -203,17 +192,7 @@ units = {
 		is_name_ordered = yes
 		name_order = 1
 		}
-		location = 391 
-		division_template = "Infanterie Divisie"
-		start_experience_factor = 1.0
-		start_equipment_factor = 1.0 # 1.0
-	}
-	division= {
-		division_name = {
-		is_name_ordered = yes
-		name_order = 1
-		}
-		location = 391 
+        location = 6583
 		division_template = "Infanterie Divisie"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
@@ -224,7 +203,17 @@ units = {
 		is_name_ordered = yes
 		name_order = 1
 		}
-		location = 391 
+        location = 6598
+		division_template = "Infanterie Divisie"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0 # 1.0
+	}
+	division= {
+		division_name = {
+		is_name_ordered = yes
+		name_order = 1
+		}
+        location = 3533
 		division_template = "Infanterie Divisie"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
@@ -235,7 +224,7 @@ units = {
 		is_name_ordered = yes
 		name_order = 1
 		}
-		location = 391 
+        location = 9507
 		division_template = "Infanterie Divisie"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
@@ -246,7 +235,7 @@ units = {
 		is_name_ordered = yes
 		name_order = 1
 		}
-		location = 391 
+        location = 3314
 		division_template = "Infanterie Divisie"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
@@ -257,7 +246,7 @@ units = {
 		is_name_ordered = yes
 		name_order = 1
 		}
-		location = 391 
+        location = 5291
 		division_template = "Infanterie Divisie"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
@@ -268,7 +257,7 @@ units = {
 		is_name_ordered = yes
 		name_order = 1
 		}
-		location = 391 
+        location = 11732
 		division_template = "Infanterie Divisie"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
@@ -279,7 +268,7 @@ units = {
 		is_name_ordered = yes
 		name_order = 1
 		}
-		location = 391 
+        location = 9534
 		division_template = "Infanterie Divisie"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
@@ -290,7 +279,7 @@ units = {
 		is_name_ordered = yes
 		name_order = 1
 		}
-		location = 391 
+        location = 11562
 		division_template = "Infanterie Divisie"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
@@ -301,7 +290,7 @@ units = {
 		is_name_ordered = yes
 		name_order = 1
 		}
-		location = 391 
+        location = 9309
 		division_template = "Infanterie Divisie"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
@@ -312,7 +301,7 @@ units = {
 		is_name_ordered = yes
 		name_order = 1
 		}
-		location = 391 
+        location = 6336
 		division_template = "Infanterie Divisie"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
@@ -323,7 +312,7 @@ units = {
 		is_name_ordered = yes
 		name_order = 1
 		}
-		location = 391 
+        location = 6241
 		division_template = "Infanterie Divisie"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
@@ -334,17 +323,7 @@ units = {
 		is_name_ordered = yes
 		name_order = 1
 		}
-		location = 391 
-		division_template = "Infanterie Divisie"
-		start_experience_factor = 1.0
-		start_equipment_factor = 1.0 # 1.0
-	}
-	division= {
-		division_name = {
-		is_name_ordered = yes
-		name_order = 1
-		}
-		location = 391 
+        location = 5291
 		division_template = "Infanterie Divisie"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
@@ -355,7 +334,17 @@ units = {
 		is_name_ordered = yes
 		name_order = 1
 		}
-		location = 391 
+        location = 6286
+		division_template = "Infanterie Divisie"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0 # 1.0
+	}
+	division= {
+		division_name = {
+		is_name_ordered = yes
+		name_order = 1
+		}
+        location = 3516
 		division_template = "Infanterie Divisie"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
@@ -366,7 +355,7 @@ units = {
 		is_name_ordered = yes
 		name_order = 1
 		}
-		location = 391 
+        location = 6531
 		division_template = "Infanterie Divisie"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
@@ -377,7 +366,7 @@ units = {
 		is_name_ordered = yes
 		name_order = 1
 		}
-		location = 391 
+        location = 13011
 		division_template = "Infanterie Divisie"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
@@ -388,17 +377,7 @@ units = {
 		is_name_ordered = yes
 		name_order = 1
 		}
-		location = 391 
-		division_template = "Infanterie Divisie"
-		start_experience_factor = 1.0
-		start_equipment_factor = 1.0 # 1.0
-	}
-	division= {
-		division_name = {
-		is_name_ordered = yes
-		name_order = 1
-		}
-		location = 391 
+        location = 551
 		division_template = "Infanterie Divisie"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
@@ -409,7 +388,17 @@ units = {
 		is_name_ordered = yes
 		name_order = 1
 		}
-		location = 391 
+        location = 9490
+		division_template = "Infanterie Divisie"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0 # 1.0
+	}
+	division= {
+		division_name = {
+		is_name_ordered = yes
+		name_order = 1
+		}
+        location = 3488
 		division_template = "Infanterie Divisie"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
@@ -420,7 +409,7 @@ units = {
 		is_name_ordered = yes
 		name_order = 1
 		}
-		location = 391 
+        location = 9434
 		division_template = "Infanterie Divisie"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
@@ -431,7 +420,7 @@ units = {
 		is_name_ordered = yes
 		name_order = 1
 		}
-		location = 391 
+        location = 13011
 		division_template = "Infanterie Divisie"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
@@ -442,17 +431,7 @@ units = {
 		is_name_ordered = yes
 		name_order = 1
 		}
-		location = 391 
-		division_template = "Infanterie Divisie"
-		start_experience_factor = 1.0
-		start_equipment_factor = 1.0 # 1.0
-	}
-	division= {
-		division_name = {
-		is_name_ordered = yes
-		name_order = 1
-		}
-		location = 391 
+        location = 6446
 		division_template = "Infanterie Divisie"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
@@ -463,7 +442,17 @@ units = {
 		is_name_ordered = yes
 		name_order = 1
 		}
-		location = 391 
+        location = 9490
+		division_template = "Infanterie Divisie"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0 # 1.0
+	}
+	division= {
+		division_name = {
+		is_name_ordered = yes
+		name_order = 1
+		}
+        location = 480
 		division_template = "Infanterie Divisie"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
@@ -474,7 +463,7 @@ units = {
 		is_name_ordered = yes
 		name_order = 1
 		}
-		location = 391 
+        location = 3488
 		division_template = "Infanterie Divisie"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
@@ -485,7 +474,7 @@ units = {
 		is_name_ordered = yes
 		name_order = 1
 		}
-		location = 391 
+        location = 9472
 		division_template = "Infanterie Divisie"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
@@ -496,7 +485,18 @@ units = {
 		is_name_ordered = yes
 		name_order = 1
 		}
-		location = 391 
+        location = 3546
+		division_template = "Infanterie Divisie"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0 # 1.0
+	}
+
+	division= {
+		division_name = {
+		is_name_ordered = yes
+		name_order = 1
+		}
+        location = 6496
 		division_template = "Infanterie Divisie"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0 # 1.0
@@ -524,7 +524,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 3314  # Amsterdam
+        location = 551
 		division_template = "Infanterie Divisie"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0 # 0.5
@@ -535,7 +535,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 3
 		}
-		location = 3211 # The Hague
+        location = 9431
 		division_template = "Infanterie Divisie"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0 # 0.5
@@ -548,7 +548,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-		location = 9498  # Rotterdam
+        location = 3536
 		division_template = "Infanterie Divisie"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0 # 0.5
@@ -559,7 +559,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 4
 		}
-		location = 9498  # Rotterdam
+        location = 13068
 		division_template = "Infanterie Divisie"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0 # 0.5
@@ -572,7 +572,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 5
 		}
-		location = 6500  # Venlo
+        location = 11318
 		division_template = "Infanterie Divisie"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0 # 0.5
@@ -583,7 +583,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 6
 		}
-		location = 11562  # Maastricht
+        location = 11521
 		division_template = "Infanterie Divisie"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0 # 0.5
@@ -596,7 +596,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 7
 		}
-		location = 9335  # Gronigen
+        location = 11318
 		division_template = "Infanterie Divisie"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0 # 0.5
@@ -607,7 +607,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 8
 		}
-		location = 9335  # Gronigen
+        location = 11562
 		division_template = "Infanterie Divisie"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0 # 0.5
@@ -618,7 +618,7 @@ units = {
 	### Koninklijk Nederlands-Indisch Leger ### ###transfered to INS control as of 1.3
 #	division= {	
 #		name = "Ie Divisie 'Java'"
-#		location = 7381  # Batavia
+        location = 9335
 #		division_template = "Infanterie Divisie"
 #		force_equipment_variants = { infantry_equipment_0 = { owner = "HOL" } }
 #		start_equipment_factor = 1.0 # 0.3
@@ -626,7 +626,7 @@ units = {
 #	}
 #	division= {	
 #		name = "IIe Divisie 'Java'"
-#		location = 4608  # Soerjabaja
+        location = 3549
 #		division_template = "Infanterie Divisie"
 #		force_equipment_variants = { infantry_equipment_0 = { owner = "HOL" } }
 #		start_equipment_factor = 1.0 # 0.3
@@ -634,7 +634,7 @@ units = {
 #	}
 #	division= {	
 #		name = "IIIe Divisie 'Java'"
-#		location = 7642  # Malang
+        location = 6560
 #		division_template = "Infanterie Divisie"
 #		force_equipment_variants = { infantry_equipment_0 = { owner = "HOL" } }
 #		start_equipment_factor = 1.0 # 0.3
@@ -643,7 +643,7 @@ units = {
 #
 #	division= {	
 #		name = "Ie Territoriaal Commando 'Sumatra'"
-#		location = 4652  # Medan
+        location = 11521
 #		division_template = "Koloniaal Garnizoen"
 #		force_equipment_variants = { infantry_equipment_0 = { owner = "HOL" } }
 #		start_equipment_factor = 1.0 # 0.3
@@ -651,7 +651,7 @@ units = {
 #	}
 #	division= {	
 #		name = "IIe Territoriaal Commando 'Sumatra'"
-#		location = 4446 # Padang
+        location = 11732
 #		division_template = "Koloniaal Garnizoen"
 #		force_equipment_variants = { infantry_equipment_0 = { owner = "HOL" } }
 #		start_equipment_factor = 1.0 # 0.3
@@ -659,7 +659,7 @@ units = {
 #	}
 #	division= {	
 #		name = "IIIe Territoriaal Commando 'Sumatra'"
-#		location = 12268  # Palembang
+        location = 11606
 #		division_template = "Koloniaal Garnizoen"
 #		force_equipment_variants = { infantry_equipment_0 = { owner = "HOL" } }
 #		start_equipment_factor = 1.0 # 0.3
@@ -669,7 +669,7 @@ units = {
 #	##### OLZ Borneo #####
 #	division= {	
 #		name = "Ie Territoriaal Commando 'Borneo'"
-#		location = 10237  # Balikpapan
+        location = 13011
 #		division_template = "Koloniaal Garnizoen"
 #		force_equipment_variants = { infantry_equipment_0 = { owner = "HOL" } }
 #		start_equipment_factor = 1.0 # 0.3
@@ -677,7 +677,7 @@ units = {
 #	}
 #	division= {	
 #		name = "IIe Territoriaal Commando 'Borneo'"
-#		location = 1316  # Pontianak
+        location = 9444
 #		division_template = "Koloniaal Garnizoen"
 #		force_equipment_variants = { infantry_equipment_0 = { owner = "HOL" } }
 #		start_equipment_factor = 1.0 # 0.3
@@ -687,7 +687,7 @@ units = {
 #	##### OLZ Celebes en Nieuw-Guinea #####
 #	division= {	
 #		name = "Territoriaal Commando 'Celebes'"
-#		location = 10153  # Manado
+        location = 9490
 #		division_template = "Koloniaal Garnizoen"
 #		force_equipment_variants = { infantry_equipment_0 = { owner = "HOL" } }
 #		start_equipment_factor = 1.0 # 0.3

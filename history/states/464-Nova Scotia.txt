@@ -25,7 +25,6 @@ add_core_of = USA # CAN
 
 			}
 		}
-		add_core_of = CAN
 	}
 
 	provinces={

@@ -6,9 +6,9 @@ state={
 	state_category = wasteland
 	
 	history = {
-		owner = SAU
-        add_core_of = SAU # Prev owner:ENG
-		add_core_of = SUD
+        owner = ETH
+        owner = ETH
+        add_core_of = ETH
 		buildings = {
 			infrastructure = 1
 		}

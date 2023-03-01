@@ -12,8 +12,6 @@ state={
 
 		}
 		
-		add_core_of = KEN
-		add_core_of = SOM
 
 	}
 

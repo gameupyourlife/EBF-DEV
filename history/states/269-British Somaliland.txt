@@ -15,7 +15,6 @@ state=
 		}
 		owner = MZB #
 add_core_of = MZB # ENG
-		add_core_of = SOM
 		buildings = {
 			infrastructure = 2
 			10833 = {

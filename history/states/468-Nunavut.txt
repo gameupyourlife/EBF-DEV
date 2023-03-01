@@ -27,7 +27,6 @@ add_core_of = USA # CAN
 				naval_base = 6
 			}
 		}
-		add_core_of = CAN
 		victory_points = {
 			4345 20
 		}

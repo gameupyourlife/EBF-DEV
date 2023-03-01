@@ -10,8 +10,8 @@ state={
 
 
 	history={
-		owner = MZB #
-add_core_of = MZB # SAF
+        owner = SAF
+        add_core_of = SAF
 		buildings = {
 			infrastructure = 3 #was: 5
 			industrial_complex = 2
@@ -29,7 +29,6 @@ add_core_of = MZB # SAF
 		victory_points = {
 			4696 1 
 		}
-		add_core_of = SAF
 	}
 
 	provinces={

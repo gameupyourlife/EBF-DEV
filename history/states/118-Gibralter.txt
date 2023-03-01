@@ -16,7 +16,6 @@ state=
 				coastal_bunker = 2
 			}
 		}
-		add_claim_by = SPR
 		add_core_of = CAT
 		add_core_of = POR
 

@@ -25,7 +25,6 @@ add_core_of = BLR # SOV
 			infrastructure = 2
 			air_base = 1
 		}
-		add_core_of = SOV
 	}
 
 	provinces={

@@ -43,7 +43,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 11805 
+        location = 3892
 		division_template = "Inf"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
@@ -54,7 +54,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 11805 
+        location = 9891
 		division_template = "Inf"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
@@ -65,7 +65,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 11805 
+        location = 924
 		division_template = "Inf"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
@@ -76,7 +76,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 11805 
+        location = 985
 		division_template = "Inf"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
@@ -87,7 +87,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 11805 
+        location = 6941
 		division_template = "Inf"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
@@ -98,7 +98,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 11805 
+        location = 13230
 		division_template = "Inf"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
@@ -109,7 +109,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 11805 
+        location = 9891
 		division_template = "Inf"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
@@ -120,7 +120,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 11805 
+        location = 7183
 		division_template = "Inf"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
@@ -130,18 +130,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 11805 
-		division_template = "Inf"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11805 
+        location = 9891
 		division_template = "Inf"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
@@ -152,7 +141,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 11805 
+        location = 11749
 		division_template = "Inf"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
@@ -163,17 +152,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 11805 
-		division_template = "Inf"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-	division = {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11805 
+        location = 794
 		division_template = "Inf"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
@@ -184,7 +163,17 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 11805 
+        location = 13014
+		division_template = "Inf"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+        location = 11673
 		division_template = "Inf"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
@@ -195,7 +184,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 11805 
+        location = 9815
 		division_template = "Inf"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
@@ -206,17 +195,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 11805 
-		division_template = "Inf"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-	division = {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11805 
+        location = 889
 		division_template = "Inf"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
@@ -227,7 +206,17 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 11805 
+        location = 11749
+		division_template = "Inf"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+        location = 6884
 		division_template = "Inf"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
@@ -238,7 +227,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 11805 
+        location = 1048
 		division_template = "Inf"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
@@ -249,17 +238,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 11805 
-		division_template = "Inf"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-	division = {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11805 
+        location = 3790
 		division_template = "Inf"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
@@ -270,7 +249,17 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 11805 
+        location = 7183
+		division_template = "Inf"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+        location = 13221
 		division_template = "Inf"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
@@ -281,7 +270,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 11805 
+        location = 980
 		division_template = "Inf"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
@@ -292,7 +281,18 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 11805 
+        location = 924
+		division_template = "Inf"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+        location = 9917
 		division_template = "Inf"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0

@@ -13,7 +13,6 @@ add_core_of = SIK # TIB
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = TIB
 
 	}
 

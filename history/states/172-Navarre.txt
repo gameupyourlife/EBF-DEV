@@ -7,14 +7,12 @@ state={
 	}
 	history={
 		owner = OCC
-		add_core_of = NAV
 		victory_points = {
 			3933 1
 		}
 		buildings = {
 			infrastructure = 3 #was: 6
 		}
-		add_core_of = SPR
 		add_core_of = OCC
 		add_core_of = POR
 		add_core_of = OCC

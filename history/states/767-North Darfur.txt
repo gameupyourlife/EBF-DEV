@@ -8,9 +8,8 @@ state=
 	impassable = yes
 	
 	history= {
-		add_core_of = SUD
-		owner = SAU #
-		add_core_of = SAU # ENG
+        add_core_of = ETH
+        owner = ETH
 		buildings = {
 			infrastructure = 0
 		}

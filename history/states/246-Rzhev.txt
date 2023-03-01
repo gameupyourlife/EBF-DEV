@@ -15,7 +15,6 @@ state={
 	}
 	history={
 		owner = BLR #
-add_core_of = BLR # BLR #
 add_core_of = BLR # SOV
 		victory_points = {
 			11349 1
@@ -23,7 +22,6 @@ add_core_of = BLR # SOV
 		buildings = {
 			infrastructure = 3 #was: 5
 		}
-		add_core_of = SOV
 	}
 
 	provinces={

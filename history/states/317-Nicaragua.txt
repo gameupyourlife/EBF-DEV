@@ -24,7 +24,6 @@ state={
 			}
 
 		}
-		add_core_of = NIC
 		add_core_of = PAN
 		victory_points = {
 			12738 3

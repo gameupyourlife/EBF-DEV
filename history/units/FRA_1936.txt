@@ -146,7 +146,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 3552 # 3552 # 3552 # 11502
+        location = 3506
 		division_template = "Division d'Infanterie" 	# Frontline, best equipment
 		start_experience_factor = 0.3
 	}
@@ -155,7 +155,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 3552 # 3552 # 3552 # 5291
+        location = 11516
 		division_template = "Division Coloniale"	 	# Second line, reserve equipment
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0 # 0.5
@@ -163,7 +163,7 @@ units = {
 	}
 	division= {	
 		name = "3ème Brigade de Chars de Combat"
-		location = 3552 # 3552 # 3552 # 11502
+        location = 3493
 		division_template = "Brigade de Chars de Combat" 		# FT-17s
 		start_experience_factor = 0.2
 		force_equipment_variants = { gw_tank_equipment = { owner = "FRA" } }
@@ -175,7 +175,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 20
 		}
-		location = 3552 # 3552 # 3552 # 9503
+        location = 503
 		division_template = "Division d'Infanterie" 	# Second line, reserve equipment
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0 # 0.5
@@ -186,7 +186,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 43
 		}
-		location = 3552 # 3552 # 3552 # 6529
+        location = 9609
 		division_template = "Division d'Infanterie" 	# Frontline, best equipment
 		start_experience_factor = 0.3
 	}
@@ -197,7 +197,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-		location = 3552 # 3552 # 3552 # 3629
+        location = 11582
 		division_template = "Division d'Infanterie" 	# Second line, reserve equipment
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0 # 0.5
@@ -208,7 +208,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 11
 		}
-		location = 3552 # 3552 # 3552 # 549
+        location = 9867
 		division_template = "Division d'Infanterie" 	# Frontline, best equipment
 		start_experience_factor = 0.3
 	}
@@ -217,7 +217,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 44
 		}
-		location = 3552 # 3552 # 3552 # 549
+        location = 11628
 		division_template = "Division Coloniale"	 	# Second line, reserve equipment
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0 # 0.5
@@ -228,7 +228,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-		location = 3552 # 3552 # 3552 # 11516
+        location = 542
 		division_template = "Division de Cavalerie" 	
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0 # 0.5
@@ -236,7 +236,7 @@ units = {
 	}
 	division= {	
 		name = "2ème Brigade de Chars de Combat"
-		location = 3552 # 3552 # 3552 # 11516
+        location = 3626
 		division_template = "Brigade de Chars de Combat" 		# FT-17s
 		start_experience_factor = 0.2
 		force_equipment_variants = { gw_tank_equipment = { owner = "FRA" } }
@@ -248,7 +248,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 3552 # 3552 # 3552 # 11483
+        location = 6518
 		division_template = "Division d'Infanterie Motorisée" 	# All motorized are frontline, best equipment
 		start_experience_factor = 0.3
 	}
@@ -257,7 +257,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 7
 		}
-		location = 3552 # 3552 # 3552 # 575
+        location = 3666
 		division_template = "Division d'Infanterie" 	# Second line, reserve equipment
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0 # 0.5
@@ -270,7 +270,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 3
 		}
-		location = 3552 # 3552 # 3552 # 454
+        location = 542
 		division_template = "Division d'Infanterie Motorisée" 	# All motorized are frontline, best equipment
 		start_experience_factor = 0.3
 	}
@@ -281,7 +281,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 5
 		}
-		location = 3552 # 3552 # 3552 # 11563
+        location = 667
 		division_template = "Division d'Infanterie Motorisée" 	# All motorized are frontline, best equipment
 		start_experience_factor = 0.3
 	}
@@ -292,7 +292,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 12
 		}
-		location = 3552 # 3552 # 3552 # 9472
+        location = 11869
 		division_template = "Division d'Infanterie Motorisée" 	# All motorized are frontline, best equipment
 		start_experience_factor = 0.3
 	}
@@ -301,7 +301,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 3552 # 3552 # 3552 # 13011
+        location = 9609
 		division_template = "Division Légère Mécanique" 	# DLM is frontline, best equipment, L Arm = H-35
 		start_experience_factor = 0.3
 		force_equipment_variants = { light_tank_equipment_1 = { owner = "FRA" } }
@@ -313,7 +313,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 19
 		}
-		location = 3552 # 3552 # 3552 # 3509
+        location = 9658
 		division_template = "Division d'Infanterie" 	# Frontline, best equipment
 		start_experience_factor = 0.3
 	}
@@ -324,7 +324,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 9
 		}
-		location = 3552 # 3552 # 3552 # 3509
+        location = 11631
 		division_template = "Division d'Infanterie Motorisée" 	# All motorized are frontline, best equipment
 		start_experience_factor = 0.3
 	}
@@ -333,7 +333,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 3552 # 3552 # 3552 # 3509
+        location = 2165
 		division_template = "Division de Cavalerie" 	
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0 # 0.5
@@ -346,7 +346,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 23
 		}
-		location = 3552 # 3552 # 3552 # 3671
+        location = 11600
 		division_template = "Division d'Infanterie" 	# Frontline, best equipment
 		start_experience_factor = 0.3
 	}
@@ -355,7 +355,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 43
 		}
-		location = 3552 # 3552 # 3552 # 3671
+        location = 6548
 		division_template = "Division Coloniale"	 	# Second line, reserve equipment
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0 # 0.5
@@ -368,7 +368,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 16
 		}
-		location = 3552 # 3552 # 3552 # 3552
+        location = 11465
 		division_template = "Division d'Infanterie" 	# Second line, reserve equipment
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0 # 0.5
@@ -379,13 +379,13 @@ units = {
 			is_name_ordered = yes
 			name_order = 21
 		}
-		location = 3552 # 3552 # 3552 # 6536
+        location = 9629
 		division_template = "Division d'Infanterie" 	# Frontline, best equipment
 		start_experience_factor = 0.3
 	}
 	division= {	
 		name = "5ème Brigade de Chars de Combat"
-		location = 3552 # 3552 # 3552 # 11465
+        location = 6657
 		division_template = "Brigade de Chars de Combat" 		# R-35s
 		start_experience_factor = 0.2
 		force_equipment_variants = { light_tank_equipment_1 = { owner = "FRA" } }
@@ -397,7 +397,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 10
 		}
-		location = 3552 # 3552 # 3552 # 11506
+        location = 11508
 		division_template = "Division d'Infanterie" 	# Second line, reserve equipment
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0 # 0.5
@@ -408,7 +408,7 @@ units = {
 #			is_name_ordered = yes
 #			name_order = 3
 #		}
-#		location = 3552 # 3552 # 3552 # 11506
+        location = 3509
 #		division_template = "Division Coloniale"	 	# Second line, reserve equipment
 #		start_experience_factor = 0.2
 #		start_equipment_factor = 1.0 # 0.5
@@ -418,7 +418,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 3
 		}
-		location = 3552 # 3552 # 3552 # 11506
+        location = 3758
 		division_template = "Division de Cavalerie" 	
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0 # 0.5
@@ -429,7 +429,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 5
 		}
-		location = 3552 # 3552 # 3552 # 11506
+        location = 655
 		division_template = "Division de Cavalerie" 	
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0 # 0.5
@@ -437,7 +437,7 @@ units = {
 	}
 	division= {	
 		name = "4ème Brigade de Chars de Combat"
-		location = 3552 # 3552 # 3552 # 11506
+        location = 680
 		division_template = "Brigade de Chars de Combat" 		# R-35s
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0 # 0.5
@@ -450,7 +450,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 6
 		}
-		location = 3552 # 3552 # 678
+        location = 3495
 		division_template = "Division d'Infanterie" 	# Second line, reserve equipment
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0 # 0.5
@@ -461,7 +461,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 13
 		}
-		location = 3552 # 3552 # 678
+        location = 11613
 		division_template = "Division d'Infanterie" 	# Frontline, best equipment
 		start_experience_factor = 0.3
 	}
@@ -470,7 +470,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 14
 		}
-		location = 3552 # 3552 # 9642
+        location = 3646
 		division_template = "Division d'Infanterie" 	# Frontline, best equipment
 		start_experience_factor = 0.3
 	}
@@ -481,7 +481,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 15
 		}
-		location = 3552 # 3552 # 3652
+        location = 11463
 		division_template = "Division d'Infanterie Motorisée" 	# All motorized are frontline, best equipment
 		start_experience_factor = 0.3
 	}
@@ -490,7 +490,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 24
 		}
-		location = 3552 # 3552 # 3652
+        location = 3506
 		division_template = "Division d'Infanterie" 	# Second line, reserve equipment
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0 # 0.5
@@ -500,7 +500,7 @@ units = {
 	# Maginot Line -- Divisions d'Forteresse
 	division= {	
 		name = "Longuyon Div. d'Inf. de Forteresse"
-		location = 3552 # 3552 # 5291
+        location = 6533
 		division_template = "Brigade Coloniale" 	# Garrison unit, reserve equipment
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0 # 0.3
@@ -508,7 +508,7 @@ units = {
 	}
 	division= {	
 		name = "Metz Div. d'Inf. de Forteresse"
-		location = 3552 # 3552 # 11502
+        location = 9609
 		division_template = "Brigade Coloniale" 	# Garrison unit, reserve equipment
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0 # 0.3
@@ -516,7 +516,7 @@ units = {
 	}
 	division= {	
 		name = "Sarreguimines Div. d'Inf. de Forteresse"
-		location = 3552 # 3552 # 3629
+        location = 11465
 		division_template = "Brigade Coloniale" 	# Garrison unit, reserve equipment
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0 # 0.3
@@ -524,7 +524,7 @@ units = {
 	}
 	division= {	
 		name = "Strassbourg Div. d'Inf. de Forteresse"
-		location = 3552 # 3552 # 9503
+        location = 11616
 		division_template = "Brigade Coloniale" 	# Garrison unit, reserve equipment
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0 # 0.3
@@ -532,7 +532,7 @@ units = {
 	}
 	division= {	
 		name = "Mulhouse Div. d'Inf. de Forteresse"
-		location = 3552 # 3552 # 678
+        location = 595
 		division_template = "Brigade Coloniale" 	# Garrison unit, reserve equipment
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0 # 0.3
@@ -546,7 +546,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 4
 		}
-		location = 3552 # 3552 # 11576
+        location = 3655
 		division_template = "Division d'Infanterie" 	# Second line, reserve equipment
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0 # 0.5
@@ -557,7 +557,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 3552 # 3552 # 11576
+        location = 527
 		division_template = "Division d'Infanterie" 	# Second line, reserve equipment
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0 # 0.5
@@ -568,7 +568,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 25
 		}
-		location = 3552 # 3552 # 11576
+        location = 6572
 		division_template = "Division d'Infanterie Motorisée" 	# All motorized are frontline, best equipment
 		start_experience_factor = 0.3
 	}
@@ -579,7 +579,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 22
 		}
-		location = 3552 # 3552 # 6766
+        location = 521
 		division_template = "Division d'Infanterie" 	# Second line, reserve equipment
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0 # 0.5
@@ -590,7 +590,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 4
 		}
-		location = 3552 # 3552 # 6766
+        location = 6651
 		division_template = "Division Coloniale"	 	# Second line, reserve equipment
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0 # 0.5
@@ -603,7 +603,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 36
 		}
-		location = 3552 # 3552 # 9737
+        location = 3493
 		division_template = "Division d'Infanterie" 	# Frontline, best equipment
 		start_experience_factor = 0.3
 	}
@@ -612,7 +612,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 3552 # 3552 # 6657
+        location = 6548
 		division_template = "Division Coloniale"	 	# Second line, reserve equipment
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0 # 0.5
@@ -625,7 +625,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 27
 		}
-		location = 3552 # 3552 # 778
+        location = 6548
 		division_template = "Division d'Infanterie Alpine" 	# Frontline, best equipment
 		start_experience_factor = 0.3
 	}
@@ -634,7 +634,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 30
 		}
-		location = 3552 # 3552 # 9745
+        location = 11516
 		division_template = "Division d'Infanterie Alpine" 	# Second line, reserve equipment
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0 # 0.7
@@ -645,7 +645,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 41
 		}
-		location = 3552 # 3552 # 3764
+        location = 11600
 		division_template = "Division Coloniale"	 	# Second line, reserve equipment
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0 # 0.5
@@ -653,7 +653,7 @@ units = {
 	}
 	division= {	
 		name = "1ère Brigade de Chars de Combat"
-		location = 3552 # 3552 # 6613
+        location = 3655
 		division_template = "Brigade de Chars de Combat" 			# FT-17s
 		start_experience_factor = 0.2
 		force_equipment_variants = { gw_tank_equipment = { owner = "FRA" } }
@@ -665,7 +665,7 @@ units = {
 	# XIXe Corps d'Armée (Région Militaire in 1936) -- Alger
 	division= {	
 		name = "1ère Bge. d'Infanterie Algérienne"
-		location = 3552 # 3552 # 1145
+        location = 11465
 		division_template = "Brigade Coloniale" 	# Colonial unit, reserve equipment
 		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
 		start_experience_factor = 0.1
@@ -674,7 +674,7 @@ units = {
 	}
 	division= {	
 		name = "2ème Bge. d'Infanterie Algérienne"
-		location = 3552 # 3552 # 1145
+        location = 3758
 		division_template = "Brigade Coloniale" 	# Colonial unit, reserve equipment
 		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
 		start_experience_factor = 0.1
@@ -683,7 +683,7 @@ units = {
 	}
 	division= {	
 		name = "4ème Bge. d'Infanterie Algérienne"
-		location = 3552 # 3552 # 1145
+        location = 6572
 		division_template = "Brigade Coloniale" 	# Colonial unit, reserve equipment
 		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
 		start_experience_factor = 0.1
@@ -692,7 +692,7 @@ units = {
 	}
 	division= {	
 		name = "5ème Bge. d'Infanterie Algérienne"
-		location = 3552 # 3552 # 1145
+        location = 11508
 		division_template = "Brigade Coloniale" 	# Colonial unit, reserve equipment
 		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
 		start_experience_factor = 0.1
@@ -702,7 +702,7 @@ units = {
 	# attached directly to Army
 	division= {	
 		name = "3ème Bge. d'Infanterie Algérienne"
-		location = 3552 # 3552 # 7132
+        location = 667
 		division_template = "Brigade Coloniale" 	# Colonial unit, reserve equipment
 		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
 		start_experience_factor = 0.1
@@ -711,7 +711,7 @@ units = {
 	}
 	division= {	
 		name = "7ème Bge. d'Infanterie Algérienne"
-		location = 3552 # 3552 # 7132
+        location = 3626
 		division_template = "Brigade Coloniale" 	# Colonial unit, reserve equipment
 		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
 		start_experience_factor = 0.1
@@ -720,7 +720,7 @@ units = {
 	}
 	division= {	
 		name = "Groupement Cavalerie d'Algérienne"
-		location = 3552 # 3552 # 7132
+        location = 11611
 		division_template = "Division de Cavalerie" 	
 		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
 		start_experience_factor = 0.1
@@ -734,7 +734,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 93
 		}
-		location = 3552 # 3552 # 11969
+        location = 11465
 		division_template = "Brigade Coloniale" 	# Colonial unit, reserve equipment
 		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
 		start_experience_factor = 0.1
@@ -746,7 +746,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 94
 		}
-		location = 3552 # 3552 # 9994
+        location = 11631
 		division_template = "Brigade Coloniale" 	# Colonial unit, reserve equipment
 		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
 		start_experience_factor = 0.1
@@ -760,7 +760,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 98
 		}
-		location = 3552 # 3552 # 7069
+        location = 9495
 		division_template = "Brigade Coloniale" 	# Colonial unit, reserve equipment
 		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
 		start_experience_factor = 0.1
@@ -772,7 +772,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 95
 		}
-		location = 3552 # 3552 # 7069
+        location = 3646
 		division_template = "Brigade Coloniale" 	# Colonial unit, reserve equipment
 		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
 		start_experience_factor = 0.1
@@ -784,7 +784,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 96
 		}
-		location = 3552 # 3552 # 7100
+        location = 3671
 		division_template = "Brigade Coloniale" 	# Colonial unit, reserve equipment
 		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
 		start_experience_factor = 0.1
@@ -796,7 +796,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 97
 		}
-		location = 3552 # 3552 # 7069
+        location = 3626
 		division_template = "Brigade Coloniale" 	# Colonial unit, reserve equipment
 		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
 		start_experience_factor = 0.1
@@ -805,7 +805,7 @@ units = {
 	}
 	division= {	
 		name = "Groupement de Maroc"
-		location = 3552 # 3552 # 7100
+        location = 9597
 		division_template = "Division de Cavalerie" 	
 		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
 		start_experience_factor = 0.1

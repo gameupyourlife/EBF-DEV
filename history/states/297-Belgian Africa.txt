@@ -14,7 +14,6 @@ state=
 	{
 		owner = ANG #
 add_core_of = ANG # SPR
-		add_core_of = EQG
 		victory_points = {
 			1903 1 
 		}

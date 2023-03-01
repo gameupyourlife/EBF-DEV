@@ -6,8 +6,8 @@ state={
 	}
 
 	history={
-		owner = ANG  #
-add_core_of = ANG # POR
+        owner = NMB
+        add_core_of = NMB
 		buildings = {
 			infrastructure = 1
 			8248 = {
@@ -17,7 +17,6 @@ add_core_of = ANG # POR
 		victory_points = {
 			8248 1 
 		}
-		add_core_of = ANG
 	}
 
 	provinces={

@@ -6,7 +6,6 @@ state={
 	state_category = rural
 
 	history={
-		add_core_of = PUE
 		owner = CUB #
 add_core_of = CUB # USA
 		victory_points = {

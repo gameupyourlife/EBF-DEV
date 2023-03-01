@@ -17,7 +17,6 @@ add_core_of = USA # CAN
 				naval_base = 1
 			}
 		}
-		add_core_of = CAN
 	}
 
 	provinces={

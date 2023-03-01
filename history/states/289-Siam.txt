@@ -24,7 +24,6 @@ add_core_of = VIN # SIA
 		}
 		
 		
-		add_core_of = SIA
 	}
 
 	provinces={

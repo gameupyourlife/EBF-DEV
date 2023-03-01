@@ -15,8 +15,6 @@ add_core_of = KYR # SOV
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = SOV
-		add_core_of = OVO
 	}
 
 	provinces = {

@@ -26,7 +26,6 @@ add_core_of = CUB # DOM
 				naval_base = 2
 			}
 		}
-		add_core_of = DOM
 		victory_points = {
 			7660 5 
 		}

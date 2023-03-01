@@ -9,7 +9,6 @@ state={
 	history={
 		owner = PRC #
 add_core_of = PRC # XSM
-		add_core_of = XSM
 		add_core_of = CHI
 		add_core_of = PRC
 		buildings = {
