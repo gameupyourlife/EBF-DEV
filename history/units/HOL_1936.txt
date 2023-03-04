@@ -513,7 +513,6 @@ units = {
 
 
 
-
 	#########################################################################################################
 
 	##### OLZ Nederland #####
@@ -613,88 +612,8 @@ units = {
 		start_equipment_factor = 1.0 # 0.5
 
 	}
-
-	##### OLZ Indië #####
-	### Koninklijk Nederlands-Indisch Leger ### ###transfered to INS control as of 1.3
-#	division= {	
-#		name = "Ie Divisie 'Java'"
-        location = 9335
-#		division_template = "Infanterie Divisie"
-#		force_equipment_variants = { infantry_equipment_0 = { owner = "HOL" } }
-#		start_equipment_factor = 1.0 # 0.3
-#
-#	}
-#	division= {	
-#		name = "IIe Divisie 'Java'"
-        location = 3549
-#		division_template = "Infanterie Divisie"
-#		force_equipment_variants = { infantry_equipment_0 = { owner = "HOL" } }
-#		start_equipment_factor = 1.0 # 0.3
-#
-#	}
-#	division= {	
-#		name = "IIIe Divisie 'Java'"
-        location = 6560
-#		division_template = "Infanterie Divisie"
-#		force_equipment_variants = { infantry_equipment_0 = { owner = "HOL" } }
-#		start_equipment_factor = 1.0 # 0.3
-#
-#	}
-#
-#	division= {	
-#		name = "Ie Territoriaal Commando 'Sumatra'"
-        location = 11521
-#		division_template = "Koloniaal Garnizoen"
-#		force_equipment_variants = { infantry_equipment_0 = { owner = "HOL" } }
-#		start_equipment_factor = 1.0 # 0.3
-#
-#	}
-#	division= {	
-#		name = "IIe Territoriaal Commando 'Sumatra'"
-        location = 11732
-#		division_template = "Koloniaal Garnizoen"
-#		force_equipment_variants = { infantry_equipment_0 = { owner = "HOL" } }
-#		start_equipment_factor = 1.0 # 0.3
-#
-#	}
-#	division= {	
-#		name = "IIIe Territoriaal Commando 'Sumatra'"
-        location = 11606
-#		division_template = "Koloniaal Garnizoen"
-#		force_equipment_variants = { infantry_equipment_0 = { owner = "HOL" } }
-#		start_equipment_factor = 1.0 # 0.3
-#
-#	}
-#
-#	##### OLZ Borneo #####
-#	division= {	
-#		name = "Ie Territoriaal Commando 'Borneo'"
-        location = 13011
-#		division_template = "Koloniaal Garnizoen"
-#		force_equipment_variants = { infantry_equipment_0 = { owner = "HOL" } }
-#		start_equipment_factor = 1.0 # 0.3
-#
-#	}
-#	division= {	
-#		name = "IIe Territoriaal Commando 'Borneo'"
-        location = 9444
-#		division_template = "Koloniaal Garnizoen"
-#		force_equipment_variants = { infantry_equipment_0 = { owner = "HOL" } }
-#		start_equipment_factor = 1.0 # 0.3
-#
-#	}
-#
-#	##### OLZ Celebes en Nieuw-Guinea #####
-#	division= {	
-#		name = "Territoriaal Commando 'Celebes'"
-        location = 9490
-#		division_template = "Koloniaal Garnizoen"
-#		force_equipment_variants = { infantry_equipment_0 = { owner = "HOL" } }
-#		start_equipment_factor = 1.0 # 0.3
-#
-#	}
-#
 }
+
 
 ### Air Wings
 air_wings = {

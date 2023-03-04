@@ -12,7 +12,19 @@ woman_in_the_army:0 "Woman in the Army"
 import_focus:0 "Import Focus"
 focus_on_other_things:0 "Focus on other Things"
 
+# Victory Points
+ ebf_victory:0 "Victory"
+ ebf_victory_desc:0 "Below you can see 7 different states. As soon as one country owns at least 4 of them and the month is over a 60 day timer starts. If the timer runs out that country has won. In order for the timer to run out the country will need to hold at least 4 states continuously. In order to prevent the victory you will need to take away states until he has less than 4 states left. If that is the case the timer will cancel and the war will continue. As soon as the condition is met again the timer will start over.\n\nThe current scores are as followed:\n [?ebf_victory_points_countries_array^0.GetNameWithFlag]: [?ebf_victory_points_array^0]\n [?ebf_victory_points_countries_array^1.GetNameWithFlag]: [?ebf_victory_points_array^1]\n [?ebf_victory_points_countries_array^2.GetNameWithFlag]: [?ebf_victory_points_array^2]\n [?ebf_victory_points_countries_array^3.GetNameWithFlag]: [?ebf_victory_points_array^3]\n [?ebf_victory_points_countries_array^4.GetNameWithFlag]: [?ebf_victory_points_array^4]\n [?ebf_victory_points_countries_array^5.GetNameWithFlag]: [?ebf_victory_points_array^5]\n [?ebf_victory_points_countries_array^6.GetNameWithFlag]: [?ebf_victory_points_array^6]\n [?ebf_victory_points_countries_array^7.GetNameWithFlag]: [?ebf_victory_points_array^7]"
+ ebf_victory_south_africa:0 "South Africa - [681.owner.GetNameWithFlag]"
+ ebf_victory_suez_canal:0 "Suez Canal - [446.owner.GetNameWithFlag]"
+ ebf_victory_vladivostok:0 "Vladivostok - [408.owner.GetNameWithFlag]"
+ ebf_victory_singapore:0 "Singapore - [336.owner.GetNameWithFlag]"
+ ebf_victory_new_south_wales:0 "New South Wales - [285.owner.GetNameWithFlag]"
+ ebf_victory_galapagos:0 "Galapagos - [649.owner.GetNameWithFlag]"
+ ebf_victory_texsas:0 "Texsa - [375.owner.GetNameWithFlag]"
 
+victory.1.t:0 "The Great War is over!"
+victory.1.d:0 "The Great War is over! The victor is [?global.ebf_currently_winnig_country.GetNameDef] [?global.ebf_currently_winnig_country.GetFlag]!"
 
 
 
