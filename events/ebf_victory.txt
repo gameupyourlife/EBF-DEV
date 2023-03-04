@@ -1,3 +1,17 @@
+add_namespace = victory
+
+# Victory Germany
+news_event = {
+	id = victory.1
+	title = victory.1.t
+	desc = victory.1.d
+	picture = GFX_news_event_001
+	is_triggered_only = yes
+	major = yes
+
+}
+
+
 
 # add_namespace = victory_timer
 
@@ -244,24 +258,7 @@
 # 	}
 # }
 
-# add_namespace = victory
 
-# # Victory Germany
-# news_event = {
-# 	id = victory_GER.1
-# 	title = victory_GER.1.t
-# 	desc = victory_GER.1.d
-# 	picture = GFX_news_event_001
-	
-# 	major = yes
-	
-# 	mean_time_to_happen = { days = 1 }
-	
-# 	trigger = {
-# 	}
-
-# 	is_triggered_only = yes
-# }
 
 # news_event = {
 # 	id = victory_SWE.1

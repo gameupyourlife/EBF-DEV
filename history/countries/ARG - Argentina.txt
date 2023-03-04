@@ -12,10 +12,7 @@ if = {
 	limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "ARG_1936_air_bba"
 		set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 			iw_small_airframe = 1
 			aa_lmg = 1
 			engines_1 = 1
@@ -24,10 +21,7 @@ if = {
 	else = {
 		set_air_oob = "ARG_1936_air_legacy"
 		set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 			early_fighter = 1
 			CAS1 = 1
 		}
@@ -36,10 +30,7 @@ if = {
 
 # Starting tech
 set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 	infantry_weapons = 1
 	tech_mountaineers = 1
 	gw_artillery = 1
@@ -49,10 +40,7 @@ set_technology = {
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
 	set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 		early_submarine = 1
 		early_destroyer = 1
 		early_light_cruiser = 1
@@ -64,10 +52,7 @@ if = {
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 		basic_naval_mines = 1
 		early_ship_hull_light = 1
 		basic_ship_hull_light = 1
@@ -140,19 +125,13 @@ set_country_flag = monroe_doctrine
 		limit = { has_dlc = "By Blood Alone" }
 			set_air_oob = "ARG_1939_air_bba"
 			set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 				iw_medium_airframe = 1
 			}
 		else = {
 			set_air_oob = "ARG_1939_air_legacy"
 			set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 				early_bomber = 1
 				naval_bomber1 = 1
 			}
@@ -160,10 +139,7 @@ set_country_flag = monroe_doctrine
 	}
 
 	set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 		interwar_artillery = 1
 		infantry_weapons1 = 1
 		infantry_weapons2 = 1
@@ -201,10 +177,7 @@ set_country_flag = monroe_doctrine
 	if = {
 		limit = { not = { has_dlc = "Man the Guns" } }
 		set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 			basic_destroyer = 1
 			basic_light_cruiser = 1
 		}
@@ -212,17 +185,14 @@ set_country_flag = monroe_doctrine
 	if = {
 		limit = { has_dlc = "Man the Guns" }
 		set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 			basic_light_battery = 1
 			basic_medium_battery = 1
 		}
 	}
 }
 
-set_convoys = 200 #120
+set_convoys = 120
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1931.11.8"

@@ -1,12 +1,25 @@
 ﻿capital = 64
 
-
-set_oob = "GER_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "GER_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "GER_1936_nsb"
+}
 
 if = {
 	limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "GER_1936_air_bba"
 		set_technology = {
+
 			aa_lmg = 1
 			aa_cannon_1 = 1
 			engines_1 = 1
@@ -22,10 +35,7 @@ if = {
 	else = {
 		set_air_oob = "GER_1936_air_legacy"
 		set_technology = {
-			early_fighter = 1
-			tech_support = 1
-			gw_artillery = 1
-			rations = 1
+
 			early_fighter = 1
 			fighter1 = 1
 			early_bomber = 1
@@ -44,10 +54,7 @@ set_fuel_ratio = 0.8
 
 # Starting tech
 set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	tech_recon = 1
@@ -70,10 +77,7 @@ if = {
 		NOT = { has_dlc = "No Step Back" }
 	}
 	set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 		gwtank = 1
 		basic_light_tank = 1
 		improved_light_tank = 1
@@ -85,10 +89,7 @@ if = {
 		has_dlc = "No Step Back"
 	}
 	set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 		gwtank_chassis = 1
 		basic_light_tank_chassis = 1
 		improved_light_tank_chassis = 1
@@ -101,10 +102,7 @@ if = {
 		not = { has_dlc = "Man the Guns" }
 	}
 	set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 		early_submarine = 1
 		basic_submarine = 1
 		early_destroyer = 1
@@ -125,10 +123,7 @@ if = {
 		has_dlc = "Man the Guns"
 	}
 	set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 		basic_naval_mines = 1
 		submarine_mine_laying = 1
 		early_ship_hull_light = 1
@@ -159,10 +154,7 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 		armored_car1 = 1
 	}
 }
@@ -172,7 +164,7 @@ set_variable = { var = ger_gateway_to_europe_influence value = 0 }
 set_variable = { var = wehrmacht_anger value = 0 }
 set_variable = { var = ss_anger value = 0 }
 set_research_slots = 4
-set_convoys = 200 #200
+set_convoys = 200
 set_stability = 0.75 
 set_war_support = 0.3
 
@@ -183,6 +175,219 @@ create_import = {
 		exporter = SWE
 }
 
+1939.1.1 = {
+	add_named_threat = { threat = 40 name = 1939_bookmark_threat }
+	set_war_support = 0.7
+
+	add_political_power = 1197
+	add_command_power = 100
+	
+	#adding ministers
+	add_ideas = {
+		henschel
+		ig_faben
+		heinrich_himmler
+		rudolf_hess
+		ludwig_beck
+		gerd_von_rundstedt
+		GER_autarky_idea
+
+		#laws
+		war_economy
+		extensive_conscription
+	}
+	
+	
+	
+	set_autonomy = {
+		target = SLO
+		autonomous_state = autonomy_puppet
+	}
+	
+	give_military_access = SLO
+	create_wargoal = {
+		type = take_state_focus
+		target = POL
+		generator = { 72 88 90 87 86 } # Zaolzie Krakow Kielce Lodz Poznan
+	}
+
+#Trade
+	create_import = {
+			resource = oil
+			factories = 2
+			exporter = SOV
+	}
+
+	#MR pact effect, Also has a part scripted in soviet history file
+	unlock_national_focus = GER_mol_rib_pact
+	every_other_country = {
+		limit = {
+			has_government = fascism 
+		}
+		add_opinion_modifier = { target = GER modifier = MR_pact_fascists }
+	}
+	diplomatic_relation = { country = SOV relation = non_aggression_pact }
+	add_opinion_modifier = { target = SOV modifier = MR_pact }
+	#MR pact end
+
+	#Soviet treaty
+	unlock_national_focus = GER_soviet_treaty
+	add_tech_bonus = {
+		bonus = 1.0
+		uses = 2
+		category = armor
+	}
+	SOV = {
+		add_opinion_modifier = { target = GER modifier = sov_ger_treaty }
+		add_opinion_modifier = { target = GER modifier = sov_ger_treaty_trade }
+	}
+	#Soviet treaty end
+	
+	unlock_national_focus = GER_rhineland
+	unlock_national_focus = GER_anschluss
+	unlock_national_focus = GER_demand_sudetenland
+	unlock_national_focus = GER_first_vienna_award
+	unlock_national_focus = GER_end_of_czechoslovakia
+	unlock_national_focus = GER_demand_memel
+	unlock_national_focus = GER_four_year_plan
+	unlock_national_focus = GER_autarky
+	unlock_national_focus = GER_synthetic_rubber
+
+	set_global_flag = end_of_czechoslovakia
+	set_global_flag = olympics_1936
+	set_variable = { var = GER_mefo_bill_counter value = 90 }
+	complete_national_focus = GER_autobahn
+	complete_national_focus = GER_west_wall
+	complete_national_focus = GER_army_innovation
+	complete_national_focus = GER_hermann_goring_werke
+	complete_national_focus = GER_kdf_wagen
+	complete_national_focus = GER_coal_liquidization
+	complete_national_focus = GER_extra_tech_slot
+
+	#BUILDINGS
+	
+
+	set_technology = {
+
+		interwar_artillery = 1
+		interwar_antitank = 1
+		infantry_weapons2 = 1
+		improved_infantry_weapons = 1
+		support_weapons = 1
+		support_weapons2 = 1
+		paratroopers = 1
+		
+
+		#doctrines
+		delay = 1
+		elastic_defence = 1
+		armored_spearhead = 1
+		schwerpunk = 1
+		blitzkrieg = 1
+		convoy_interdiction_ti = 1
+		unrestricted_submarine_warfare = 1
+		raider_patrols = 1
+		#air
+		formation_flying = 1		
+		dive_bombing = 1
+		direct_ground_support = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		decimetric_radar = 1
+		mechanical_computing = 1
+		computing_machine = 1
+		basic_encryption = 1
+		basic_decryption = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		oil_processing = 1
+		fuel_refining2 = 1
+		construction1 = 1
+		construction2 = 1
+		construction3 = 1
+		construction4 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+		dispersed_industry3 = 1
+		dispersed_industry4 = 1
+
+	}
+
+	if = {
+		limit = {
+			NOT = {
+				has_dlc = "No Step Back"
+			}
+		}
+		set_technology = {
+
+			basic_medium_tank = 1 
+		}
+		set_oob = "GER_1939"
+	}
+	if = {
+		limit = {
+			
+			has_dlc = "No Step Back"
+			
+		}
+		set_technology = {
+
+			basic_medium_tank_chassis = 1 
+		}
+		set_oob = "GER_1939_nsb"
+	}
+	if = {
+		limit = {
+			not = {
+				has_dlc = "Man the Guns"
+			}
+		}
+		set_technology = {
+
+			basic_heavy_cruiser = 1
+			improved_heavy_cruiser = 1
+			improved_battleship = 1
+			early_carrier = 1
+			basic_carrier = 1
+			improved_carrier = 1
+		}
+		set_naval_oob = "GER_1939_naval_legacy"
+	}
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		set_technology = {
+
+			improved_ship_hull_cruiser = 1
+			basic_ship_hull_heavy = 1
+			early_ship_hull_carrier = 1
+			basic_ship_hull_carrier = 1
+			improved_heavy_battery = 1
+			basic_heavy_armor_scheme = 1
+		}
+		set_naval_oob = "GER_1939_naval_mtg"
+	}
+	if = {
+		limit = { has_dlc = "By Blood Alone" }
+			set_air_oob = "GER_1939_air_bba"
+		else = {
+			set_air_oob = "GER_1939_air_legacy"
+			set_technology = {
+
+				CAS2 = 1
+				heavy_fighter1 = 1
+			}
+		}
+	}
+}
 
 set_politics = {
 	ruling_party = fascism
@@ -211,6 +416,14 @@ add_ideas = GER_mefo_bills_1
 
 activate_mission = GER_mefo_bills_mission
 
+recruit_character = ebf_GER_hugo_sperrle
+recruit_character = ebf_GER_ritter_von_greim
+recruit_character = ebf_GER_walther_von_brauchitsch
+recruit_character = ebf_GER_erwin_rommel
+recruit_character = ebf_GER_hans_oster
+recruit_character = ebf_GER_alfred_hugenberg
+recruit_character = ebf_GER_carl_friedrich_goerdeler
+
 recruit_character = GER_wilhelm_pieck
 recruit_character = GER_konrad_adenauer
 recruit_character = GER_adolf_hitler
@@ -223,7 +436,7 @@ recruit_character = GER_erich_raeder
 recruit_character = GER_erich_von_manstein
 recruit_character = GER_ernst_udet
 recruit_character = GER_ernsteberhard_hell
-recruit_character = ebf_GER_erwin_rommel
+recruit_character = GER_erwin_rommel
 recruit_character = GER_erwin_von_witzleben
 recruit_character = GER_ewald_von_kleist
 recruit_character = GER_fedor_von_bock
@@ -244,7 +457,7 @@ recruit_character = GER_heinz_guderian
 recruit_character = GER_heisenberg
 recruit_character = GER_hermann_boehm
 recruit_character = GER_hermann_hoth
-recruit_character = ebf_GER_hugo_sperrle
+recruit_character = GER_hugo_sperrle
 recruit_character = GER_johannes_blaskowitz
 recruit_character = GER_karl_donitz
 recruit_character = GER_kurt_student
@@ -252,13 +465,13 @@ recruit_character = GER_ludwig_beck
 recruit_character = GER_maximilian_von_weichs
 recruit_character = GER_otto_ciliax
 recruit_character = GER_paul_hausser
-recruit_character = ebf_GER_ritter_von_greim
+recruit_character = GER_ritter_von_greim
 recruit_character = GER_sepp_dietrich
 recruit_character = GER_viktor_schutze
 recruit_character = GER_von_braun
 recruit_character = GER_walter_kruger
 recruit_character = GER_walter_model
-recruit_character = ebf_GER_walther_von_brauchitsch
+recruit_character = GER_walther_von_brauchitsch
 recruit_character = GER_walther_wever
 recruit_character = GER_werner_von_fritsch
 recruit_character = GER_wilhelm_keitel
@@ -270,8 +483,12 @@ recruit_character = GER_wolfram_von_richthofen
 
 recruit_character = GER_heinrich_himmler
 recruit_character = GER_walther_funk
+recruit_character = GER_hjalmar_schacht
+recruit_character = GER_julius_leber
 recruit_character = GER_albert_speer
-recruit_character = ebf_GER_hans_oster
+recruit_character = GER_hans_oster
+recruit_character = GER_theodor_heuss
+recruit_character = GER_fritz_todt
 recruit_character = GER_joachim_von_ribbentrop
 recruit_character = GER_ernst_thalmann
 recruit_character = GER_rudolf_hess
@@ -279,16 +496,22 @@ recruit_character = GER_martin_bormann
 recruit_character = GER_wilhelm_canaris
 recruit_character = GER_joseph_goebbels
 recruit_character = GER_konstantin_von_neurath
-recruit_character = ebf_GER_alfred_hugenberg
+recruit_character = GER_alfred_hugenberg
+recruit_character = GER_kurt_schumacher
 recruit_character = GER_wilhelm_ii
 recruit_character = GER_wilhelm_iii
 recruit_character = GER_victoria
 recruit_character = GER_august_von_mackensen
-recruit_character = ebf_GER_carl_friedrich_goerdeler
 
 recruit_character = GER_alexander_von_falkenhausen #Not visible unless recalled from China
 
 
+if = {
+	limit = {
+		has_dlc = "Waking the Tiger"
+	}
+	recruit_character = GER_carl_friedrich_goerdeler
+}
 
 if = {
 	limit = {

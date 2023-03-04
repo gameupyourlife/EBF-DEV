@@ -14,10 +14,7 @@ if = {
 	else = {
 		set_air_oob = "POR_1936_air_legacy"
 		set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 			early_fighter = 1
 			early_bomber = 1
 			CAS1 = 1
@@ -28,10 +25,7 @@ if = {
 set_research_slots = 3
 
 set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	gw_artillery = 1
@@ -43,10 +37,7 @@ set_technology = {
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
 	set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 		early_submarine = 1
 		basic_submarine = 1
 		early_destroyer = 1
@@ -56,10 +47,7 @@ if = {
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 		basic_naval_mines = 1
 		submarine_mine_laying = 1
 		early_ship_hull_light = 1
@@ -180,10 +168,7 @@ if = {
 		}
 	}
 	set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 		interwar_artillery = 1
 		infantry_weapons2 = 1
 		support_weapons = 1
@@ -218,7 +203,7 @@ if = {
 	}
 }
 
-set_convoys = 200 #50
+set_convoys = 50
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1933.3.5"
@@ -244,7 +229,7 @@ set_popularities = {
 	}
 }
 
-set_convoys = 200 #100
+set_convoys = 100
 set_stability = 0.75
 
 if = {
@@ -289,6 +274,7 @@ if = {
 	recruit_character = POR_alfredo_da_silva
 	recruit_character = POR_fernando_dos_santos_costa
 	recruit_character = POR_augusto_de_vasconcelos
+	recruit_character = POR_agostinho_lourenco
 }
 
 if = {

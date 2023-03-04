@@ -4,10 +4,7 @@ oob = "PRC_1936"
 
 # Starting tech
 set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 	infantry_weapons = 1
 	mass_assault = 1
 }
@@ -134,10 +131,7 @@ save_global_event_target_as = WTT_communist_china
 	}
 	
 	set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 		tech_mountaineers = 1
 		#doctrines
 		air_superiority = 1

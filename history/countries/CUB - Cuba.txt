@@ -4,10 +4,7 @@ oob = "CUB_1936"
 
 # Starting tech
 set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 	infantry_weapons = 1
 }
 if = {
@@ -17,10 +14,7 @@ if = {
 		}
 	}
 	set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 		early_fighter = 1
 
 	}
@@ -50,7 +44,7 @@ recruit_character = CUB_eugenio_molinet_castro
 
 set_country_flag = monroe_doctrine
 set_war_support = 0.1
-set_convoys = 200 #20
+set_convoys = 20
 
 1939.1.1 = {
 
@@ -70,10 +64,7 @@ set_convoys = 200 #20
 	
 	oob = "CUB_1939"
 	set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 		gw_artillery = 1
 		infantry_weapons1 = 1
 		support_weapons = 1

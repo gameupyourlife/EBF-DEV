@@ -1,0 +1,111 @@
+on_actions = {
+	on_monthly = {
+		effect = {
+			every_country = {
+				limit = {
+					check_variable = { ebf_victory_points > 3 }
+				}
+				set_variable = { global.ebf_currently_winnig_country = THIS }
+				set_variable = { global.ebf_winning_condition_fulfilled = 1 }
+			}
+		}
+	}
+	on_weekly = {
+		effect = {
+			get_sorted_scored_countries = {
+				scorer = ebf_victory_scorer
+				array = ebf_victory_points_countries_array
+				scores = ebf_victory_points_array
+			}
+		}
+	}
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					FROM.FROM = {
+						OR = {
+							state = 681 # South Africa
+							state = 446 # Suez Canal
+							state = 336 # Singapore
+							state = 408 # Vladiwostok
+							state = 649 # Galapagos Islands
+							state = 375 # Texas
+							state = 285 # New South Wales (Australia)
+						}
+					}
+				}
+				ROOT = {
+					add_to_variable = { ebf_victory_points = 1 }
+				}
+				FROM = {
+					subtract_from_variable = { ebf_victory_points = 1 }
+				}
+			}
+
+			if = {
+				limit = {
+					FROM.FROM = {
+						OR = {
+							state = 323 # Nepal
+						}
+					}
+				}
+				ROOT = {
+					add_ideas = victory_nepal_buff_idea
+				}
+				FROM = {
+					remove_ideas = victory_nepal_buff_idea
+				}
+			}
+
+			if = {
+				limit = {
+					FROM.FROM = {
+						OR = {
+							state = 3 # Switzerland
+						}
+					}
+				}
+				ROOT = {
+					add_ideas = victory_switzerland_buff_idea
+				}
+				FROM = {
+					remove_ideas = victory_switzerland_buff_idea
+				}
+			}
+
+			if = {
+				limit = {
+					FROM.FROM = {
+						OR = {
+							state = 629 # Haiwaii
+						}
+					}
+				}
+				ROOT = {
+					add_ideas = victory_hawaii_buff_idea
+				}
+				FROM = {
+					remove_ideas = victory_hawaii_buff_idea
+				}
+			}
+
+			if = {
+				limit = {
+					FROM.FROM = {
+						OR = {
+							state = 101 # Greenland
+						}
+					}
+				}
+				ROOT = {
+					add_ideas = victory_greenland_buff_idea
+				}
+				FROM = {
+					remove_ideas = victory_greenland_buff_idea
+				}
+			}
+		}
+	}
+}

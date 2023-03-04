@@ -1,10 +1,20 @@
-﻿capital = 446
+﻿capital = 907
 
 # Starting tech
 set_technology = {
-    rations = 1
+
 	infantry_weapons = 1
-	gwtank = 1
+}
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_technology = {
+
+		gwtank = 1
+	}
 }
 
 set_convoys = 20
@@ -12,6 +22,7 @@ set_convoys = 20
 1939.1.1 = {
 
 	add_political_power = 1198
+	add_command_power = 100
 	
 	#generic focuses
 	complete_national_focus = army_effort
@@ -25,7 +36,7 @@ set_convoys = 20
 	complete_national_focus = production_effort
 	
 	set_technology = {
-    rations = 1
+
 		tech_support = 1
 		tech_recon = 1
 		support_weapons = 1
@@ -75,7 +86,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Muhammad Naguib"
 	desc = ""
-	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_democratic1.dds"
+	picture = GFX_portrait_Muhammad_Naguib
 	ideology = liberalism
 	traits = {
 		#
@@ -85,7 +96,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Ahmed Husayn"
 	desc = ""
-	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds"
+	picture = GFX_portrait_Ahmed_Husayn
 	ideology = fascism_ideology
 	traits = {
 		#
@@ -105,7 +116,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Hosni al-Arabi"
 	desc = ""
-	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_navy_3.dds"
+	picture = GFX_portrait_Hosni_al_Arabi
 	ideology = leninism
 	traits = {
 		#

@@ -7,10 +7,7 @@ if = {
 	else = {
 		set_air_oob = "PER_1936_air_legacy"
 		set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 			early_fighter = 1
 			CAS1 = 1
 
@@ -20,10 +17,7 @@ if = {
 
 # Starting tech
 set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	gw_artillery = 1
@@ -76,10 +70,7 @@ recruit_character = PER_ali_khan_mansour
 		}
 	}
 	set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 		tech_support = 1
 		tech_recon = 1
 		infantry_weapons2 = 1
@@ -118,16 +109,13 @@ recruit_character = PER_ali_khan_mansour
 			NOT = { has_dlc = "No Step Back" }
 		}
 		set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 			gwtank = 1
 		}
 	}
 }
 
-set_convoys = 200 #10
+set_convoys = 10
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1936.1.1"

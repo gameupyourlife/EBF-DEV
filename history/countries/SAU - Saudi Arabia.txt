@@ -4,10 +4,7 @@ oob = "SAU_1936"
 
 # Starting tech
 set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 	infantry_weapons = 1
 }
 if = {
@@ -15,10 +12,7 @@ if = {
 		NOT = { has_dlc = "No Step Back" }
 	}
 	set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 		gwtank = 1
 	}
 }
@@ -28,13 +22,10 @@ if = {
 		has_dlc = "Battle for the Bosporus"
 	}
 	set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1 camelry = 1 }
+ camelry = 1 }
 }
 
-set_convoys = 200 #5
+set_convoys = 5
 
 recruit_character = SAU_abdulaziz_ibn_saud
 recruit_character = SAU_philip_gordon_lee
@@ -68,10 +59,7 @@ recruit_character = SAU_gholam_wali
 	
 	oob = "SAU_1939"
 	set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 		tech_support = 1
 		tech_recon = 1
 		support_weapons = 1

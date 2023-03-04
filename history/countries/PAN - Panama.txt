@@ -4,10 +4,7 @@ oob = "PAN_1936"
 
 # Starting tech
 set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 	infantry_weapons = 1
 }
 
@@ -36,7 +33,7 @@ recruit_character = PAN_jose_pezet
 
 set_country_flag = monroe_doctrine
 set_war_support = 0.1
-set_convoys = 200 #10
+set_convoys = 10
 
 1939.1.1 = {
 
@@ -56,10 +53,7 @@ set_convoys = 200 #10
 	
 	oob = "PAN_1939"
 	set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 		infantry_weapons1 = 1
 
 		#doctrines

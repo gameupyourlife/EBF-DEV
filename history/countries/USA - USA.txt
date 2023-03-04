@@ -15,10 +15,7 @@ if = {
 	limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "USA_1936_air_bba"
 		set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 			iw_small_airframe = 1
 			basic_small_airframe = 1
 			iw_medium_airframe = 1
@@ -32,10 +29,7 @@ if = {
 	else = {
 		set_air_oob = "USA_1936_air_legacy"
 		set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 			early_fighter = 1
 			cv_early_fighter = 1
 			cv_naval_bomber1 = 1
@@ -65,10 +59,7 @@ USA = {
 }
 # Starting tech
 set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	tech_recon = 1
@@ -90,10 +81,7 @@ if = {
 		NOT = { has_dlc = "No Step Back" }
 	}
 	set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 		gwtank = 1
 
 	}
@@ -103,10 +91,7 @@ if = {
 		has_dlc = "No Step Back"
 	}
 	set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 		gwtank_chassis = 1
 		basic_light_tank_chassis = 1
 	}
@@ -116,10 +101,7 @@ if = {
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
 	set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 		early_submarine = 1
 		basic_submarine = 1
 		early_destroyer = 1
@@ -136,10 +118,7 @@ if = {
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 		basic_naval_mines = 1
 		submarine_mine_laying = 1
 		early_ship_hull_light = 1
@@ -243,10 +222,7 @@ give_guarantee = URG
 		limit = { has_dlc = "By Blood Alone" }
 			set_air_oob = "USA_1939_air_bba"
 			set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 				iw_large_airframe = 1
 				basic_large_airframe = 1
 				improved_small_airframe = 1
@@ -255,10 +231,7 @@ give_guarantee = URG
 		else = {
 			set_air_oob = "USA_1939_air_legacy"
 			set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 				fighter1 = 1
 				cv_fighter1 = 1
 				heavy_fighter1 = 1
@@ -270,10 +243,7 @@ give_guarantee = URG
 	}
 
 	set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 		interwar_artillery = 1
 		interwar_antitank = 1
 		infantry_weapons2 = 1
@@ -318,10 +288,7 @@ give_guarantee = URG
 	if = {
 		limit = { not = { has_dlc = "Man the Guns" } }
 		set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 			improved_submarine = 1
 			basic_destroyer = 1
 			basic_heavy_cruiser = 1
@@ -331,10 +298,7 @@ give_guarantee = URG
 	if = {
 		limit = { has_dlc = "Man the Guns" }
 		set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 			improved_ship_hull_light = 1
 			basic_ship_hull_heavy = 1
 			improved_ship_hull_heavy = 1
@@ -351,7 +315,7 @@ give_guarantee = URG
 
 
 
-set_convoys = 200 #500
+set_convoys = 500
 
 
 set_politics = {
@@ -1045,6 +1009,7 @@ if = {
 			mid_2_custom_slot = ship_airplane_launcher_1
 			rear_1_custom_slot = ship_heavy_battery_2
 		}
+		obsolete = yes
 	}
 	# Carriers #
 	create_equipment_variant = {

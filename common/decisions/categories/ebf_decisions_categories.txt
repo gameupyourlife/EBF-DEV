@@ -11,6 +11,63 @@ GER_reichskommissariats_ebf = {
 	}
 }
 
+ebf_victory = {
+	icon = generic_propaganda
+	visible_when_empty = yes
+	allowed = {
+		always = yes
+	}
+	visible = {
+		always = yes
+	}
+
+	on_map_area = {
+		state = 681
+		name = ebf_victory_south_africa
+		zoom = 650
+	}
+
+	on_map_area = {
+		state = 446
+		name = ebf_victory_suez_canal
+		zoom = 650
+	}
+	
+	on_map_area = {
+		state = 408
+		name = ebf_victory_vladivostok
+		zoom = 650
+	}
+
+	on_map_area = {
+		state = 336
+		name = ebf_victory_singapore
+		zoom = 650
+	}
+
+	on_map_area = {
+		state = 285
+		name = ebf_victory_new_south_wales
+		zoom = 650
+	}
+
+	on_map_area = {
+		state = 649
+		name = ebf_victory_galapagos
+		zoom = 650
+	}
+
+	on_map_area = {
+		state = 375
+		name = ebf_victory_texsas
+		zoom = 650
+	}
+
+	
+
+	priority = 10000
+}
+
 POL_royalist_civil_war_ebf = {
 	allowed = {
 		original_tag = POL

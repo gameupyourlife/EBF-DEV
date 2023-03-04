@@ -84,7 +84,7 @@ ideas = {
 			modifier = {
 				neutrality_drift = 0.005
 				stability_factor = -0.40
-				war_support = -0.4
+				war_support_factor = -0.4
 				conscription_factor = -0.5
 				consumer_goods_factor = 0.05
 			}
@@ -100,7 +100,7 @@ ideas = {
 			modifier = {
 				neutrality_drift = 0.003
 				stability_factor = -0.2
-				war_support = -0.4
+				war_support_factor = -0.4
 				conscription_factor = -0.35
 				consumer_goods_factor = 0.035
 			}
@@ -116,7 +116,7 @@ ideas = {
 			modifier = {
 				neutrality_drift = 0.002
 				stability_factor = -0.20
-				war_support = -0.2
+				war_support_factor = -0.2
 				conscription_factor = -0.2
 				consumer_goods_factor = 0.02
 			}
@@ -131,7 +131,7 @@ ideas = {
 			}
 			modifier = {
 				neutrality_drift = 0.001
-				war_support = -0.2
+				war_support_factor = -0.2
 				conscription_factor = -0.1
 				consumer_goods_factor = 0.01
 			}

@@ -5,17 +5,14 @@ oob = "IRE_1936"
 set_research_slots = 3
 
 set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	fuel_silos = 1
 	basic_train = 1
 }
 
-set_convoys = 200 #10
+set_convoys = 10
 
 recruit_character = IRE_Éamon_de_valera
 recruit_character = IRE_eoin_oduffy
@@ -56,10 +53,7 @@ recruit_character = IRE_sean_ceallaigh
 	
 	oob = "IRE_1939"
 	set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 		gw_artillery = 1
 		interwar_antiair = 1
 		infantry_weapons2 = 1

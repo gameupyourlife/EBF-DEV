@@ -7,10 +7,7 @@ set_research_slots = 2
 # Starting tech
 # clone of Holland
 set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 	infantry_weapons = 1
 	tech_support = 1		
 	tech_recon = 1
@@ -22,10 +19,7 @@ if = {
 		NOT = { has_dlc = "By Blood Alone" }
 	}
 	set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 		early_fighter = 1
 		early_bomber = 1
 	}
@@ -36,10 +30,7 @@ if = {
 		not = { has_dlc = "Man the Guns" }
 	}
 	set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 		transport = 1
 		early_submarine = 1
 		basic_destroyer = 1
@@ -55,10 +46,7 @@ if = {
 		has_dlc = "Man the Guns"
 	}
 	set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 		mtg_transport = 1
 		early_ship_hull_submarine = 1
 		early_ship_hull_light = 1
@@ -69,7 +57,7 @@ if = {
 	}
 }
 
-set_convoys = 200 #25
+set_convoys = 25
 set_popularities = {
 	democratic = 10
 	fascism = 10
@@ -112,10 +100,7 @@ set_cosmetic_tag = INS_HOL # Netherlands East Indies
 	complete_national_focus = production_effort
 	
 	set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 		interwar_artillery = 1
 		interwar_antiair = 1
 		tech_recon = 1
@@ -153,10 +138,7 @@ set_cosmetic_tag = INS_HOL # Netherlands East Indies
 			}
 		}
 		set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 			gwtank = 1
 			basic_light_tank = 1
 		}
@@ -168,10 +150,7 @@ set_cosmetic_tag = INS_HOL # Netherlands East Indies
 			
 		}
 		set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 			gwtank_chassis = 1
 			basic_light_tank_chassis = 1
 		}

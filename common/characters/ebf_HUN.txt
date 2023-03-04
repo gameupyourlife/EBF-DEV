@@ -1,5 +1,5 @@
 characters={
-	HUN_max_lorenz={
+	ebf_HUN_max_lorenz={
 		name=HUN_max_lorenz
 		portraits={
 			civilian={

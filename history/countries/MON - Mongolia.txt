@@ -4,10 +4,7 @@ oob = "MON_1936"
 
 # Starting tech
 set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 	infantry_weapons = 1
 }
 
@@ -55,10 +52,7 @@ recruit_character = MON_pai_yun_ti
 	
 	oob = "MON_1939"
 	set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 		support_weapons = 1
 		gw_artillery = 1
 		

@@ -12,10 +12,7 @@ if = {
 	limit = { has_dlc = "By Blood Alone" }
 	set_air_oob = "MEX_1936_air_bba"
 	set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 		aa_lmg = 1
 		engines_1 = 1
 		early_bombs = 1
@@ -25,10 +22,7 @@ if = {
 	else = {
 		set_air_oob = "MEX_1936_air_legacy"
 		set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 			early_fighter = 1
 			early_bomber = 1
 			CAS1 = 1
@@ -39,10 +33,7 @@ if = {
 
 # Starting tech
 set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 	infantry_weapons = 1
 	gw_artillery = 1
 	interwar_antiair = 1
@@ -55,10 +46,7 @@ if = {
 		has_dlc = "No Step Back"
 	}
 	set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 		gwtank_chassis = 1
 	}
 }
@@ -67,20 +55,14 @@ if = {
 		NOT = { has_dlc = "No Step Back" }
 	}
 	set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 		gwtank = 1
 	}
 }
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
 	set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 		early_submarine = 1
 		early_destroyer = 1
 		early_light_cruiser = 1
@@ -90,10 +72,7 @@ if = {
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 		basic_naval_mines = 1
 		early_ship_hull_light = 1
 		early_ship_hull_submarine = 1
@@ -143,7 +122,7 @@ recruit_character = MEX_luis_maria_martinez
 
 set_country_flag = monroe_doctrine
 
-set_convoys = 200 #45
+set_convoys = 45
 set_stability = 0.2
 set_war_support = 0.1
 
@@ -183,10 +162,7 @@ if = {
 	}
 	
 	set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 		interwar_artillery = 1
 		infantry_weapons1 = 1
 		infantry_weapons2 = 1

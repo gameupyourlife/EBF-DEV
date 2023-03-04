@@ -1,0 +1,37 @@
+ebf_victory = {
+	ebf_victory_timer = {
+		icon = coal
+
+		available = {
+			always = no
+		}
+
+		activation = {
+			check_variable = { global.ebf_winning_condition_fulfilled = 1 }
+			var:ebf_currently_winnig_country = {
+				check_variable = { ebf_victory_points > 3 }
+			}
+		}
+
+		cancel_trigger = { 
+			OR = {
+				check_variable = { global.ebf_winning_condition_fulfilled = 0 }
+				var:ebf_currently_winnig_country = {
+					check_variable = { ebf_victory_points < 4 }
+				}
+			}
+		}
+
+		is_good = no
+		days_mission_timeout = 60
+		
+		timeout_effect = {
+			var:ebf_currently_winnig_country = {
+				set_variable = { global.ebf_victor = THIS }
+			}
+			every_country = {
+				news_event = { id = victory.1 }
+			}
+		}
+	}
+}

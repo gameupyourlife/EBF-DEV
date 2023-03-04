@@ -5,15 +5,12 @@ set_research_slots = 2
 oob = "CRO_1936"
 
 set_technology = {
-    rations = 1
-gw_artillery = 1
+
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	tech_mountaineers = 1
 	tech_support = 1
 	tech_recon = 1	
-	early_fighter = 1
-	gwtank = 1
 }
 
 if = {
@@ -21,7 +18,7 @@ if = {
 		not = { has_dlc = "Man the Guns" }
 	}
 	set_technology = {
-    rations = 1
+
 		early_destroyer = 1
 		early_light_cruiser = 1
 		early_submarine = 1
@@ -33,7 +30,7 @@ if = {
 		has_dlc = "Man the Guns"
 	}
 	set_technology = {
-    rations = 1
+
 		early_ship_hull_submarine = 1
 		early_ship_hull_light = 1
 		early_ship_hull_cruiser = 1
@@ -43,12 +40,13 @@ if = {
 	}
 }
 
-set_convoys = 200 #5
+set_convoys = 5
 
 
 1939.1.1 = {
 
 	add_political_power = 1198
+	add_command_power = 100
 	
 	#generic focuses
 	complete_national_focus = army_effort
@@ -62,7 +60,7 @@ set_convoys = 200 #5
 	complete_national_focus = production_effort
 	
 	set_technology = {
-    rations = 1
+
 	
 		#doctrines
 		air_superiority = 1
@@ -104,7 +102,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Ante Pavelic"
 	desc = "ANTE_PAVELIC_DESC"
-	picture = "Portrait_Croatia_Ante_Pavelic.dds"
+	picture = GFX_portrait_Ante_Pavelic
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
@@ -114,7 +112,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Vladko Maček"
-	picture = "portrait_CRO_vladko_macek.dds"
+	picture = GFX_portrait_Vladko_Macek
 	expire = "1965.1.1"
 	ideology = centrism
 	traits = {
@@ -122,17 +120,24 @@ create_country_leader = {
 	}
 }
 
-create_country_leader = {
-	name = "Vladko Maček"
-	picture = "portrait_CRO_vladko_macek.dds"
-	expire = "1965.1.1"
-	ideology = socialism
-	traits = {
-		#
+add_country_leader_role = { #This replaces the commented script below - fixing a character duplicate error on launch
+	character = "CRO_vladko_maček"
+	country_leader = {
+	  ideology=socialism
+	  traits = {
+	  	#
+	  }
+	  expire = "1965.1.1"
 	}
+	promote_leader = yes
 }
 
-declare_war_on = {
-	target = YUG
-	type = annex_everything
-}
+#create_country_leader = { 
+#	name = "Vladko Maček"
+#	picture = "portrait_CRO_vladko_macek.dds"
+#	expire = "1965.1.1"
+#	ideology = socialism
+#	traits = {
+#		#
+#	}
+#}

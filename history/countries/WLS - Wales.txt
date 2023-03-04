@@ -4,15 +4,12 @@
 
 # Starting tech
 set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 	infantry_weapons = 1
 	fuel_silos = 1
 }
 
-set_convoys = 200 #20
+set_convoys = 20
 
 recruit_character = WLS_acr
 recruit_character = WLS_stc
@@ -48,10 +45,7 @@ recruit_character = WLS_democratic_guy
 	complete_national_focus = production_effort
 	
 	set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 
 		#doctrines
 		grand_battle_plan = 1

@@ -4,10 +4,7 @@ oob = "VEN_1936"
 
 # Starting tech
 set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 	infantry_weapons = 1
 	gw_artillery = 1
 	fuel_silos = 1
@@ -19,10 +16,7 @@ if = {
 		NOT = { has_dlc = "By Blood Alone" }
 	}
 	set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 		early_fighter = 1
 	}
 }
@@ -76,10 +70,7 @@ set_country_flag = monroe_doctrine
 		}
 	}
 	set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 		interwar_artillery = 1
 		infantry_weapons1 = 1
 		infantry_weapons2 = 1
@@ -111,7 +102,7 @@ set_country_flag = monroe_doctrine
 	}
 }
 
-set_convoys = 200 #10
+set_convoys = 10
 set_politics = {
 	ruling_party = fascism
 	last_election = "1936.1.1"

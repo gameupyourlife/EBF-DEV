@@ -4,30 +4,12 @@ oob = "ANG_1936"
 
 # Starting tech
 set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 	infantry_weapons = 1
 	tech_mountaineers = 1
 }
 
-set_convoys = 200 #5
-
-if = {
-	limit = { NOT = { has_dlc = "By Blood Alone" } }
-	create_equipment_variant = {
-		name = "He 112"
-		type = fighter_equipment_1
-		upgrades = {
-			plane_gun_upgrade = 1
-			plane_range_upgrade = 1  
-			plane_engine_upgrade = 0
-			plane_reliability_upgrade = 2
-		}
-	}
-}
-
+set_convoys = 5
 
 recruit_character = ANG_acgs
 recruit_character = ANG_ncm
@@ -64,10 +46,7 @@ recruit_character = ANG_ncs
 	complete_national_focus = production_effort
 	
 	set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 
 		#doctrines
 		grand_battle_plan = 1

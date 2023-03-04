@@ -1967,7 +1967,8 @@ ideas = {
 
 			on_remove = { #Remove terrain bonuses for militias
 				hidden_effect = {
-					set_technology = { 
+					set_technology = {
+ 
 						mountain_warfare_militias_tech = 0
 						popup = no
 					}

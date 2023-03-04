@@ -31,10 +31,7 @@ if = {
 	limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "ENG_1936_air_bba"
 		set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 			aa_lmg = 1
 			engines_1 = 1
 			engines_2 = 1
@@ -49,10 +46,7 @@ if = {
 	else = {
 		set_air_oob = "ENG_1936_air_legacy"
 		set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 			early_fighter = 1
 			cv_early_fighter = 1
 			cv_naval_bomber1 = 1
@@ -73,10 +67,7 @@ add_command_power = 20
 
 # Starting tech
 set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	tech_support = 1
@@ -100,10 +91,7 @@ if = {
 		NOT = { has_dlc = "No Step Back" }
 	}
 	set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 		gwtank = 1
 		basic_light_tank = 1
 	}
@@ -113,10 +101,7 @@ if = {
 		has_dlc = "No Step Back"
 	}
 	set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 		gwtank_chassis = 1
 		basic_light_tank_chassis = 1
 	}
@@ -127,20 +112,14 @@ if = {
 		has_dlc = "Battle for the Bosporus"
 	}
 	set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1 camelry = 1 }
+ camelry = 1 }
 }
 if = {
 	limit = {
 		not = { has_dlc = "Man the Guns" }
 	}
 	set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 		early_submarine = 1
 		early_destroyer = 1
 		basic_destroyer = 1
@@ -157,10 +136,7 @@ if = {
 		has_dlc = "Man the Guns"
 	}
 	set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 		basic_naval_mines = 1
 		submarine_mine_laying = 1
 		early_ship_hull_light = 1
@@ -196,10 +172,7 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 		armored_car1 = 1
 	}
 }
@@ -213,7 +186,7 @@ add_ideas = {
 }
 	
 
-set_convoys = 200 #800
+set_convoys = 800
 
 # DIPLOMACY
 if = {
@@ -330,10 +303,7 @@ if = {
 		limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "ENG_1939_air_bba"
 		set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 			basic_small_airframe = 1
 			improved_small_airframe = 1
 			basic_medium_airframe = 1
@@ -345,10 +315,7 @@ if = {
 		else = {
 			set_air_oob = "ENG_1939_air_legacy"
 			set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 				fighter1 = 1
 				fighter2 = 1
 				heavy_fighter1 = 1
@@ -365,10 +332,7 @@ if = {
 }
 
 	set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 		
 		interwar_artillery = 1
 		interwar_antitank = 1
@@ -424,10 +388,7 @@ if = {
 			}
 		}
 		set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 			improved_light_tank = 1
 			basic_medium_tank = 1
 			basic_heavy_tank = 1
@@ -440,10 +401,7 @@ if = {
 			
 		}
 		set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 			improved_light_tank_chassis = 1
 			basic_medium_tank_chassis = 1
 			basic_heavy_tank_chassis = 1
@@ -456,10 +414,7 @@ if = {
 			not = { has_dlc = "Man the Guns"}
 		}
 		set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 			basic_submarine = 1
 			improved_submarine = 1
 			improved_destroyer = 1
@@ -476,10 +431,7 @@ if = {
 			has_dlc = "Man the Guns"
 		}
 		set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 			basic_ship_hull_submarine = 1
 			improved_ship_hull_submarine = 1
 			improved_ship_hull_light = 1
@@ -496,7 +448,7 @@ if = {
 		modify_global_flag = { flag = MTG_naval_treaty_signatories value = -2 }
 	}
 
-	set_convoys = 200 #200
+	set_convoys = 200
 }
 
 set_politics = {
@@ -1814,7 +1766,7 @@ if = {
 			modules = {
 				fixed_main_weapon_slot = large_bomb_bay
 				fixed_auxiliary_weapon_slot_1 = large_bomb_bay
-				engine_type_slot = engine_2_4x
+				engine_type_slot = engine_3_4x #Increased tier due to thrust/weight issues
 				special_type_slot_1 = lmg_defense_turret_2x
 				special_type_slot_2 = lmg_defense_turret
 				special_type_slot_3 = empty

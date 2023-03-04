@@ -9,7 +9,7 @@ if = {
 		set_air_oob = "BUL_1936_air_legacy"
 	}
 }
-set_convoys = 200 #5 #VANILLA & DLC
+set_convoys = 5 #VANILLA & DLC
 
 #You don't want Bulgarian party names? Just remove these lines
 set_party_name = { # DLC
@@ -312,10 +312,7 @@ if = { #DLC
 }
 
 set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1 #VANILLA & DLC
+ #VANILLA & DLC
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	tech_support = 1		
@@ -323,6 +320,7 @@ set_technology = {
 	motorised_infantry = 1
 	fuel_silos = 1
 	basic_train = 1
+	tech_mountaineers = 1
 }
 if = {
 	limit = {
@@ -331,10 +329,7 @@ if = {
 		}
 	}
 	set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 		early_fighter = 1
 	}
 }
@@ -423,10 +418,7 @@ if = {
 
 	#TECHNOLOGY
 	set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 		gw_artillery = 1
 		interwar_artillery = 1
 		tech_recon = 1
@@ -469,10 +461,7 @@ if = {
 			}
 		}
 		set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 			gwtank = 1
 			basic_light_tank = 1
 		}
@@ -485,10 +474,7 @@ if = {
 			
 		}
 		set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 			gwtank_chassis = 1
 			basic_light_tank_chassis = 1
 		}
@@ -500,10 +486,7 @@ if = {
 		else = {
 			set_air_oob = "BUL_1939_air_legacy"
 			set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 				fighter1 = 1
 				early_bomber = 1
 				tactical_bomber1 = 1

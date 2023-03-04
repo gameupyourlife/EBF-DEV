@@ -25,10 +25,7 @@ if = {
 	limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "ROM_1936_air_bba"
 		set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 			iw_small_airframe = 1
 			aa_lmg = 1
 			engines_1 = 1
@@ -36,10 +33,7 @@ if = {
 	else = {
 		set_air_oob = "ROM_1936_air_legacy"
 		set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 			early_fighter = 1
 
 		}
@@ -79,10 +73,7 @@ recruit_character = ROM_octavian_goga
 
 # Starting tech
 set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 	tech_support = 1		
 	tech_engineers = 1
 	tech_mountaineers = 1
@@ -99,10 +90,7 @@ if = {
 		NOT = { has_dlc = "No Step Back" }
 	}
 	set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 		gwtank = 1
 		basic_light_tank = 1
 	}
@@ -112,10 +100,7 @@ if = {
 		has_dlc = "No Step Back"
 	}
 	set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 		gwtank_chassis = 1
 		basic_light_tank_chassis = 1
 	}
@@ -123,10 +108,7 @@ if = {
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
 	set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 		early_submarine = 1
 		early_destroyer = 1
 	}
@@ -134,10 +116,7 @@ if = {
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 		basic_naval_mines = 1
 		submarine_mine_laying = 1
 		early_ship_hull_light = 1
@@ -214,7 +193,7 @@ if = {
 	}
 }
 
-set_convoys = 200 #10
+set_convoys = 10
 1939.1.1 = {
 	
 	remove_ideas = neutrality_idea
@@ -223,10 +202,7 @@ set_convoys = 200 #10
 	add_command_power = 100
 
 	set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 		interwar_artillery = 1
 		interwar_antitank = 1
 		tech_recon = 1
@@ -268,30 +244,21 @@ set_convoys = 200 #10
 	if = {
 		limit = { not = { has_dlc = "Man the Guns" } }
 		set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 			basic_submarine = 1
 		}
 	}
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
 			set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 				engines_2 = 1
 				basic_small_airframe = 1
 				improved_small_airframe = 1
 			}
 		else = {
 			set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 				fighter1 = 1
 				early_bomber = 1
 				tactical_bomber1 = 1

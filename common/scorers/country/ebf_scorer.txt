@@ -1,0 +1,51 @@
+
+
+ebf_victory_scorer = {
+	targets = {
+		targets = { ENG, GER, BUL, SWE, OCC, POR, HUN, POL }
+
+		score = {
+			base = 0
+
+			modifier = {
+				has_capitulated = yes
+				factor = 0 
+			}  
+
+			modifier = {
+				owns_state = 681
+				add = 1
+			}  
+
+			modifier = {
+				owns_state = 446
+				add = 1
+			}  
+
+			modifier = {
+				owns_state = 336
+				add = 1
+			}  
+
+			modifier = {
+				owns_state = 408
+				add = 1
+			}  
+
+			modifier = {
+				owns_state = 649
+				add = 1
+			}  
+
+			modifier = {
+				owns_state = 375
+				add = 1
+			}  
+
+			modifier = {
+				owns_state = 285
+				add = 1
+			}  
+		}
+	}
+}

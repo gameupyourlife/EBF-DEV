@@ -1,0 +1,297 @@
+# For minor countries where advisors are not defined
+# Generate them from a generic template
+
+# Military Generals
+# Tank Commander
+# Naval/Special Forces Invasion Commander
+# One Field Marshal
+# 3 Random Generals
+every_possible_country = {
+	####################################################################################
+	### Military Generals
+	####################################################################################
+    # Random General 1
+	generate_character = {
+		token_base = generic_corps_commander_random_1 # token will be TAG_token_base
+		corps_commander = {
+            traits = { media_personality armor_officer war_hero winter_specialist }
+            skill = 5
+            attack_skill = 5
+            defense_skill = 2
+            planning_skill = 4
+            logistics_skill = 5
+            legacy_id = 800
+        }
+		portraits = { 
+			army = { small = GFX_idea_generic_captain_of_industry }
+		}
+	}
+    # Random General 2
+	generate_character = {
+		token_base = generic_corps_commander_random_2 # token will be TAG_token_base
+		orps_commander={
+			traits={ trait_reckless media_personality armor_officer war_hero trickster }
+			skill=4
+			attack_skill=4
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=803
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_captain_of_industry }
+		}
+	}
+    # Random General 3
+	generate_character = {
+		token_base = generic_corps_commander_random_3 # token will be TAG_token_base
+		corps_commander={
+			traits={ old_guard infantry_officer }
+			skill=3
+			attack_skill=4
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=804
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_captain_of_industry }
+		}
+	}
+    # Tank Commander
+	generate_character = {
+		token_base = generic_corps_commander_tank # token will be TAG_token_base
+		corps_commander = {
+            traits = { armor_officer trait_reckless war_hero brilliant_strategist panzer_leader trait_engineer trickster trait_mountaineer ranger organizer }
+            skill = 8
+            attack_skill = 7
+            defense_skill = 5
+            planning_skill = 5
+            logistics_skill = 8
+            legacy_id = 801
+        }
+		portraits = { 
+			army = { small = GFX_idea_generic_captain_of_industry }
+		}
+	}
+    # Naval/Special Forces Invasion Commander
+	generate_character = {
+		token_base = generic_corps_commander_special_forces # token will be TAG_token_base
+		corps_commander = {
+            traits = { infantry_officer media_personality trait_reckless political_connected infantry_leader invader commando trickster organizer hill_fighter }
+            skill = 7
+            attack_skill = 6
+            defense_skill = 7
+            planning_skill = 4
+            logistics_skill = 9
+            legacy_id = 802
+        }
+		portraits = { 
+			army = { small = GFX_idea_generic_captain_of_industry }
+		}
+	}
+    # Field Marshal
+	generate_character = {
+		token_base = generic_field_marshal # token will be TAG_token_base
+		field_marshal = {
+            traits = { my_trait_1 my_trait_2 }
+            skill = 9
+            attack_skill = 8
+            defense_skill = 6
+            planning_skill = 10
+            logistics_skill = 10
+        }
+		portraits = { 
+			army = { small = GFX_idea_generic_captain_of_industry }
+		}
+	}
+	####################################################################################
+	### Political Advisors
+	####################################################################################
+	generate_character = {
+		token_base = generic_captain_of_industry # token will be TAG_token_base
+		advisor = {
+			slot = political_advisor
+			traits = { captain_of_industry }
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_captain_of_industry }
+		}
+	}
+	generate_character = {
+		token_base = generic_fortification_engineer # token will be TAG_token_base
+		advisor = {
+			slot = political_advisor
+			traits = { fortification_engineer }
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_fortification_engineer }
+		}
+	}
+	generate_character = {
+		token_base = generic_war_industrialist # token will be TAG_token_base
+		advisor = {
+			slot = political_advisor
+			traits = { war_industrialist }
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_war_industrialist }
+		}
+	}
+	# generic army chiefs
+	generate_character = {
+		token_base = generic_army_chief_off # token will be TAG_token_base
+		advisor = {
+			slot = army_chief
+			traits = { army_chief_offensive_1 }
+			cost = 50
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_army_chief_off }
+		}
+	}
+	generate_character = {
+		token_base = generic_army_chief_def # token will be TAG_token_base
+		advisor = {
+			slot = army_chief
+			traits = { army_chief_defensive_1 }
+			cost = 50
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_army_chief_def }
+		}
+	}
+	# generic navy chiefs
+	generate_character = {
+		token_base = generic_navy_chief_decisive_bat # token will be TAG_token_base
+		advisor = {
+			slot = navy_chief
+			traits = { navy_chief_decisive_battle_2 }
+			cost = 50
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_navy_chief_decisive_bat }
+		}
+	}
+	generate_character = {
+		token_base = generic_navy_anti_submarine # token will be TAG_token_base
+		advisor = {
+			slot = navy_chief
+			traits = { navy_anti_submarine_2 }
+			cost = 50
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_navy_anti_submarine }
+		}
+	}
+	# generic air chiefs
+	generate_character = {
+		token_base = generic_air_close_air_sup # token will be TAG_token_base
+		advisor = {
+			slot = air_chief
+			traits = { air_close_air_support_2 }
+			cost = 50
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_air_close_air_sup }
+		}
+	}
+	generate_character = {
+		token_base = generic_air_chief_all_weather # token will be TAG_token_base
+		advisor = {
+			slot = air_chief
+			traits = { air_chief_all_weather_2 }
+			cost = 50
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_air_chief_all_weather }
+		}
+	}
+	# generic high command
+	generate_character = {
+		token_base = generic_army_art # token will be TAG_token_base
+		advisor = {
+			slot = high_command
+			traits = { army_artillery_1 }
+			ledger = army
+			cost = 50
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_army_art }
+		}
+	}
+	generate_character = {
+		token_base = generic_army_log # token will be TAG_token_base
+		advisor = {
+			slot = high_command
+			traits = { army_logistics_2 }
+			ledger = army
+			cost = 50
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_army_log }
+		}
+	}
+	generate_character = {
+		token_base = generic_navy_fleet_log # token will be TAG_token_base
+		advisor = {
+			slot = high_command
+			traits = { navy_fleet_logistics_1 }
+			ledger = navy
+			cost = 50
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_navy_fleet_log }
+		}
+	}
+	generate_character = {
+		token_base = generic_air_air_combat_trainer # token will be TAG_token_base
+		advisor = {
+			slot = high_command
+			traits = { air_air_combat_training_2 }
+			ledger = air
+			cost = 50
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_air_air_combat_trainer }
+		}
+	}
+	# generic theorists
+	generate_character = {
+		token_base = generic_military_theorist # token will be TAG_token_base
+		advisor = {
+			slot = theorist
+			traits = { military_theorist }
+			ledger = army
+			cost = 50
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_military_theorist }
+		}
+	}
+	generate_character = {
+		token_base = generic_naval_theorist # token will be TAG_token_base
+		advisor = {
+			slot = theorist
+			traits = { naval_theorist }
+			ledger = navy
+			cost = 50
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_naval_theorist }
+		}
+	}
+	generate_character = {
+		token_base = generic_air_warfare_theorist # token will be TAG_token_base
+		advisor = {
+			slot = theorist
+			traits = { air_warfare_theorist }
+			ledger = air
+			cost = 50
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_air_warfare_theorist }
+		}
+	}
+    
+}

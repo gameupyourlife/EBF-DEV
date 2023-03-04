@@ -4,15 +4,12 @@ oob = "MZB_1936"
 
 # Starting tech
 set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 	infantry_weapons = 1
 	tech_mountaineers = 1
 }
 
-set_convoys = 200 #5
+set_convoys = 5
 
 recruit_character = MZB_fascist_guy
 recruit_character = MZB_coi
@@ -48,10 +45,7 @@ recruit_character = MZB_awt
 	complete_national_focus = production_effort
 	
 	set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 
 		#doctrines
 		grand_battle_plan = 1

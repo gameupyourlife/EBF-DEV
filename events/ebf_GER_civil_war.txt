@@ -148,8 +148,8 @@ country_event = {
 	
 	trigger = {
 		original_tag = GER
-		ruling_party = fascism
-		war_support > 0.5
+		has_government = fascism
+		has_war_support > 0.5
 		surrender_progress > 0.5
 		has_civil_war = yes
 		has_country_flag = {

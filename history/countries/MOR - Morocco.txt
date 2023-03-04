@@ -2,14 +2,11 @@
 
 # Starting tech
 set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 	infantry_weapons = 1
 }
 
-set_convoys = 200 #20
+set_convoys = 20
 
 1939.1.1 = {
 	
@@ -25,10 +22,7 @@ set_convoys = 200 #20
 	complete_national_focus = production_effort
 	
 	set_technology = {
-	early_fighter = 1
-    tech_support = 1
-    gw_artillery = 1
-    rations = 1
+
 		tech_support = 1
 		tech_recon = 1
 		support_weapons = 1
