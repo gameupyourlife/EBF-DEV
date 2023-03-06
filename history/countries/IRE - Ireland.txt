@@ -5,6 +5,16 @@ oob = "IRE_1936"
 set_research_slots = 3
 
 set_technology = {
+    aa_lmg = 1
+    aa_cannon_1 = 1
+    engines_1 = 1
+    engines_2 = 1
+    early_bombs = 1
+    aircraft_construction = 1
+    iw_small_airframe = 1
+    rations = 1
+    tech_support= 1
+    gw_artillery = 1
 
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -53,6 +63,16 @@ recruit_character = IRE_sean_ceallaigh
 	
 	oob = "IRE_1939"
 	set_technology = {
+    aa_lmg = 1
+    aa_cannon_1 = 1
+    engines_1 = 1
+    engines_2 = 1
+    early_bombs = 1
+    aircraft_construction = 1
+    iw_small_airframe = 1
+    rations = 1
+    tech_support= 1
+    gw_artillery = 1
 
 		gw_artillery = 1
 		interwar_antiair = 1
@@ -104,4 +124,4 @@ set_popularities = {
 		election_frequency = 48
 		elections_allowed = yes
 	}
-}
+}add_ideas = generic_rations_idea

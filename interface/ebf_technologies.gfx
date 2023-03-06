@@ -25,11 +25,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/rations_equipment_0.dds"
 	}
 	SpriteType = {
-		name = "GFX_rations_equipment_x_medium"
+		name = "GFX_rations_equipment_1_medium"
 		texturefile = "gfx/interface/technologies/rations_equipment_0.dds"
 	}
 	SpriteType = {
-		name = "GFX_rations_equipment_x_y_medium"
+		name = "GFX_rations_equipment_2_medium"
 		texturefile = "gfx/interface/technologies/rations_equipment_0.dds"
 	}
 	SpriteType = {

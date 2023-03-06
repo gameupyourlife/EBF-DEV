@@ -1139,7 +1139,7 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "armor_tech_1_tree"
-				position = { x = 37% y = 172 }
+				position = { x = -35% y = 172 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"

@@ -1,7 +1,19 @@
 ﻿capital = 461
 
+set_oob = "MOR_1936"
+
 # Starting tech
 set_technology = {
+    aa_lmg = 1
+    aa_cannon_1 = 1
+    engines_1 = 1
+    engines_2 = 1
+    early_bombs = 1
+    aircraft_construction = 1
+    iw_small_airframe = 1
+    rations = 1
+    tech_support= 1
+    gw_artillery = 1
 
 	infantry_weapons = 1
 }
@@ -22,6 +34,16 @@ set_convoys = 20
 	complete_national_focus = production_effort
 	
 	set_technology = {
+    aa_lmg = 1
+    aa_cannon_1 = 1
+    engines_1 = 1
+    engines_2 = 1
+    early_bombs = 1
+    aircraft_construction = 1
+    iw_small_airframe = 1
+    rations = 1
+    tech_support= 1
+    gw_artillery = 1
 
 		tech_support = 1
 		tech_recon = 1
@@ -77,3 +99,4 @@ create_country_leader = {
 		#
 	}
 }
+add_ideas = generic_rations_idea

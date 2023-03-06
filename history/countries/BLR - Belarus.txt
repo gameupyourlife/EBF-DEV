@@ -1,11 +1,21 @@
 ﻿capital = 206 #Minsk
 
-oob = "BLR_1936"
+set_oob = "BLR_1936"
 
 set_research_slots = 3
 
 # Starting tech
 set_technology = {
+    aa_lmg = 1
+    aa_cannon_1 = 1
+    engines_1 = 1
+    engines_2 = 1
+    early_bombs = 1
+    aircraft_construction = 1
+    iw_small_airframe = 1
+    rations = 1
+    tech_support= 1
+    gw_artillery = 1
 
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -25,6 +35,16 @@ if = {
 		NOT = { has_dlc = "By Blood Alone" }
 	}
 	set_technology = {
+    aa_lmg = 1
+    aa_cannon_1 = 1
+    engines_1 = 1
+    engines_2 = 1
+    early_bombs = 1
+    aircraft_construction = 1
+    iw_small_airframe = 1
+    rations = 1
+    tech_support= 1
+    gw_artillery = 1
 
 		early_fighter = 1
 		fighter1 = 1
@@ -42,6 +62,16 @@ if = {
 		}
 	}
 	set_technology = {
+    aa_lmg = 1
+    aa_cannon_1 = 1
+    engines_1 = 1
+    engines_2 = 1
+    early_bombs = 1
+    aircraft_construction = 1
+    iw_small_airframe = 1
+    rations = 1
+    tech_support= 1
+    gw_artillery = 1
 
 		gwtank = 1
 		basic_light_tank = 1
@@ -54,6 +84,16 @@ if = {
 		
 	}
 	set_technology = {
+    aa_lmg = 1
+    aa_cannon_1 = 1
+    engines_1 = 1
+    engines_2 = 1
+    early_bombs = 1
+    aircraft_construction = 1
+    iw_small_airframe = 1
+    rations = 1
+    tech_support= 1
+    gw_artillery = 1
 
 		gwtank_chassis = 1
 		basic_light_tank_chassis = 1
@@ -65,6 +105,16 @@ if = {
 		not = { has_dlc = "Man the Guns" }
 	}
 	set_technology = {
+    aa_lmg = 1
+    aa_cannon_1 = 1
+    engines_1 = 1
+    engines_2 = 1
+    early_bombs = 1
+    aircraft_construction = 1
+    iw_small_airframe = 1
+    rations = 1
+    tech_support= 1
+    gw_artillery = 1
 
 		early_submarine = 1
 		basic_submarine = 1
@@ -81,6 +131,16 @@ if = {
 		has_dlc = "Man the Guns"
 	}
 	set_technology = {
+    aa_lmg = 1
+    aa_cannon_1 = 1
+    engines_1 = 1
+    engines_2 = 1
+    early_bombs = 1
+    aircraft_construction = 1
+    iw_small_airframe = 1
+    rations = 1
+    tech_support= 1
+    gw_artillery = 1
 
 		early_ship_hull_submarine = 1
 		basic_ship_hull_submarine = 1
@@ -146,3 +206,13 @@ create_country_leader = {
 
 
 
+create_equipment_variant = {
+    name = "He 51" #also covers Ar 68
+    type = small_plane_airframe_0
+    modules = {
+        fixed_main_weapon_slot = light_mg_2x
+        engine_type_slot = engine_1_1x
+        special_type_slot_1 = empty
+    }
+    obsolete = yes
+}add_ideas = generic_rations_idea

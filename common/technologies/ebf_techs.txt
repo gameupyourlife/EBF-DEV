@@ -13,10 +13,10 @@ technologies = {
 		}
 
 		research_cost = 2.5
-		start_year = 1945
+		start_year = 1943
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 10 y = 12 }
+			position = { x = 11 y = 10 }
 		}
 		
 		sub_technologies = {
@@ -33,6 +33,108 @@ technologies = {
 			armor
 			cat_heavy_armor
 		}
+	}
+
+	victory_feuerland_tech = {
+
+		research_cost = 1
+
+		# only from focus!!! #####
+		allow = {
+			always = no
+		}
+
+
+		#If you change these
+		#Change the custom tooltip too: victory_feuerland_tech_tt
+		light_flame_tank = {
+			forest = {
+				attack = 0.05
+			}
+			mountain = {
+				attack = 0.05
+			}
+			hills = {
+				attack = 0.05
+			}
+			jungle = {
+				attack = 0.05
+			}
+			marsh = {
+				attack = 0.05
+			}
+			urban = {
+				attack = 0.05
+			}
+			fort = {
+				attack = 0.05
+			}
+			river = {
+				attack = 0.05
+			}
+			amphibious = {
+				attack = 0.05
+			}
+		}
+		medium_flame_tank = {
+			forest = {
+				attack = 0.05
+			}
+			mountain = {
+				attack = 0.05
+			}
+			hills = {
+				attack = 0.05
+			}
+			jungle = {
+				attack = 0.05
+			}
+			marsh = {
+				attack = 0.05
+			}
+			urban = {
+				attack = 0.05
+			}
+			fort = {
+				attack = 0.05
+			}
+			river = {
+				attack = 0.05
+			}
+			amphibious = {
+				attack = 0.05
+			}
+		}
+		heavy_flame_tank = {
+			forest = {
+				attack = 0.05
+			}
+			mountain = {
+				attack = 0.05
+			}
+			hills = {
+				attack = 0.05
+			}
+			jungle = {
+				attack = 0.05
+			}
+			marsh = {
+				attack = 0.05
+			}
+			urban = {
+				attack = 0.05
+			}
+			fort = {
+				attack = 0.05
+			}
+			river = {
+				attack = 0.05
+			}
+			amphibious = {
+				attack = 0.05
+			}
+		}
+
 	}
 
 
@@ -180,13 +282,13 @@ technologies = {
 	rations = {
 
 		enable_equipments = {
-			rations_equipment_x
+			rations_equipment_1
 		}	
 
-		# path = {
-		# 	leads_to_tech = rations_a
-		# 	research_cost_coeff = 1
-		# }	
+		path = {
+			leads_to_tech = canned_rations
+			research_cost_coeff = 1
+		}
 
 		research_cost = 1.5
 		start_year = 1918
@@ -196,6 +298,35 @@ technologies = {
 		}
 		
 		categories = {
+			infantry_tech
+			rations
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	canned_rations = {
+
+		enable_equipments = {
+			rations_equipment_2
+		}	
+
+		# path = {
+		# 	leads_to_tech = rations_a
+		# 	research_cost_coeff = 1
+		# }	
+
+		research_cost = 1.5
+		start_year = 1938
+		folder = {
+			name = infantry_folder
+			position = { x = -12 y = 4 }
+		}
+		
+		categories = {
+			infantry_tech
 			rations
 		}
 		

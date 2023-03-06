@@ -5,6 +5,16 @@ if = {
 	limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "HUN_1936_air_bba"
 		set_technology = {
+    aa_lmg = 1
+    aa_cannon_1 = 1
+    engines_1 = 1
+    engines_2 = 1
+    early_bombs = 1
+    aircraft_construction = 1
+    iw_small_airframe = 1
+    rations = 1
+    tech_support= 1
+    gw_artillery = 1
 
 			iw_small_airframe = 1
 			engines_1 = 1
@@ -13,6 +23,16 @@ if = {
 	else = {
 		set_air_oob = "HUN_1936_air_legacy"
 		set_technology = {
+    aa_lmg = 1
+    aa_cannon_1 = 1
+    engines_1 = 1
+    engines_2 = 1
+    early_bombs = 1
+    aircraft_construction = 1
+    iw_small_airframe = 1
+    rations = 1
+    tech_support= 1
+    gw_artillery = 1
 
 			early_fighter = 1
 			CAS1 = 1
@@ -25,6 +45,16 @@ set_stability = 0.7
 set_war_support = 0.6
 
 set_technology = {
+    aa_lmg = 1
+    aa_cannon_1 = 1
+    engines_1 = 1
+    engines_2 = 1
+    early_bombs = 1
+    aircraft_construction = 1
+    iw_small_airframe = 1
+    rations = 1
+    tech_support= 1
+    gw_artillery = 1
 
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -43,6 +73,16 @@ if = {
 		}
 	}
 	set_technology = {
+    aa_lmg = 1
+    aa_cannon_1 = 1
+    engines_1 = 1
+    engines_2 = 1
+    early_bombs = 1
+    aircraft_construction = 1
+    iw_small_airframe = 1
+    rations = 1
+    tech_support= 1
+    gw_artillery = 1
 
 		gwtank = 1
 	}
@@ -52,6 +92,16 @@ if = {
 		has_dlc = "No Step Back"
 	}
 	set_technology = {
+    aa_lmg = 1
+    aa_cannon_1 = 1
+    engines_1 = 1
+    engines_2 = 1
+    early_bombs = 1
+    aircraft_construction = 1
+    iw_small_airframe = 1
+    rations = 1
+    tech_support= 1
+    gw_artillery = 1
 
 		gwtank_chassis = 1
 	}
@@ -153,6 +203,16 @@ if = {
 	}
 	
 	set_technology = {
+    aa_lmg = 1
+    aa_cannon_1 = 1
+    engines_1 = 1
+    engines_2 = 1
+    early_bombs = 1
+    aircraft_construction = 1
+    iw_small_airframe = 1
+    rations = 1
+    tech_support= 1
+    gw_artillery = 1
 
 		interwar_artillery = 1
 		interwar_antitank = 1
@@ -194,6 +254,16 @@ if = {
 		else = {
 			set_air_oob = "HUN_1939_air_legacy"
 			set_technology = {
+    aa_lmg = 1
+    aa_cannon_1 = 1
+    engines_1 = 1
+    engines_2 = 1
+    early_bombs = 1
+    aircraft_construction = 1
+    iw_small_airframe = 1
+    rations = 1
+    tech_support= 1
+    gw_artillery = 1
 
 				fighter1 = 1
 				early_bomber = 1
@@ -208,6 +278,16 @@ if = {
 			}
 		}
 		set_technology = {
+    aa_lmg = 1
+    aa_cannon_1 = 1
+    engines_1 = 1
+    engines_2 = 1
+    early_bombs = 1
+    aircraft_construction = 1
+    iw_small_airframe = 1
+    rations = 1
+    tech_support= 1
+    gw_artillery = 1
 
 			basic_light_tank = 1
 	
@@ -221,6 +301,16 @@ if = {
 			
 		}
 		set_technology = {
+    aa_lmg = 1
+    aa_cannon_1 = 1
+    engines_1 = 1
+    engines_2 = 1
+    early_bombs = 1
+    aircraft_construction = 1
+    iw_small_airframe = 1
+    rations = 1
+    tech_support= 1
+    gw_artillery = 1
 
 			basic_light_tank_chassis = 1
 	
@@ -307,3 +397,5 @@ recruit_character = ebf_HUN_max_lorenz
 		communism = 3
 	}
 }
+add_ideas = generic_rations_idea
+add_timed_idea = { idea = generic_love_for_the_navy_idea  days = 730 }

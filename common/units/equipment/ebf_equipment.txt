@@ -6,6 +6,7 @@ equipments = {
 		is_archetype = yes
 		picture = archetype_support_equipment
 		is_buildable = no
+		is_convertable = yes
 		type = {
 			infantry
 			motorized
@@ -14,33 +15,37 @@ equipments = {
 		is_convertable = yes
 		interface_category = interface_category_land
 		
-		reliability = 0.8
+		reliability = 0.2
 
 		#Space taken in convoy
 		lend_lease_cost = 0.1
 
-		build_cost_ic = 0.010
+		build_cost_ic = 0.1
 		resources = {
 			grain = 4
 		}
 	}
 
-	rations_equipment_x = {
+	rations_equipment_1 = {
 		year = 1918	
 		visual_level = 0
 		archetype = rations_equipment
 		priority = 20	
 	}
 
-	rations_equipment_x_y = {
+	rations_equipment_2 = {
 		year = 1936
 		visual_level = 1
-		parent = rations_equipment_x
+		parent = rations_equipment_1
 		is_convertable = yes
-		reliability = 0.5
+		
+		reliability = 0.8
+		build_cost_ic = 2
+
 
 		resources = {
-			grain = 5
+			grain = 4
+			steel = 1
 		}
 
 		archetype = rations_equipment

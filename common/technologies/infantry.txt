@@ -12,32 +12,32 @@ technologies = {
 	@1945 = 18
 	@1946 = 20
 
-	rations = {
+	# rations = {
 
-		enable_equipments = {
-			rations_equipment_x
-		}	
+	# 	enable_equipments = {
+	# 		rations_equipment_1
+	# 	}	
 
-		# path = {
-		# 	leads_to_tech = rations_a
-		# 	research_cost_coeff = 1
-		# }	
+	# 	# path = {
+	# 	# 	leads_to_tech = rations_a
+	# 	# 	research_cost_coeff = 1
+	# 	# }	
 
-		research_cost = 1.5
-		start_year = 1918
-		folder = {
-			name = infantry_folder
-			position = { x = -12 y = -1 }
-		}
+	# 	research_cost = 1.5
+	# 	start_year = 1918
+	# 	folder = {
+	# 		name = infantry_folder
+	# 		position = { x = -12 y = -1 }
+	# 	}
 		
-		categories = {
-			rations
-		}
+	# 	categories = {
+	# 		rations
+	# 	}
 		
-		ai_will_do = {
-			factor = 1
-		}
-	}
+	# 	ai_will_do = {
+	# 		factor = 1
+	# 	}
+	# }
 
 	infantry_weapons = {
 

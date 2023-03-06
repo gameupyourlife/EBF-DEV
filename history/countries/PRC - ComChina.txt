@@ -4,6 +4,16 @@ oob = "PRC_1936"
 
 # Starting tech
 set_technology = {
+    aa_lmg = 1
+    aa_cannon_1 = 1
+    engines_1 = 1
+    engines_2 = 1
+    early_bombs = 1
+    aircraft_construction = 1
+    iw_small_airframe = 1
+    rations = 1
+    tech_support= 1
+    gw_artillery = 1
 
 	infantry_weapons = 1
 	mass_assault = 1
@@ -131,6 +141,16 @@ save_global_event_target_as = WTT_communist_china
 	}
 	
 	set_technology = {
+    aa_lmg = 1
+    aa_cannon_1 = 1
+    engines_1 = 1
+    engines_2 = 1
+    early_bombs = 1
+    aircraft_construction = 1
+    iw_small_airframe = 1
+    rations = 1
+    tech_support= 1
+    gw_artillery = 1
 
 		tech_mountaineers = 1
 		#doctrines
@@ -191,3 +211,4 @@ if = {
 }
 
 add_opinion_modifier = { target = CHI modifier = hostile_status }
+add_ideas = generic_rations_idea

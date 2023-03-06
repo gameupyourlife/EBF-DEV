@@ -23,9 +23,11 @@ focus_on_other_things:0 "Focus on other Things"
  ebf_victory_galapagos:0 "Galapagos - [649.owner.GetNameWithFlag]"
  ebf_victory_texsas:0 "Texsa - [375.owner.GetNameWithFlag]"
 
-victory.1.t:0 "The Great War is over!"
-victory.1.d:0 "The Great War is over! The victor is [?global.ebf_currently_winnig_country.GetNameDef] [?global.ebf_currently_winnig_country.GetFlag]!"
+ victory.1.t:0 "The Great War is over!"
+ victory.1.d:0 "The Great War is over! The victor is [?global.ebf_currently_winnig_country.GetNameDef] [?global.ebf_currently_winnig_country.GetFlag]!"
 
+ victory_feuerland_tech:0 "Control over Feuerland"
+ victory_feuerland_tech_tt:0 "Enables §HControl over Feuerland§!\n§HFlame Tank Company\n      Attack: §G+5%§!\n"
 
 
 #Spirit
@@ -121,6 +123,8 @@ POL_speed_is_key_idea:0 "Speed is Key"
  OCC_the_young_school:0 "The Young School"
  OCC_the_young_school_desc:0 ""
 
+ generic_love_for_the_navy_idea:0 "Love for the Navy"
+ generic_rations_idea:0 "Mass Rations"
 
 #Focus
 GER_prepare_belgium_invasion:0 "Preparations for the invasion of Netherlands"

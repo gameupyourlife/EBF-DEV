@@ -1,9 +1,19 @@
 ﻿capital = 540
 
-oob = "ANG_1936"
+set_oob = "ANG_1936"
 
 # Starting tech
 set_technology = {
+    aa_lmg = 1
+    aa_cannon_1 = 1
+    engines_1 = 1
+    engines_2 = 1
+    early_bombs = 1
+    aircraft_construction = 1
+    iw_small_airframe = 1
+    rations = 1
+    tech_support= 1
+    gw_artillery = 1
 
 	infantry_weapons = 1
 	tech_mountaineers = 1
@@ -46,6 +56,16 @@ recruit_character = ANG_ncs
 	complete_national_focus = production_effort
 	
 	set_technology = {
+    aa_lmg = 1
+    aa_cannon_1 = 1
+    engines_1 = 1
+    engines_2 = 1
+    early_bombs = 1
+    aircraft_construction = 1
+    iw_small_airframe = 1
+    rations = 1
+    tech_support= 1
+    gw_artillery = 1
 
 
 		#doctrines
@@ -89,17 +109,13 @@ create_country_leader = {
 	}
 }
 
-
-#Now a colony of Italy  However, if independent it would have
-1939.1.1 = {
-	set_politics = {
-		ruling_party = neutrality
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
+create_equipment_variant = {
+	name = "He 51" #also covers Ar 68
+	type = small_plane_airframe_0
+	modules = {
+		fixed_main_weapon_slot = light_mg_2x
+		engine_type_slot = engine_1_1x
+		special_type_slot_1 = empty
 	}
-	set_popularities = {
-		neutrality = 100
-	}
-}
-
+	obsolete = yes
+}add_ideas = generic_rations_ideaadd_ideas = generic_rations_ideaadd_ideas = generic_rations_idea

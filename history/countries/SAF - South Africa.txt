@@ -7,6 +7,16 @@ if = {
 	else = {
 		set_air_oob = "SAF_1936_air_legacy"
 		set_technology = {
+    aa_lmg = 1
+    aa_cannon_1 = 1
+    engines_1 = 1
+    engines_2 = 1
+    early_bombs = 1
+    aircraft_construction = 1
+    iw_small_airframe = 1
+    rations = 1
+    tech_support= 1
+    gw_artillery = 1
 
 			early_fighter = 1
 			cv_early_fighter = 1
@@ -23,6 +33,16 @@ set_stability = 0.6
 set_war_support = 0.1
 # Starting tech
 set_technology = {
+    aa_lmg = 1
+    aa_cannon_1 = 1
+    engines_1 = 1
+    engines_2 = 1
+    early_bombs = 1
+    aircraft_construction = 1
+    iw_small_airframe = 1
+    rations = 1
+    tech_support= 1
+    gw_artillery = 1
 
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -40,6 +60,16 @@ if = {
 		NOT = { has_dlc = "No Step Back" }
 	}
 	set_technology = {
+    aa_lmg = 1
+    aa_cannon_1 = 1
+    engines_1 = 1
+    engines_2 = 1
+    early_bombs = 1
+    aircraft_construction = 1
+    iw_small_airframe = 1
+    rations = 1
+    tech_support= 1
+    gw_artillery = 1
 
 		gwtank = 1
 	}
@@ -49,6 +79,16 @@ if = {
 		has_dlc = "No Step Back"
 	}
 	set_technology = {
+    aa_lmg = 1
+    aa_cannon_1 = 1
+    engines_1 = 1
+    engines_2 = 1
+    early_bombs = 1
+    aircraft_construction = 1
+    iw_small_airframe = 1
+    rations = 1
+    tech_support= 1
+    gw_artillery = 1
 
 		gwtank_chassis = 1
 	}
@@ -59,6 +99,16 @@ if = {
 		not = { has_dlc = "Man the Guns" }
 	}
 	set_technology = {
+    aa_lmg = 1
+    aa_cannon_1 = 1
+    engines_1 = 1
+    engines_2 = 1
+    early_bombs = 1
+    aircraft_construction = 1
+    iw_small_airframe = 1
+    rations = 1
+    tech_support= 1
+    gw_artillery = 1
 
 		early_destroyer = 1
 		transport = 1
@@ -69,6 +119,16 @@ if = {
 		has_dlc = "Man the Guns"
 	}
 	set_technology = {
+    aa_lmg = 1
+    aa_cannon_1 = 1
+    engines_1 = 1
+    engines_2 = 1
+    early_bombs = 1
+    aircraft_construction = 1
+    iw_small_airframe = 1
+    rations = 1
+    tech_support= 1
+    gw_artillery = 1
 
 		early_ship_hull_light = 1
 		basic_battery = 1
@@ -132,6 +192,16 @@ if = {
 
 	
 	set_technology = {
+    aa_lmg = 1
+    aa_cannon_1 = 1
+    engines_1 = 1
+    engines_2 = 1
+    early_bombs = 1
+    aircraft_construction = 1
+    iw_small_airframe = 1
+    rations = 1
+    tech_support= 1
+    gw_artillery = 1
 
 		interwar_artillery = 1
 		infantry_weapons2 = 1
@@ -168,6 +238,16 @@ if = {
 			NOT = { has_dlc = "By Blood Alone" }
 		}
 		set_technology = {
+    aa_lmg = 1
+    aa_cannon_1 = 1
+    engines_1 = 1
+    engines_2 = 1
+    early_bombs = 1
+    aircraft_construction = 1
+    iw_small_airframe = 1
+    rations = 1
+    tech_support= 1
+    gw_artillery = 1
 
 			fighter1 = 1
 			tactical_bomber1 = 1
@@ -178,6 +258,16 @@ if = {
 			NOT = { has_dlc = "No Step Back" }
 		}
 		set_technology = {
+    aa_lmg = 1
+    aa_cannon_1 = 1
+    engines_1 = 1
+    engines_2 = 1
+    early_bombs = 1
+    aircraft_construction = 1
+    iw_small_airframe = 1
+    rations = 1
+    tech_support= 1
+    gw_artillery = 1
 
 			improved_light_tank = 1
 			basic_medium_tank = 1
@@ -238,4 +328,4 @@ recruit_character = SAF_abram_fischer
 	recruit_character = SAF_jan_smuts
 	promote_character = SAF_jan_smuts
 	retire_character = SAF_j_b_m_hertzog
-}
+}add_ideas = generic_rations_idea

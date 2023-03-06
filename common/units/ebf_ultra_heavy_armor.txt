@@ -24,8 +24,8 @@ sub_units = {
 		combat_width = 2
 
 		need = {
+            rations_equipment = 700
 			ultra_heavy_tank_chassis = 10
-			rations_equipment = 700
 		}
 
 		manpower = 700

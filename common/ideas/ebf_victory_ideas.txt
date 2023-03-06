@@ -57,5 +57,25 @@ ideas = {
 			}
 			picture = generic_victors_of_ww1
 		}
+
+		victory_feuerland_buff_idea = {
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				custom_modifier_tooltip  = victory_feuerland_tech_tt
+				ground_attack_factor = 0.05
+			}
+			on_add = {
+				set_technology = { victory_feuerland_tech = 1 popup = no }
+			}
+			on_remove = {
+				set_technology = { victory_feuerland_tech = 0 popup = no }
+			}
+			picture = generic_victors_of_ww1
+		}
 	}
 }

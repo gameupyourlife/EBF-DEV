@@ -4,6 +4,16 @@ oob = "SAU_1936"
 
 # Starting tech
 set_technology = {
+    aa_lmg = 1
+    aa_cannon_1 = 1
+    engines_1 = 1
+    engines_2 = 1
+    early_bombs = 1
+    aircraft_construction = 1
+    iw_small_airframe = 1
+    rations = 1
+    tech_support= 1
+    gw_artillery = 1
 
 	infantry_weapons = 1
 }
@@ -12,6 +22,16 @@ if = {
 		NOT = { has_dlc = "No Step Back" }
 	}
 	set_technology = {
+    aa_lmg = 1
+    aa_cannon_1 = 1
+    engines_1 = 1
+    engines_2 = 1
+    early_bombs = 1
+    aircraft_construction = 1
+    iw_small_airframe = 1
+    rations = 1
+    tech_support= 1
+    gw_artillery = 1
 
 		gwtank = 1
 	}
@@ -22,6 +42,16 @@ if = {
 		has_dlc = "Battle for the Bosporus"
 	}
 	set_technology = {
+    aa_lmg = 1
+    aa_cannon_1 = 1
+    engines_1 = 1
+    engines_2 = 1
+    early_bombs = 1
+    aircraft_construction = 1
+    iw_small_airframe = 1
+    rations = 1
+    tech_support= 1
+    gw_artillery = 1
  camelry = 1 }
 }
 
@@ -59,6 +89,16 @@ recruit_character = SAU_gholam_wali
 	
 	oob = "SAU_1939"
 	set_technology = {
+    aa_lmg = 1
+    aa_cannon_1 = 1
+    engines_1 = 1
+    engines_2 = 1
+    early_bombs = 1
+    aircraft_construction = 1
+    iw_small_airframe = 1
+    rations = 1
+    tech_support= 1
+    gw_artillery = 1
 
 		tech_support = 1
 		tech_recon = 1
@@ -101,3 +141,4 @@ set_politics = {
 set_popularities = {
 	neutrality = 100
 }
+add_ideas = generic_rations_idea

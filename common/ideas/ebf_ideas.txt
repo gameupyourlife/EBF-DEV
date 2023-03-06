@@ -1,6 +1,36 @@
 ideas = {
 	country = {
 
+		generic_rations_idea = {
+			picture = idea_generic_supply_depot
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			equipment_bonus = {
+				rations_equipment = {
+					instant = yes 
+					build_cost_ic = -0.90
+				}
+			}
+		}
+		
+		generic_love_for_the_navy_idea = {
+			picture = generic_navy_bonus
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			modifier = {
+				industrial_capacity_dockyard = 3
+			}
+		}
+
+
 		AI_generic_manpower = {
 			allowed = {
 				always = no

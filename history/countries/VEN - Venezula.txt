@@ -4,6 +4,16 @@ oob = "VEN_1936"
 
 # Starting tech
 set_technology = {
+    aa_lmg = 1
+    aa_cannon_1 = 1
+    engines_1 = 1
+    engines_2 = 1
+    early_bombs = 1
+    aircraft_construction = 1
+    iw_small_airframe = 1
+    rations = 1
+    tech_support= 1
+    gw_artillery = 1
 
 	infantry_weapons = 1
 	gw_artillery = 1
@@ -16,6 +26,16 @@ if = {
 		NOT = { has_dlc = "By Blood Alone" }
 	}
 	set_technology = {
+    aa_lmg = 1
+    aa_cannon_1 = 1
+    engines_1 = 1
+    engines_2 = 1
+    early_bombs = 1
+    aircraft_construction = 1
+    iw_small_airframe = 1
+    rations = 1
+    tech_support= 1
+    gw_artillery = 1
 
 		early_fighter = 1
 	}
@@ -70,6 +90,16 @@ set_country_flag = monroe_doctrine
 		}
 	}
 	set_technology = {
+    aa_lmg = 1
+    aa_cannon_1 = 1
+    engines_1 = 1
+    engines_2 = 1
+    early_bombs = 1
+    aircraft_construction = 1
+    iw_small_airframe = 1
+    rations = 1
+    tech_support= 1
+    gw_artillery = 1
 
 		interwar_artillery = 1
 		infantry_weapons1 = 1
@@ -114,3 +144,4 @@ set_popularities = {
 	fascism = 80
 	communism = 15
 }
+add_ideas = generic_rations_idea

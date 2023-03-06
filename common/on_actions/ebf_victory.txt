@@ -106,6 +106,22 @@ on_actions = {
 					remove_ideas = victory_greenland_buff_idea
 				}
 			}
+			
+			if = {
+				limit = {
+					FROM.FROM = {
+						OR = {
+							state = 507 # Magallanes
+						}
+					}
+				}
+				ROOT = {
+					add_ideas = victory_feuerland_buff_idea
+				}
+				FROM = {
+					remove_ideas = victory_feuerland_buff_idea
+				}
+			}
 		}
 	}
 }

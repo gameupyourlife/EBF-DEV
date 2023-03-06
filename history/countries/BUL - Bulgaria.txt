@@ -1,7 +1,7 @@
 ﻿capital = 48
 
 #TROOPS
-oob = "BUL_1936" #VANILLA & DLC
+set_oob = "BUL_1936" #VANILLA & DLC
 if = {
 	limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "BUL_1936_air_bba"
@@ -312,6 +312,16 @@ if = { #DLC
 }
 
 set_technology = {
+    aa_lmg = 1
+    aa_cannon_1 = 1
+    engines_1 = 1
+    engines_2 = 1
+    early_bombs = 1
+    aircraft_construction = 1
+    iw_small_airframe = 1
+    rations = 1
+    tech_support= 1
+    gw_artillery = 1
  #VANILLA & DLC
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -329,6 +339,16 @@ if = {
 		}
 	}
 	set_technology = {
+    aa_lmg = 1
+    aa_cannon_1 = 1
+    engines_1 = 1
+    engines_2 = 1
+    early_bombs = 1
+    aircraft_construction = 1
+    iw_small_airframe = 1
+    rations = 1
+    tech_support= 1
+    gw_artillery = 1
 
 		early_fighter = 1
 	}
@@ -418,6 +438,16 @@ if = {
 
 	#TECHNOLOGY
 	set_technology = {
+    aa_lmg = 1
+    aa_cannon_1 = 1
+    engines_1 = 1
+    engines_2 = 1
+    early_bombs = 1
+    aircraft_construction = 1
+    iw_small_airframe = 1
+    rations = 1
+    tech_support= 1
+    gw_artillery = 1
 
 		gw_artillery = 1
 		interwar_artillery = 1
@@ -461,6 +491,16 @@ if = {
 			}
 		}
 		set_technology = {
+    aa_lmg = 1
+    aa_cannon_1 = 1
+    engines_1 = 1
+    engines_2 = 1
+    early_bombs = 1
+    aircraft_construction = 1
+    iw_small_airframe = 1
+    rations = 1
+    tech_support= 1
+    gw_artillery = 1
 
 			gwtank = 1
 			basic_light_tank = 1
@@ -474,6 +514,16 @@ if = {
 			
 		}
 		set_technology = {
+    aa_lmg = 1
+    aa_cannon_1 = 1
+    engines_1 = 1
+    engines_2 = 1
+    early_bombs = 1
+    aircraft_construction = 1
+    iw_small_airframe = 1
+    rations = 1
+    tech_support= 1
+    gw_artillery = 1
 
 			gwtank_chassis = 1
 			basic_light_tank_chassis = 1
@@ -486,6 +536,16 @@ if = {
 		else = {
 			set_air_oob = "BUL_1939_air_legacy"
 			set_technology = {
+    aa_lmg = 1
+    aa_cannon_1 = 1
+    engines_1 = 1
+    engines_2 = 1
+    early_bombs = 1
+    aircraft_construction = 1
+    iw_small_airframe = 1
+    rations = 1
+    tech_support= 1
+    gw_artillery = 1
 
 				fighter1 = 1
 				early_bomber = 1
@@ -497,3 +557,7 @@ if = {
 
 	
 }
+add_ideas = generic_rations_idea
+add_timed_idea = { idea = generic_love_for_the_navy_idea  days = 730 }
+
+

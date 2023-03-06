@@ -12,6 +12,16 @@ if = {
 	limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "POL_1936_air_bba"
 		set_technology = {
+    aa_lmg = 1
+    aa_cannon_1 = 1
+    engines_1 = 1
+    engines_2 = 1
+    early_bombs = 1
+    aircraft_construction = 1
+    iw_small_airframe = 1
+    rations = 1
+    tech_support= 1
+    gw_artillery = 1
 
 			aa_lmg = 1
 			aa_cannon_1 = 1
@@ -23,6 +33,16 @@ if = {
 	else = {
 		set_air_oob = "POL_1936_air_legacy"
 		set_technology = {
+    aa_lmg = 1
+    aa_cannon_1 = 1
+    engines_1 = 1
+    engines_2 = 1
+    early_bombs = 1
+    aircraft_construction = 1
+    iw_small_airframe = 1
+    rations = 1
+    tech_support= 1
+    gw_artillery = 1
 
 			early_fighter = 1
 			early_bomber = 1
@@ -35,6 +55,16 @@ set_research_slots = 3
 
 # Starting tech
 set_technology = {
+    aa_lmg = 1
+    aa_cannon_1 = 1
+    engines_1 = 1
+    engines_2 = 1
+    early_bombs = 1
+    aircraft_construction = 1
+    iw_small_airframe = 1
+    rations = 1
+    tech_support= 1
+    gw_artillery = 1
 
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -55,6 +85,16 @@ if = {
 		NOT = { has_dlc = "No Step Back" }
 	}
 	set_technology = {
+    aa_lmg = 1
+    aa_cannon_1 = 1
+    engines_1 = 1
+    engines_2 = 1
+    early_bombs = 1
+    aircraft_construction = 1
+    iw_small_airframe = 1
+    rations = 1
+    tech_support= 1
+    gw_artillery = 1
 
 		gwtank = 1
 	}
@@ -64,6 +104,16 @@ if = {
 		has_dlc = "No Step Back"
 	}
 	set_technology = {
+    aa_lmg = 1
+    aa_cannon_1 = 1
+    engines_1 = 1
+    engines_2 = 1
+    early_bombs = 1
+    aircraft_construction = 1
+    iw_small_airframe = 1
+    rations = 1
+    tech_support= 1
+    gw_artillery = 1
 
 		gwtank_chassis = 1
 	}
@@ -71,6 +121,16 @@ if = {
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
 	set_technology = {
+    aa_lmg = 1
+    aa_cannon_1 = 1
+    engines_1 = 1
+    engines_2 = 1
+    early_bombs = 1
+    aircraft_construction = 1
+    iw_small_airframe = 1
+    rations = 1
+    tech_support= 1
+    gw_artillery = 1
 
 		early_destroyer = 1
 		early_submarine = 1	
@@ -79,6 +139,16 @@ if = {
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	set_technology = {
+    aa_lmg = 1
+    aa_cannon_1 = 1
+    engines_1 = 1
+    engines_2 = 1
+    early_bombs = 1
+    aircraft_construction = 1
+    iw_small_airframe = 1
+    rations = 1
+    tech_support= 1
+    gw_artillery = 1
 
 		basic_naval_mines = 1
 		submarine_mine_laying = 1
@@ -200,6 +270,16 @@ if = {
 		limit = { has_dlc = "By Blood Alone" }
 			set_air_oob = "POL_1939_air_bba"
 			set_technology = {
+    aa_lmg = 1
+    aa_cannon_1 = 1
+    engines_1 = 1
+    engines_2 = 1
+    early_bombs = 1
+    aircraft_construction = 1
+    iw_small_airframe = 1
+    rations = 1
+    tech_support= 1
+    gw_artillery = 1
 
 				iw_medium_airframe = 1
 				basic_medium_airframe = 1
@@ -209,6 +289,16 @@ if = {
 		else = {
 			set_air_oob = "POL_1939_air_legacy"
 			set_technology = {
+    aa_lmg = 1
+    aa_cannon_1 = 1
+    engines_1 = 1
+    engines_2 = 1
+    early_bombs = 1
+    aircraft_construction = 1
+    iw_small_airframe = 1
+    rations = 1
+    tech_support= 1
+    gw_artillery = 1
 
 				tactical_bomber1 = 1
 			}
@@ -216,6 +306,16 @@ if = {
 	}
 
 	set_technology = {
+    aa_lmg = 1
+    aa_cannon_1 = 1
+    engines_1 = 1
+    engines_2 = 1
+    early_bombs = 1
+    aircraft_construction = 1
+    iw_small_airframe = 1
+    rations = 1
+    tech_support= 1
+    gw_artillery = 1
 
 		motorised_infantry = 1
 		support_weapons = 1
@@ -260,6 +360,16 @@ if = {
 			}
 		}
 		set_technology = {
+    aa_lmg = 1
+    aa_cannon_1 = 1
+    engines_1 = 1
+    engines_2 = 1
+    early_bombs = 1
+    aircraft_construction = 1
+    iw_small_airframe = 1
+    rations = 1
+    tech_support= 1
+    gw_artillery = 1
 
 			basic_light_tank = 1
 		}
@@ -272,6 +382,16 @@ if = {
 			
 		}
 		set_technology = {
+    aa_lmg = 1
+    aa_cannon_1 = 1
+    engines_1 = 1
+    engines_2 = 1
+    early_bombs = 1
+    aircraft_construction = 1
+    iw_small_airframe = 1
+    rations = 1
+    tech_support= 1
+    gw_artillery = 1
 
 			basic_light_tank_chassis = 1
 		}
@@ -280,6 +400,16 @@ if = {
 	if = {
 		limit = { not = { has_dlc = "Man the Guns" } }
 		set_technology = {
+    aa_lmg = 1
+    aa_cannon_1 = 1
+    engines_1 = 1
+    engines_2 = 1
+    early_bombs = 1
+    aircraft_construction = 1
+    iw_small_airframe = 1
+    rations = 1
+    tech_support= 1
+    gw_artillery = 1
 
 			basic_submarine = 1
 			basic_destroyer = 1
@@ -288,6 +418,16 @@ if = {
 	if = {
 		limit = { has_dlc = "Man the Guns" }
 		set_technology = {
+    aa_lmg = 1
+    aa_cannon_1 = 1
+    engines_1 = 1
+    engines_2 = 1
+    early_bombs = 1
+    aircraft_construction = 1
+    iw_small_airframe = 1
+    rations = 1
+    tech_support= 1
+    gw_artillery = 1
 
 			basic_ship_hull_light = 1
 			basic_light_battery = 1
@@ -682,3 +822,6 @@ if = {
 		}
 	}
 }
+add_ideas = generic_rations_idea
+add_timed_idea = { idea = generic_love_for_the_navy_idea  days = 730 }
+

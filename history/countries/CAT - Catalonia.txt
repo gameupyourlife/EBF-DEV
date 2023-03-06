@@ -1,9 +1,19 @@
 ﻿capital = 165
 
-#oob = ""
+set_oob = "CAT_1936"
 
 # Starting tech
 set_technology = {
+    aa_lmg = 1
+    aa_cannon_1 = 1
+    engines_1 = 1
+    engines_2 = 1
+    early_bombs = 1
+    aircraft_construction = 1
+    iw_small_airframe = 1
+    rations = 1
+    tech_support= 1
+    gw_artillery = 1
 
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -22,6 +32,16 @@ if = {
 		NOT = { has_dlc = "By Blood Alone" }
 	}
 	set_technology = {
+    aa_lmg = 1
+    aa_cannon_1 = 1
+    engines_1 = 1
+    engines_2 = 1
+    early_bombs = 1
+    aircraft_construction = 1
+    iw_small_airframe = 1
+    rations = 1
+    tech_support= 1
+    gw_artillery = 1
 
 		early_fighter = 1
 		early_bomber = 1
@@ -44,6 +64,16 @@ set_convoys = 20
 	complete_national_focus = production_effort
 	
 	set_technology = {
+    aa_lmg = 1
+    aa_cannon_1 = 1
+    engines_1 = 1
+    engines_2 = 1
+    early_bombs = 1
+    aircraft_construction = 1
+    iw_small_airframe = 1
+    rations = 1
+    tech_support= 1
+    gw_artillery = 1
 
 
 		#doctrines
@@ -105,3 +135,4 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = centrism
 }
+add_ideas = generic_rations_idea
