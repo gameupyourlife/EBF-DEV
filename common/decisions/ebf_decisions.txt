@@ -75,6 +75,45 @@ GER_reichskommissariats_ebf = {
 }
 
 EBF_ideas_decision = {
+	ebf_some_love_for_the_navy = {
+		visible = {
+			always = yes
+		}
+		allowed = {
+			always = yes
+		}
+		fire_only_once = yes
+		cost = 150
+		complete_effect = {
+			if = {
+				limit = {
+					date < 1938.1.1
+				}
+				add_timed_idea = { idea = generic_love_for_the_navy_idea  days = 730 }
+			}
+			else = {
+				add_timed_idea = { idea = generic_love_for_the_navy_idea  days = 365 }
+			}
+		}
+	}
+
+	ebf_emergency_rations = {
+		visible = {
+			always = yes
+		}
+		allowed = {
+			has_war = yes
+		}
+		fire_only_once = yes
+		cost = 50
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = rations_equipment
+				amount = 1000000
+			}
+			add_stability = -0.05
+		}
+	}
 	# defense_force_decision = {
 	# 	visible = {
 	# 		always = yes
