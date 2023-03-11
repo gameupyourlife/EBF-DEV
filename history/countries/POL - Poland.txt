@@ -1,13 +1,15 @@
 ﻿capital = 10
 
 oob = "POL_1936"
-if = {
-	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "POL_1936_naval_mtg"
-	else = {
-		set_naval_oob = "POL_1936_naval_legacy"
-	}
+set_naval_oob = "POL_ebf_generic_starter_navy"
+starting_train_buffer = 1
+set_rule = {
+	can_create_factions = yes
+	can_send_volunteers = yes
+	can_declare_war_on_same_ideology = yes
+	can_not_declare_war = no
 }
+
 if = {
 	limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "POL_1936_air_bba"

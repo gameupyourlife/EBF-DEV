@@ -1,7 +1,14 @@
 ﻿capital = 31
 
 set_oob = "OCC_1936"
-
+set_naval_oob = "OCC_ebf_generic_starter_navy"
+starting_train_buffer = 1
+set_rule = {
+	can_create_factions = yes
+	can_send_volunteers = yes
+	can_declare_war_on_same_ideology = yes
+	can_not_declare_war = no
+}
 set_research_slots = 3
 # Starting tech
 set_technology = {
