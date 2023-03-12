@@ -1,5 +1,19 @@
 ideas = {
 	country = {
+		
+		SWE_the_royal_swedish_academy_of_sciences = {
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				research_speed = 0.05
+			}
+			picture = generic_research_bonus
+		}
+
 		SWE_forcefully_taken_2_idea = {
 			allowed = {
 				always = yes

@@ -132,6 +132,9 @@ focus_tree = {
 		available = {
             NOT = { has_government = fascism }
 			has_civil_war = yes
+			hidden_trigger = {
+				has_country_flag = GER_impening_civil_war_flag_ebf
+			}
 		}
 
 		completion_reward = {
@@ -225,6 +228,9 @@ focus_tree = {
 		available = {
             NOT = { has_government = fascism }
 			has_civil_war = yes
+			hidden_trigger = {
+				has_country_flag = GER_impening_civil_war_flag_ebf
+			}
 		}
 
 		mutually_exclusive = {
@@ -296,6 +302,9 @@ focus_tree = {
 		available = {
             NOT = { has_government = fascism }
 			has_civil_war = yes
+			hidden_trigger = {
+				has_country_flag = GER_impening_civil_war_flag_ebf
+			}
 		}
 
 		mutually_exclusive = {

@@ -57,4 +57,6 @@ set_popularities = {
 
 set_convoys = 5
 
-add_ideas = generic_rations_ideaadd_ideas = generic_rations_ideaadd_ideas = generic_rations_idea
+add_ideas = generic_rations_idea
+add_ideas = generic_rations_idea
+add_ideas = generic_rations_idea

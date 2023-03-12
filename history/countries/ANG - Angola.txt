@@ -118,4 +118,5 @@ create_equipment_variant = {
 		special_type_slot_1 = empty
 	}
 	obsolete = yes
-}add_ideas = generic_rations_ideaadd_ideas = generic_rations_ideaadd_ideas = generic_rations_idea
+}
+add_ideas = generic_rations_idea

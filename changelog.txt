@@ -1,0 +1,59 @@
+Field Hospital:
+	Org: 20 -> 50
+	Recovery Rate: 0.3 -> 0.7
+
+Air:
+	Doubbled the IC cost of all airframes
+
+Adaptable:
+	Removed Terrain Penalty Reduction: 30% -> 0%
+	
+Technology:
+	Added 5 new techs:
+		Rations - 1 per manpower in units
+		Canned Rations
+		Ultra Heavy Tanks
+		Airships
+
+Units/Rations:
+	Added requirement of 1 Ration per manpower in units
+
+Start:
+	Technology: 
+		Every nation will start with 3 research slots
+		Unified the base start techs for all nations
+		Each nation will have some unique startign techs
+	Navy:
+		Generic start navy for everyone
+	Industry:
+		Every Nation will start with 10 dockyards
+	Generals:
+		Every nation will start with the same pregrinded 5 generals and 1 field marshal
+
+Decisions:
+	Added more decisions
+		Love for the navy: Timed dockyard output increase
+		Emergency Ratins: 1.000.000 Rations for -5% stability
+
+Victory:
+	Added in the decison tab a "victory decision"
+	Added 4 locations where you will receve a buff if you controll it:
+		Greenland:	
+			Reinforce Rate: +3%
+			Org: +10%
+			Recovery Rate: +5
+		Hawai:
+			Naval Invasion Capacity: +10
+			Naval Invasion Prep Speed: +10%
+		Switzerland:
+			Defence: +10%
+			Entrenchment: +2
+		Nepal:
+			Supply: +15%
+			Attrition: -5%
+			Supply Range: +10%
+
+National Ideas:
+	Added several different gouvernment ideas
+
+

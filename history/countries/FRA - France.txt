@@ -288,7 +288,7 @@ if = {
 
 	if = {
 		limit = { has_dlc = "Man the Guns" }
-			set_naveal_oob = "FRA_1939_naval_mtg"
+			set_naval_oob = "FRA_1939_naval_mtg"
 		else = {
 			set_naval_oob = "FRA_1939_naval_legacy"
 		}
